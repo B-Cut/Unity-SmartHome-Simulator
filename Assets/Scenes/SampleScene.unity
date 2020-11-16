@@ -170,7 +170,7 @@ SphereCollider:
   m_GameObject: {fileID: 10339305}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10339305}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -197,13 +197,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10339305}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &10339310
@@ -407,7 +407,7 @@ SphereCollider:
   m_GameObject: {fileID: 112451538}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -418,7 +418,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112451538}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -434,13 +434,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112451538}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &112451543
@@ -552,6 +552,7 @@ GameObject:
   - component: {fileID: 204342149}
   - component: {fileID: 204342147}
   - component: {fileID: 204342146}
+  - component: {fileID: 204342148}
   m_Layer: 2
   m_Name: SensorRFIDRackTv (2)
   m_TagString: Untagged
@@ -582,7 +583,7 @@ SphereCollider:
   m_GameObject: {fileID: 204342144}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -593,7 +594,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204342144}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -602,6 +603,22 @@ MonoBehaviour:
   triggerLayers:
     serializedVersion: 2
     m_Bits: 51
+--- !u!114 &204342148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204342144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  range: 0.55
+  readerPos: {fileID: 464210957}
+  readerCollider: {fileID: 464210954}
 --- !u!64 &204342149
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -710,7 +727,7 @@ SphereCollider:
   m_GameObject: {fileID: 255340361}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -721,7 +738,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 255340361}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -737,13 +754,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 255340361}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &255340366
@@ -854,7 +871,7 @@ SphereCollider:
   m_GameObject: {fileID: 265251394}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -865,7 +882,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265251394}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -881,13 +898,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265251394}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &265251399
@@ -1116,7 +1133,7 @@ SphereCollider:
   m_GameObject: {fileID: 319345871}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -1127,7 +1144,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319345871}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -1143,13 +1160,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319345871}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &319345876
@@ -1260,7 +1277,7 @@ SphereCollider:
   m_GameObject: {fileID: 353897187}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -1271,7 +1288,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353897187}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -1287,13 +1304,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353897187}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &353897192
@@ -1404,7 +1421,7 @@ SphereCollider:
   m_GameObject: {fileID: 370426795}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -1415,7 +1432,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370426795}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -1431,13 +1448,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370426795}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &370426800
@@ -1584,7 +1601,7 @@ SphereCollider:
   m_GameObject: {fileID: 443845539}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -1595,7 +1612,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443845539}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -1611,13 +1628,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443845539}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &443845544
@@ -1729,9 +1746,9 @@ GameObject:
   - component: {fileID: 464210956}
   - component: {fileID: 464210955}
   - component: {fileID: 464210954}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: RFID Reader
-  m_TagString: Untagged
+  m_TagString: Reader
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1745,7 +1762,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 464210953}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
@@ -1953,7 +1970,7 @@ SphereCollider:
   m_GameObject: {fileID: 568561780}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -1964,7 +1981,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 568561780}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -1980,13 +1997,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 568561780}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &568561785
@@ -2097,7 +2114,7 @@ SphereCollider:
   m_GameObject: {fileID: 601285713}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -2108,7 +2125,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601285713}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -2124,13 +2141,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601285713}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &601285718
@@ -2336,7 +2353,7 @@ SphereCollider:
   m_GameObject: {fileID: 633052056}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -2347,7 +2364,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633052056}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -2363,13 +2380,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633052056}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &633052061
@@ -2600,7 +2617,7 @@ SphereCollider:
   m_GameObject: {fileID: 846881251}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -2611,7 +2628,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846881251}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -2627,13 +2644,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846881251}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &846881256
@@ -2744,7 +2761,7 @@ SphereCollider:
   m_GameObject: {fileID: 885540494}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -2755,7 +2772,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885540494}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -2771,13 +2788,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885540494}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &885540499
@@ -2888,7 +2905,7 @@ SphereCollider:
   m_GameObject: {fileID: 888117105}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -2899,7 +2916,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888117105}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -2915,13 +2932,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888117105}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &888117110
@@ -3163,7 +3180,7 @@ SphereCollider:
   m_GameObject: {fileID: 1012037274}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -3174,7 +3191,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012037274}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -3190,13 +3207,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012037274}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1012037279
@@ -3307,7 +3324,7 @@ SphereCollider:
   m_GameObject: {fileID: 1069841931}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -3318,7 +3335,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069841931}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -3334,13 +3351,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069841931}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1069841936
@@ -3485,7 +3502,7 @@ SphereCollider:
   m_GameObject: {fileID: 1100908170}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -3496,7 +3513,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100908170}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -3512,13 +3529,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100908170}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1100908175
@@ -3730,7 +3747,7 @@ SphereCollider:
   m_GameObject: {fileID: 1218054355}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -3741,7 +3758,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218054355}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -3757,13 +3774,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218054355}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1218054360
@@ -4043,7 +4060,7 @@ SphereCollider:
   m_GameObject: {fileID: 1320362557}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -4054,7 +4071,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320362557}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -4070,13 +4087,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320362557}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1320362562
@@ -4409,7 +4426,7 @@ SphereCollider:
   m_GameObject: {fileID: 1418503394}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -4420,7 +4437,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418503394}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -4436,13 +4453,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418503394}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1418503399
@@ -4591,7 +4608,7 @@ SphereCollider:
   m_GameObject: {fileID: 1512522930}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -4602,7 +4619,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512522930}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -4618,13 +4635,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512522930}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1512522935
@@ -4735,7 +4752,7 @@ SphereCollider:
   m_GameObject: {fileID: 1556060364}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -4746,7 +4763,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556060364}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -4762,13 +4779,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556060364}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1556060369
@@ -4999,7 +5016,7 @@ SphereCollider:
   m_GameObject: {fileID: 1586912624}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -5010,7 +5027,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586912624}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -5026,13 +5043,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586912624}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1586912629
@@ -5301,7 +5318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeManagement: {fileID: 302938826}
-  writeInterval: 10
+  writeInterval: 5
 --- !u!1 &1644193334
 GameObject:
   m_ObjectHideFlags: 0
@@ -5347,7 +5364,7 @@ SphereCollider:
   m_GameObject: {fileID: 1644193334}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -5358,7 +5375,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644193334}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -5374,13 +5391,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644193334}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1644193339
@@ -5521,7 +5538,7 @@ SphereCollider:
   m_GameObject: {fileID: 1671832237}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -5532,7 +5549,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671832237}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -5548,13 +5565,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671832237}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1671832242
@@ -5665,7 +5682,7 @@ SphereCollider:
   m_GameObject: {fileID: 1705063467}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -5676,7 +5693,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705063467}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -5692,13 +5709,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705063467}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1705063472
@@ -5809,7 +5826,7 @@ SphereCollider:
   m_GameObject: {fileID: 1706225360}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -5820,7 +5837,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706225360}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -5836,13 +5853,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706225360}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1706225365
@@ -5992,7 +6009,7 @@ SphereCollider:
   m_GameObject: {fileID: 1721201185}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -6003,7 +6020,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721201185}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -6019,13 +6036,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721201185}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1721201190
@@ -6109,7 +6126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1746952001
 Transform:
   m_ObjectHideFlags: 0
@@ -6549,7 +6566,7 @@ SphereCollider:
   m_GameObject: {fileID: 2036604248}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -6560,7 +6577,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036604248}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -6576,13 +6593,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036604248}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &2036604253
@@ -6693,7 +6710,7 @@ SphereCollider:
   m_GameObject: {fileID: 2049281862}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -6704,7 +6721,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049281862}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -6720,13 +6737,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049281862}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &2049281867
@@ -6870,7 +6887,7 @@ SphereCollider:
   m_GameObject: {fileID: 2122606436}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -6881,7 +6898,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122606436}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -6897,13 +6914,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122606436}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &2122606441
@@ -7460,7 +7477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4469835792495024044}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Door_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7510,7 +7527,7 @@ GameObject:
   - component: {fileID: 2631935924099096536}
   - component: {fileID: 8072347166125619710}
   - component: {fileID: 1915283274638836774}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: AlmofadaCadeira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7573,7 +7590,7 @@ GameObject:
   - component: {fileID: 647916896352926909}
   - component: {fileID: 3642180991760536647}
   - component: {fileID: 9169004389978561858}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Handle_Front.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7607,7 +7624,7 @@ GameObject:
   - component: {fileID: 8440470869473831305}
   - component: {fileID: 8958427915859437574}
   - component: {fileID: 6585113484806597643}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PortaCorrer2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8028,7 +8045,7 @@ GameObject:
   - component: {fileID: 4827145201349300191}
   - component: {fileID: 1660979991312103959}
   - component: {fileID: 3350666872650773554}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: BancadaMdeira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8061,7 +8078,7 @@ GameObject:
   - component: {fileID: 391928966834920335}
   - component: {fileID: 7618780381286220485}
   - component: {fileID: 2890340726208958131}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cadeira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8301,7 +8318,7 @@ GameObject:
   - component: {fileID: 6722731466995562728}
   - component: {fileID: 6496985681206487337}
   - component: {fileID: 3010348551366473596}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: AlmofadaCadeira.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8382,7 +8399,7 @@ GameObject:
   - component: {fileID: 6919243671471083366}
   - component: {fileID: 1637901090463461757}
   - component: {fileID: 1045463388223545535}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: GuardaRoupa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8473,7 +8490,7 @@ GameObject:
   - component: {fileID: 5605864020000031791}
   - component: {fileID: 3618966820757941734}
   - component: {fileID: 2258463007373140187}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PortaGuardaRoupa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8499,13 +8516,28 @@ GameObject:
   - component: {fileID: 9193817710842007106}
   - component: {fileID: 244090367192054448}
   - component: {fileID: 3553915169750495998}
-  m_Layer: 2
+  - component: {fileID: 1549934742041449087}
+  m_Layer: 0
   m_Name: Paredes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
+--- !u!64 &1549934742041449087
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549934742041449086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8007961498541435068, guid: af0395f929469892b88f9b27b4e0ed97, type: 3}
 --- !u!4 &1564860333016920332
 Transform:
   m_ObjectHideFlags: 0
@@ -8548,7 +8580,7 @@ GameObject:
   - component: {fileID: 3624213330906440456}
   - component: {fileID: 3752508756794774561}
   - component: {fileID: 411889967324308489}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PernaCadeira.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8647,7 +8679,7 @@ GameObject:
   - component: {fileID: 6163589095945991465}
   - component: {fileID: 1295467109429748662}
   - component: {fileID: 1739910158080358495}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8673,7 +8705,7 @@ GameObject:
   - component: {fileID: 5215795469943692652}
   - component: {fileID: 431844841894550450}
   - component: {fileID: 377729260924482764}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8691,7 +8723,7 @@ GameObject:
   - component: {fileID: 9077842793886798632}
   - component: {fileID: 448374827398475434}
   - component: {fileID: 8424088148156177580}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Handle_Front.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8873,7 +8905,7 @@ GameObject:
   - component: {fileID: 1260005423529218273}
   - component: {fileID: 3919343138457529776}
   - component: {fileID: 1220650888570535580}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: "Ma\xE7anetaPortaGeladeira.001"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9106,7 +9138,7 @@ GameObject:
   - component: {fileID: 5730876199044967139}
   - component: {fileID: 6222919875122812135}
   - component: {fileID: 3929981603098415824}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9330,7 +9362,7 @@ GameObject:
   - component: {fileID: 4193250778270862393}
   - component: {fileID: 1404491270201981342}
   - component: {fileID: 3372675545337914700}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: VidroVaranda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9616,7 +9648,7 @@ GameObject:
   - component: {fileID: 8977677945669285113}
   - component: {fileID: 4929867324409798060}
   - component: {fileID: 1476060548897072464}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cube.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9711,7 +9743,7 @@ GameObject:
   - component: {fileID: 2826570320110998353}
   - component: {fileID: 222326290584822166}
   - component: {fileID: 5666348129059813949}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PernaSofa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9799,7 +9831,7 @@ GameObject:
   - component: {fileID: 1480257250106102604}
   - component: {fileID: 6484703155107323477}
   - component: {fileID: 7386690694003266445}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9953,7 +9985,7 @@ GameObject:
   - component: {fileID: 295047079228553370}
   - component: {fileID: 6847634186642310036}
   - component: {fileID: 816365175034532941}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PortaGeladeira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9971,7 +10003,7 @@ GameObject:
   - component: {fileID: 8151985698994660699}
   - component: {fileID: 7277977270662375652}
   - component: {fileID: 6340205378712939583}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10075,7 +10107,7 @@ GameObject:
   - component: {fileID: 4552275736717807030}
   - component: {fileID: 8629118208146751710}
   - component: {fileID: 903999755656377659}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Handle_Back.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10184,7 +10216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4078442336280601341}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: ModeloCasa1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10266,7 +10298,7 @@ GameObject:
   - component: {fileID: 5136227494751184589}
   - component: {fileID: 1474642095513355669}
   - component: {fileID: 2244500622588898659}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cylinder.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10284,7 +10316,7 @@ GameObject:
   - component: {fileID: 231204808801396662}
   - component: {fileID: 3373381422566580181}
   - component: {fileID: 2179404361145837107}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cylinder.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10447,7 +10479,7 @@ GameObject:
   - component: {fileID: 4292676151992401625}
   - component: {fileID: 798944194090318886}
   - component: {fileID: 973005908890659101}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10762,7 +10794,7 @@ GameObject:
   - component: {fileID: 7887381117368141820}
   - component: {fileID: 1686337724534919494}
   - component: {fileID: 8391135304007215442}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: MacanetaGuardaRoupa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10820,7 +10852,7 @@ GameObject:
   - component: {fileID: 8545809727407603221}
   - component: {fileID: 7899098157936706915}
   - component: {fileID: 168821414544935920}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PortaFogao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11011,7 +11043,7 @@ GameObject:
   - component: {fileID: 2044791120697842911}
   - component: {fileID: 6178249486650933967}
   - component: {fileID: 2736018723930621363}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: AssentoSofa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11055,7 +11087,7 @@ GameObject:
   - component: {fileID: 1438946030164441970}
   - component: {fileID: 4725629032387257130}
   - component: {fileID: 4725629032387257129}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: DoorFrame.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11114,7 +11146,7 @@ GameObject:
   - component: {fileID: 8626830798509730242}
   - component: {fileID: 8096232053097191918}
   - component: {fileID: 3751207503878675104}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: RackTv
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11140,7 +11172,7 @@ GameObject:
   - component: {fileID: 3180711556594183625}
   - component: {fileID: 1454268795270223177}
   - component: {fileID: 8214900128306768845}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: GradeFogao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11196,7 +11228,7 @@ GameObject:
   - component: {fileID: 1919609924606849060}
   - component: {fileID: 441535632237615967}
   - component: {fileID: 3845439412551176243}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Door.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11269,7 +11301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5876029825831942996}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11310,7 +11342,7 @@ GameObject:
   - component: {fileID: 6494142270653627282}
   - component: {fileID: 7007958239847010530}
   - component: {fileID: 4949333328275811109}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cylinder.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11432,7 +11464,7 @@ GameObject:
   - component: {fileID: 7102451194433001415}
   - component: {fileID: 438171357790557447}
   - component: {fileID: 6715662603833896364}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cylinder.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11450,7 +11482,7 @@ GameObject:
   - component: {fileID: 5322041866747317564}
   - component: {fileID: 3119869085641281879}
   - component: {fileID: 4595127105391760437}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: "Ma\xE7anetaPortaGeladeira"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11538,7 +11570,7 @@ GameObject:
   - component: {fileID: 1835975654945120478}
   - component: {fileID: 4797900951627180742}
   - component: {fileID: 8526486487320252282}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: CTRL_Baseboard.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11710,7 +11742,7 @@ GameObject:
   - component: {fileID: 3384090540558377745}
   - component: {fileID: 6833740814253920826}
   - component: {fileID: 8221758956664566765}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Plateleira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11820,7 +11852,7 @@ GameObject:
   - component: {fileID: 631494770384406455}
   - component: {fileID: 1752091568315089314}
   - component: {fileID: 9086993271495664661}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cadeira.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12048,7 +12080,7 @@ GameObject:
   - component: {fileID: 2419034558914843937}
   - component: {fileID: 3700847457528983160}
   - component: {fileID: 15396969094127981}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cube.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12066,7 +12098,7 @@ GameObject:
   - component: {fileID: 1902856369278658517}
   - component: {fileID: 7662458939052426989}
   - component: {fileID: 1028170295664711836}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Mesa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12108,7 +12140,7 @@ GameObject:
   - component: {fileID: 348877117319522407}
   - component: {fileID: 5443316239832274004}
   - component: {fileID: 6484710031269858469}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cube.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12275,7 +12307,7 @@ GameObject:
   - component: {fileID: 5173190931769134213}
   - component: {fileID: 4340826856614533244}
   - component: {fileID: 198885209614025523}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PernaCadeira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12423,7 +12455,7 @@ GameObject:
   - component: {fileID: 1375991639873352703}
   - component: {fileID: 4694611183993457658}
   - component: {fileID: 7808751102857666828}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Chao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12600,7 +12632,7 @@ GameObject:
   - component: {fileID: 6884181259631751365}
   - component: {fileID: 6873530972422469847}
   - component: {fileID: 6873530972422469846}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: DoorFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12642,7 +12674,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4004154102014838536}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Janelas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12757,7 +12789,7 @@ GameObject:
   - component: {fileID: 2947970764739814902}
   - component: {fileID: 2858010490020530758}
   - component: {fileID: 217002520241884410}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Handle_Back.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12797,7 +12829,7 @@ GameObject:
   - component: {fileID: 983433277153188096}
   - component: {fileID: 3393381556562340276}
   - component: {fileID: 3045725980318283330}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Door.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12919,7 +12951,7 @@ GameObject:
   - component: {fileID: 906452023001487078}
   - component: {fileID: 331416682879511339}
   - component: {fileID: 9034756427383877780}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Handle_Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13274,7 +13306,7 @@ GameObject:
   - component: {fileID: 1141349195438646451}
   - component: {fileID: 897859309683798097}
   - component: {fileID: 3391080166702442306}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: DoorFrame.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13347,7 +13379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4244896970587729840}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Door_Group.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13585,7 +13617,7 @@ GameObject:
   - component: {fileID: 6097722231334649468}
   - component: {fileID: 4189662096698629072}
   - component: {fileID: 6707059372689943189}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PortaCorrer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13743,7 +13775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3944539944834968164}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Door_Group.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13805,7 +13837,7 @@ GameObject:
   - component: {fileID: 3535129100530255193}
   - component: {fileID: 3890420247883087966}
   - component: {fileID: 7499961891833579698}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PlateleiraCorredor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13952,7 +13984,7 @@ GameObject:
   - component: {fileID: 8787248796307250986}
   - component: {fileID: 4185130336826928873}
   - component: {fileID: 7995163544849037360}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Geladeira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14056,7 +14088,7 @@ GameObject:
   - component: {fileID: 1953123828176437175}
   - component: {fileID: 3392887546701333139}
   - component: {fileID: 1197258750001153895}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: ApoioVaranda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14089,7 +14121,7 @@ GameObject:
   - component: {fileID: 4484082925664419120}
   - component: {fileID: 9140927422171840627}
   - component: {fileID: 1220339808134218593}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Handle_Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14201,7 +14233,7 @@ GameObject:
   - component: {fileID: 4203327777550596448}
   - component: {fileID: 1534606007937557778}
   - component: {fileID: 8642199063692192695}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PernaMesa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14385,7 +14417,7 @@ GameObject:
   - component: {fileID: 1052339337808508738}
   - component: {fileID: 803980917219620009}
   - component: {fileID: 7774484396917538142}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Sofa
   m_TagString: Untagged
   m_Icon: {fileID: 0}

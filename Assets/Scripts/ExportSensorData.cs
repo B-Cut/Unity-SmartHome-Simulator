@@ -22,11 +22,10 @@ public class ExportSensorData : MonoBehaviour
     {
         string csvPath = getPath();
         writer = new StreamWriter(csvPath);
-
         writer.WriteLine("Date,Hour,Name,State");
         writer.Flush();
 
-        InvokeRepeating("getSensorData", writeInterval, writeInterval);
+        InvokeRepeating("getSensorData", 0f, writeInterval);
     }
 
     void OnApplicationQuit(){ 
@@ -34,8 +33,8 @@ public class ExportSensorData : MonoBehaviour
     }
 
     private void getSensorData(){
-        SensorRFIDCollider[] rfidsInScene = GetComponentsInChildren<SensorRFIDCollider>();
-        foreach(SensorRFIDCollider sensor in rfidsInScene){
+        SensorRFID[] rfidsInScene = GetComponentsInChildren<SensorRFID>();
+        foreach(SensorRFID sensor in rfidsInScene){
             writer.WriteLine($"{timeManagement.getDate()},{Math.Round(timeManagement.getTime())},{sensor.name},{sensor.getState()}");
         }    
         writer.Flush();

@@ -22,6 +22,8 @@ public class Activities : MonoBehaviour
     public Vector3 camaLocation;
     public Vector3 vasoLocation;
 
+    public Vector3 armarioLocation;
+
     //Duração das atividades
     public int sleepDurationHour = 8;
     public int sleepDurationMinute = 30;
@@ -140,6 +142,14 @@ public class Activities : MonoBehaviour
         }
     }
 
+    IEnumerator trocarDeRoupa(){
+        pessoa.changeDestination(armarioLocation);
+        pessoa.setCurrentActivity("Caminhando");
+        yield return StartCoroutine(WaitForEvent());
+        pessoa.setCurrentActivity("Trocando de roupa");
+        yield return StartCoroutine(customWaitForSeconds(0, 2));
+        //Não invocar activityEnded(), pois essa atividade irá ocorrer dentro de outras.
+    }
     //A função WaitForSeconds do unity não estava escalando com a timeScale, então criei uma função propria com o mesmo objetivo
     IEnumerator customWaitForSeconds(int waitHour, int waitMinute){
         float secondsPassed = 0f;
