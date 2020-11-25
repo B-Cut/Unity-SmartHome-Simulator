@@ -29,6 +29,7 @@ public class ExportSensorData : MonoBehaviour
     }
 
     void OnApplicationQuit(){ 
+        writer.Flush();
         writer.Close();    
     }
 

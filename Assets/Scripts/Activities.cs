@@ -21,6 +21,7 @@ public class Activities : MonoBehaviour
     public Vector3 mesaJantarLocation;
     public Vector3 camaLocation;
     public Vector3 vasoLocation;
+    public Vector3 geladeiraLocation;
 
     public Vector3 armarioLocation;
 
@@ -33,6 +34,8 @@ public class Activities : MonoBehaviour
     public int bathroomDurationMinute = 2;
     public int bathDurationHour = 0;
     public int bathDurationMinute = 30;
+    public int eatDurationHour = 0;
+    public int eatDurationMinute = 30;
 
 
     public TimeManagement timeManagement;
@@ -57,8 +60,9 @@ public class Activities : MonoBehaviour
 
     //Esses metodos serão definidos como IEnumerators para serem usados como coroutines
     IEnumerator WaitForEvent(){
-        yield return new WaitUntil(() => atDestination == true);//condição deve ser passada como uma função Lambda
         atDestination = false;
+        yield return new WaitUntil(() => atDestination == true);//condição deve ser passada como uma função Lambda
+        
     }
     IEnumerator cook(){
         pessoa.setCurrentActivity("Caminhando");
@@ -73,6 +77,9 @@ public class Activities : MonoBehaviour
         if(!pessoa.forgot()){
             sensorFogao.turnOvenOff();
         }
+
+        pessoa.pushToQueue("eat");
+
         if(activityEnded != null){
             activityEnded();
         }
@@ -102,6 +109,12 @@ public class Activities : MonoBehaviour
         pessoa.setCurrentActivity("Tomando Banho");
         timeNow = timeManagement.getTime();
         yield return StartCoroutine(customWaitForSeconds(bathDurationHour, bathDurationMinute));
+        //yield return StartCoroutine("trocarDeRoupa");
+        pessoa.changeDestination(armarioLocation);
+        pessoa.setCurrentActivity("Caminhando");
+        yield return StartCoroutine(WaitForEvent());//Esse return faz com que a função termine prematuramente se usada dentro de outra atividade
+        pessoa.setCurrentActivity("Trocando de roupa");
+        yield return StartCoroutine(customWaitForSeconds(0, 2));
         if(activityEnded != null){
             activityEnded();
         }
@@ -140,17 +153,30 @@ public class Activities : MonoBehaviour
         if(activityEnded != null){
             activityEnded();
         }
-    }
-
-    IEnumerator trocarDeRoupa(){
+    }    
+    /*IEnumerator trocarDeRoupa(){
         pessoa.changeDestination(armarioLocation);
         pessoa.setCurrentActivity("Caminhando");
-        yield return StartCoroutine(WaitForEvent());
+        yield return StartCoroutine(WaitForEvent());//Esse return faz com que a função termine prematuramente se usada dentro de outra atividade
         pessoa.setCurrentActivity("Trocando de roupa");
         yield return StartCoroutine(customWaitForSeconds(0, 2));
         //Não invocar activityEnded(), pois essa atividade irá ocorrer dentro de outras.
-    }
+    }*/
     //A função WaitForSeconds do unity não estava escalando com a timeScale, então criei uma função propria com o mesmo objetivo
+
+    IEnumerator eat(){
+        pessoa.setCurrentActivity("Caminhando");
+        pessoa.changeDestination(geladeiraLocation);
+        yield return StartCoroutine(WaitForEvent());
+        pessoa.changeDestination(mesaJantarLocation);
+        yield return StartCoroutine(WaitForEvent());
+        pessoa.setCurrentActivity("Comendo");
+        yield return StartCoroutine(customWaitForSeconds(eatDurationHour, eatDurationMinute));
+        if(activityEnded != null){
+            activityEnded();
+        }
+    }
+
     IEnumerator customWaitForSeconds(int waitHour, int waitMinute){
         float secondsPassed = 0f;
         while(secondsPassed <= timeManagement.ToSecond(waitHour, waitMinute)){

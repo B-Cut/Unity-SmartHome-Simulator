@@ -125,6 +125,10 @@ public class Pessoa : MonoBehaviour
         currentActivity = newActivity;
     }
 
+    public void pushToQueue(string command){
+        this.activityQueue.Enqueue(command);
+    }
+
     public string getCurrentActivity(){
         return currentActivity;
     }
