@@ -1913,6 +1913,7 @@ MonoBehaviour:
   mesaJantarLocation: {x: -1.74, y: 0.38, z: 2.39}
   camaLocation: {x: 1.16, y: 0.38, z: -1.25}
   vasoLocation: {x: 2.264, y: 0.38, z: 0.786}
+  geladeiraLocation: {x: 0, y: 0, z: 0}
   armarioLocation: {x: 0.34, y: 0.38, z: -1.28}
   sleepDurationHour: 8
   sleepDurationMinute: 30
@@ -1922,6 +1923,8 @@ MonoBehaviour:
   bathroomDurationMinute: 1
   bathDurationHour: 0
   bathDurationMinute: 30
+  eatDurationHour: 0
+  eatDurationMinute: 30
   timeManagement: {fileID: 302938826}
   sensorFogao: {fileID: 1255383668}
   destination: {fileID: 1231544922}
@@ -2764,7 +2767,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
-  m_Radius: 0.55
+  m_Radius: 0.6
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &885540497
 MonoBehaviour:
@@ -2795,7 +2798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 0.55
+  range: 0.6
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &885540499
@@ -3183,7 +3186,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
-  m_Radius: 0.55
+  m_Radius: 0.6
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1012037277
 MonoBehaviour:
@@ -3214,7 +3217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 0.55
+  range: 0.6
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
 --- !u!64 &1012037279
@@ -4331,7 +4334,7 @@ MonoBehaviour:
   sleepTimeMinute: 0
   wakeUpTimeHour: 8
   wakeUpTimeMinute: 0
-  sleeping: 0
+  sleepInQueue: 0
   chanceToForget: 0.01
 --- !u!95 &1384455544
 Animator:

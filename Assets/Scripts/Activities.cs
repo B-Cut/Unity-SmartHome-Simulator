@@ -121,7 +121,6 @@ public class Activities : MonoBehaviour
     }
 
     IEnumerator sleep(){
-        pessoa.sleeping = true;
         pessoa.setCurrentActivity("Caminhando");
         pessoa.changeDestination(camaLocation);
         yield return StartCoroutine(WaitForEvent());
@@ -130,7 +129,7 @@ public class Activities : MonoBehaviour
         yield return new WaitWhile(() => timeManagement.isInInterval(pessoa.sleepTimeHour, pessoa.sleepTimeMinute,
                                                                 pessoa.wakeUpTimeHour, pessoa.wakeUpTimeMinute));
         //yield return new WaitUntil(() => timeManagement.getTime() >= timeNow + timeManagement.ToSecond(sleepDurationHour, sleepDurationMinute));
-        pessoa.sleeping = false;
+        pessoa.sleepInQueue = false;
         if(activityEnded != null){
             activityEnded();
         }

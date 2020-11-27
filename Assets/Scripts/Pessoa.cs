@@ -43,7 +43,7 @@ public class Pessoa : MonoBehaviour
 
     public int wakeUpTimeHour = 8;
     public int wakeUpTimeMinute = 0;
-    public bool sleeping = false;
+    public bool sleepInQueue = false;
     private int today;
 
     public float chanceToForget = 0.01f;//chance do usuário esquecer de fazer algo 
@@ -75,8 +75,9 @@ public class Pessoa : MonoBehaviour
             bathOnQueue = true;
         }
 
-        if(timeManagement.getTime() >= timeManagement.ToSecond(sleepTimeHour, sleepTimeMinute) && !sleeping){
+        if(timeManagement.getTime() >= timeManagement.ToSecond(sleepTimeHour, sleepTimeMinute) && !sleepInQueue){
             activityQueue.Enqueue("sleep");
+            sleepInQueue = true;
         }
         //Novo Dia
         if(timeManagement.getDate() > today){
