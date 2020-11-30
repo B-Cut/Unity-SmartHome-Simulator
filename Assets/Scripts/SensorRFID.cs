@@ -13,6 +13,8 @@ public class SensorRFID : MonoBehaviour
     public Transform readerPos; 
     public Collider readerCollider;
     //public Transform thisPos;
+    public LayerMask layerMask; //No editor selecione tudo menos as camadas que você quer ignorar
+                                //Ignore Raycast tem que ser deselecionada manualmente
     
     RaycastHit hit;
     // Start is called before the first frame update
@@ -26,9 +28,8 @@ public class SensorRFID : MonoBehaviour
 
     //#if UNITY_EDITOR
         private void onDrawGizmos() {
-            
-            Gizmos.DrawWireSphere(transform.position, range);
             Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, range);  
         }
     //#endif
 
@@ -37,7 +38,7 @@ public class SensorRFID : MonoBehaviour
     // Update is called once per frame-
     void FixedUpdate(){
         if(Vector3.Distance(this.transform.position, this.readerPos.position) <= this.range){//checa se o leitor está no alcance         
-            if(Physics.Linecast(this.transform.position, readerPos.position, out this.hit)){//checa se há algum obstaculo entre a posição do sensor e a do leitor
+            if(Physics.Linecast(this.transform.position, readerPos.position, out this.hit, this.layerMask)){//checa se há algum obstaculo entre a posição do sensor e a do leitor
                 if(this.hit.collider == readerCollider){
                     Debug.DrawLine(this.transform.position, readerPos.position, Color.white, 10f);
                     this.state = true;
@@ -45,7 +46,7 @@ public class SensorRFID : MonoBehaviour
                     Debug.Log("Hit reader");
                 }
                 else{
-                    Debug.Log("Blocked");
+                    Debug.Log("Blocked by" + this.hit.collider.name);
                     //Debug.Log(hit.collider);
                     this.state = false;
                     this.sensorMaterial.color = Color.red;

@@ -15,7 +15,7 @@ public class AutomaticLampSwitch : MonoBehaviour
 
     // Update is called once per frame
     void OnTriggerEnter(Collider other){
-        Physics.Linecast(transform.position, other.transform.position, out hit);
+        Physics.Linecast(this.transform.position, other.transform.position, out hit);
         if(hit.collider.tag == "Player"){
             myLight.enabled = true;
         }   
@@ -25,7 +25,7 @@ public class AutomaticLampSwitch : MonoBehaviour
     }
 
     void OnTriggerStay(Collider other){
-        Physics.Linecast(transform.position, other.transform.position, out hit);
+        Physics.Linecast(this.transform.position, other.transform.position, out hit);
         if(hit.collider.tag == "Player"){
             myLight.enabled = true;
         }

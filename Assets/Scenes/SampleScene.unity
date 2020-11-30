@@ -206,6 +206,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &10339310
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -443,6 +446,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &112451543
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -619,6 +625,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &204342149
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -763,6 +772,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &255340366
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -907,6 +919,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &265251399
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1169,6 +1184,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &319345876
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1313,6 +1331,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &353897192
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1457,6 +1478,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &370426800
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1637,6 +1661,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &443845544
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2010,6 +2037,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &568561785
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2154,6 +2184,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &601285718
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2393,6 +2426,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &633052061
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2484,7 +2520,7 @@ SphereCollider:
   m_GameObject: {fileID: 765078587}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1.8
   m_Center: {x: 0, y: 0, z: 0}
@@ -2570,7 +2606,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765078587}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4dd16688ce3aef3d8307bbf8eb24e50, type: 3}
   m_Name: 
@@ -2657,6 +2693,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &846881256
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2801,6 +2840,9 @@ MonoBehaviour:
   range: 0.6
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &885540499
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2945,6 +2987,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &888117110
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3220,6 +3265,9 @@ MonoBehaviour:
   range: 0.6
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1012037279
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3364,6 +3412,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1069841936
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3542,6 +3593,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1100908175
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3787,6 +3841,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1218054360
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4100,6 +4157,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1320362562
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4191,7 +4251,7 @@ SphereCollider:
   m_GameObject: {fileID: 1371460648}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 2.8
   m_Center: {x: 0, y: 0, z: 0}
@@ -4277,7 +4337,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371460648}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4dd16688ce3aef3d8307bbf8eb24e50, type: 3}
   m_Name: 
@@ -4466,6 +4526,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1418503399
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4648,6 +4711,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1512522935
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4792,6 +4858,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1556060369
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4883,7 +4952,7 @@ SphereCollider:
   m_GameObject: {fileID: 1566293882}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 2.9
   m_Center: {x: 0, y: 0, z: 0}
@@ -4969,7 +5038,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566293882}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4dd16688ce3aef3d8307bbf8eb24e50, type: 3}
   m_Name: 
@@ -5056,6 +5125,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1586912629
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5147,7 +5219,7 @@ SphereCollider:
   m_GameObject: {fileID: 1601671788}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 2.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -5233,7 +5305,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601671788}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4dd16688ce3aef3d8307bbf8eb24e50, type: 3}
   m_Name: 
@@ -5404,6 +5476,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1644193339
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5578,6 +5653,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1671832242
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5722,6 +5800,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1705063472
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5866,6 +5947,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1706225365
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6049,6 +6133,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &1721201190
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6269,6 +6356,9 @@ MonoBehaviour:
   range: 10
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 55
 --- !u!64 &1838444701
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6606,6 +6696,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &2036604253
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6750,6 +6843,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &2049281867
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6927,6 +7023,9 @@ MonoBehaviour:
   range: 0.55
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!64 &2122606441
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7782,7 +7881,7 @@ GameObject:
   - component: {fileID: 1384455542}
   - component: {fileID: 1384455543}
   - component: {fileID: 919132148744016495}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: xbot@Idle(1)
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -12346,7 +12445,7 @@ GameObject:
   - component: {fileID: 7021014694527258793}
   - component: {fileID: 3853268898497214691}
   - component: {fileID: 6566940250843953042}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Beta_Joints
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -13360,7 +13459,7 @@ GameObject:
   - component: {fileID: 751176136805992555}
   - component: {fileID: 6148737315177421508}
   - component: {fileID: 7882376022859993497}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Beta_Surface
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -14058,7 +14157,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4760090551239845142}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.935683, y: 0.152, z: -0.027}
+  m_LocalPosition: {x: -0.935683, y: 0.146, z: -0.027}
   m_LocalScale: {x: 0.1730105, y: 0.1880104, z: 0.5692883}
   m_Children:
   - {fileID: 3384090540558377745}
