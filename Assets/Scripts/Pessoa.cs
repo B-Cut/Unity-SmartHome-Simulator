@@ -24,8 +24,8 @@ public class Pessoa : MonoBehaviour
 
     public TimeManagement timeManagement;
 
-    public Activities activities;
-    public BoxCollider destination;
+    private Activities activities;
+    private BoxCollider destination;
     // Start is called before the first frame update
 
     public int cookingTimeHour = 12;
@@ -53,6 +53,11 @@ public class Pessoa : MonoBehaviour
         today = timeManagement.getDate();
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
+        
+        destination = GetComponentInParent<Transform>()
+                        .GetComponentInChildren<BoxCollider>();
+
+        activities = GetComponentInChildren<Activities>();
         Activities.activityEnded += startActivity;
         //activityQueue.Enqueue("sleep");
         startActivity();
@@ -99,10 +104,10 @@ public class Pessoa : MonoBehaviour
     //essa função serve para ser acionada pelo evento e realizar a proxima atividade na fila
     void startActivity(){
         try{
-            activities.StartCoroutine(activityQueue.Dequeue());
+            this.activities.StartCoroutine(activityQueue.Dequeue());
         } catch(Exception e){
             Debug.Log($"Tried to Dequeue from empty queue ${e}");
-            activities.StartCoroutine("relax");
+            this.activities.StartCoroutine("relax");
         }
     } 
     public int getActivityCount(){

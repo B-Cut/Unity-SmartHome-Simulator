@@ -11,7 +11,11 @@ public class Destination : MonoBehaviour
     public static event arrivedOnDestination arrived;
     // Start is called before the first frame update
     private Vector3 newDestination;
-    public Pessoa pessoa;
+    private Pessoa pessoa;
+
+    void Start(){
+        pessoa = GetComponentInParent<Pessoa>();
+    }
     void OnTriggerEnter(){
         if(arrived != null){
             arrived();

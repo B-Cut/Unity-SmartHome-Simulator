@@ -13,10 +13,10 @@ public class AutomaticTVonoff : MonoBehaviour
         render = GetComponent<Renderer>();
         render.material = tvDesligada;
     }
-    private bool isPersonInside = false;
+    private bool _isPersonInside = false;
     void OnTriggerEnter(Collider other){
         if(other.tag == "Player"){
-            isPersonInside = true;
+            _isPersonInside = true;
             Invoke("turnOnTV", 5f);
         }
     }
@@ -24,7 +24,7 @@ public class AutomaticTVonoff : MonoBehaviour
     void OnTriggerExit(Collider other){
         if(other.tag == "Player"){
             CancelInvoke("turnOnTV");
-            isPersonInside = false;
+            _isPersonInside = false;
             render.material = tvDesligada;
         }
     }

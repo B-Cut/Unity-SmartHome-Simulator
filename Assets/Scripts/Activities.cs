@@ -14,7 +14,7 @@ public class Activities : MonoBehaviour
 
 
     //Locations NÃO são a posição exata do objeto, elas servem para navegar o usuário até esse objetos
-    public Pessoa pessoa;
+    private Pessoa pessoa;
     public Vector3 fogaoLocation;
     public Vector3 chuveiroLocation;
     public Vector3 sofaLocation;
@@ -43,19 +43,26 @@ public class Activities : MonoBehaviour
     private float timeNow;
 
     
-    public Destination destination;
+    private Destination destination;
     private bool atDestination = false;
 
-    public Animator anim;
+    private Animator anim;
     
     void Start(){
+        this.destination = this.transform
+                            .GetComponentInParent<Transform>()
+                            .GetComponentInParent<Transform>()
+                            .GetComponentInChildren<Destination>();
+                            
+        this.pessoa = this.GetComponentInParent<Pessoa>();
+        this.anim = GetComponentInParent<Animator>();
         Destination.arrived += OnArrived;       
     }   
 
     void OnArrived(){
         atDestination = true;
-        anim.ResetTrigger("Walk");
-        anim.SetTrigger("GoIdle");
+        this.anim.ResetTrigger("Walk");
+        this.anim.SetTrigger("GoIdle");
     }
 
     //Esses metodos serão definidos como IEnumerators para serem usados como coroutines
