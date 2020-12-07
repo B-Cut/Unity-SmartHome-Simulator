@@ -53,8 +53,9 @@ public class Activities : MonoBehaviour
                             .GetComponentInParent<Transform>()
                             .GetComponentInParent<Transform>()
                             .GetComponentInChildren<Destination>();
-                            
-        this.pessoa = this.GetComponentInParent<Pessoa>();
+
+        //this.pessoa = this.GetComponentInParent<Pessoa>();
+        this.pessoa = this.transform.parent.GetComponent<Pessoa>();
         this.anim = GetComponentInParent<Animator>();
         Destination.arrived += OnArrived;       
     }   
@@ -143,7 +144,7 @@ public class Activities : MonoBehaviour
     }
 
     IEnumerator relax(){
-        if(pessoa.getActivityCount() != 0){
+        if(this.pessoa.getActivityCount() != 0){
             if(activityEnded != null){
                 activityEnded();
             }

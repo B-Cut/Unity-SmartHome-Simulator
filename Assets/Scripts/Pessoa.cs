@@ -10,7 +10,7 @@ public class Pessoa : MonoBehaviour
 {
     private string currentActivity;
     private NavMeshAgent agent;
-    private Queue<string> activityQueue = new Queue<string>();
+    private Queue<string> activityQueue;
     private Animator anim;
 
     //Variaveis relacionadas à rotina do usuário serão substituidas pelo os valores do arquivo CSV
@@ -49,11 +49,12 @@ public class Pessoa : MonoBehaviour
     public float chanceToForget = 0.01f;//chance do usuário esquecer de fazer algo 
     void Start()
     {
+        this.activityQueue = new Queue<string>();
         timeManagement.setTime(wakeUpTimeHour, wakeUpTimeMinute);//começa a simulação quando a pessoa acorda.
         today = timeManagement.getDate();
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
-        
+
         destination = GetComponentInParent<Transform>()
                         .GetComponentInChildren<BoxCollider>();
 
@@ -111,7 +112,7 @@ public class Pessoa : MonoBehaviour
         }
     } 
     public int getActivityCount(){
-        return activityQueue.Count;
+        return this.activityQueue.Count;
     }
     public void changeDestination(Vector3 destPos){
         agent.SetDestination(destPos);
