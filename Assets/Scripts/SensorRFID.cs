@@ -21,9 +21,7 @@ public class SensorRFID : MonoBehaviour
     void Start(){
         //Pegar o material para mudar a cor do sensor
         sensorRenderer = GetComponent<MeshRenderer>();
-        sensorMaterial = sensorRenderer.material;
-
-        
+        sensorMaterial = sensorRenderer.material;        
     }
 
     //#if UNITY_EDITOR

@@ -27,4 +27,10 @@ public class Destination : MonoBehaviour
         transform.position = newDestination;
         pessoa.changeDestination(newDestination);
     }
+
+    public void moveTo(Vector3 coord){
+        this.transform.position = coord;
+    }
+
+
 }

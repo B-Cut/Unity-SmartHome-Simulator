@@ -8,9 +8,9 @@ using UnityEngine.AI;
 
 public class Pessoa : MonoBehaviour
 {
-    private string currentActivity;
+    private string currentActivity = "";
     private NavMeshAgent agent;
-    private Queue<string> activityQueue;
+    private Queue<string> activityQueue = new Queue<string>();
     private Animator anim;
 
     //Variaveis relacionadas à rotina do usuário serão substituidas pelo os valores do arquivo CSV
@@ -19,14 +19,13 @@ public class Pessoa : MonoBehaviour
     public int bathroomInterval = 4;//hours
     public bool emptyQueue = false;
     private bool bathOnQueue = false;
-    private string nextActivity;
+    private string nextActivity = "";
     public bool isRelaxing = false;
 
     public TimeManagement timeManagement;
 
     private Activities activities;
-    private BoxCollider destination;
-    // Start is called before the first frame update
+    private Destination destination;
 
     public int cookingTimeHour = 12;
     public int cookingTimeMinute = 0;
@@ -44,19 +43,17 @@ public class Pessoa : MonoBehaviour
     public int wakeUpTimeHour = 8;
     public int wakeUpTimeMinute = 0;
     public bool sleepInQueue = false;
-    private int today;
+    private int today = new int();
 
     public float chanceToForget = 0.01f;//chance do usuário esquecer de fazer algo 
     void Start()
     {
-        this.activityQueue = new Queue<string>();
         timeManagement.setTime(wakeUpTimeHour, wakeUpTimeMinute);//começa a simulação quando a pessoa acorda.
         today = timeManagement.getDate();
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
 
-        destination = GetComponentInParent<Transform>()
-                        .GetComponentInChildren<BoxCollider>();
+        destination = transform.parent.GetComponentInChildren<Destination>();
 
         activities = GetComponentInChildren<Activities>();
         Activities.activityEnded += startActivity;
@@ -116,7 +113,7 @@ public class Pessoa : MonoBehaviour
     }
     public void changeDestination(Vector3 destPos){
         agent.SetDestination(destPos);
-        destination.transform.position = destPos;
+        destination.moveTo(destPos);
         anim.ResetTrigger("GoIdle");
         anim.SetTrigger("Walk");     
     } 

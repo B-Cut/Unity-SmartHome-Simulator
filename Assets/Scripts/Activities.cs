@@ -15,15 +15,15 @@ public class Activities : MonoBehaviour
 
     //Locations NÃO são a posição exata do objeto, elas servem para navegar o usuário até esse objetos
     private Pessoa pessoa;
-    public Vector3 fogaoLocation;
-    public Vector3 chuveiroLocation;
-    public Vector3 sofaLocation;
-    public Vector3 mesaJantarLocation;
-    public Vector3 camaLocation;
-    public Vector3 vasoLocation;
-    public Vector3 geladeiraLocation;
+    public Vector3 fogaoLocation = new Vector3();
+    public Vector3 chuveiroLocation = new Vector3();
+    public Vector3 sofaLocation = new Vector3();
+    public Vector3 mesaJantarLocation = new Vector3();
+    public Vector3 camaLocation = new Vector3();
+    public Vector3 vasoLocation = new Vector3();
+    public Vector3 geladeiraLocation = new Vector3();
 
-    public Vector3 armarioLocation;
+    public Vector3 armarioLocation = new Vector3();
 
     //Duração das atividades
     public int sleepDurationHour = 8;
@@ -40,13 +40,13 @@ public class Activities : MonoBehaviour
 
     public TimeManagement timeManagement;
     public SensorFogao sensorFogao;
-    private float timeNow;
+    private float timeNow = new float();
 
     
     private Destination destination;
     private bool atDestination = false;
 
-    private Animator anim;
+    private Animator anim = new Animator();
     
     void Start(){
         this.destination = this.transform

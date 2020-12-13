@@ -37,14 +37,14 @@ public class CameraScript : MonoBehaviour
         if(!camMovLocked){
             Cursor.lockState = CursorLockMode.Locked;
             if(Input.GetKey("e")){
-                transform.Translate(0, verticalSpeed * Time.deltaTime, 0, Space.World);
+                transform.Translate(0, verticalSpeed * Time.fixedDeltaTime, 0, Space.World);
             }
             else if(Input.GetKey("q")){
-                transform.Translate(0, -verticalSpeed * Time.deltaTime, 0, Space.World);
+                transform.Translate(0, -verticalSpeed * Time.fixedDeltaTime, 0, Space.World);
             }
             else{
-                hMovement = Input.GetAxis("Horizontal") * Time.deltaTime * flySpeed;
-                vMovement = Input.GetAxis("Vertical") *Time.deltaTime * flySpeed;
+                hMovement = Input.GetAxis("Horizontal") * Time.fixedDeltaTime * flySpeed;
+                vMovement = Input.GetAxis("Vertical") *Time.fixedDeltaTime * flySpeed;
 
                 transform.Translate(hMovement, 0, vMovement);
             }
