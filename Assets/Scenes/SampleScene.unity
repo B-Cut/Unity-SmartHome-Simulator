@@ -204,6 +204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -444,6 +445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -623,6 +625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -770,6 +773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -917,6 +921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -1182,6 +1187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -1329,6 +1335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -1476,6 +1483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -1659,6 +1667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -2031,7 +2040,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 0.55
+  range: 0.6
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -2113,8 +2123,6 @@ GameObject:
   - component: {fileID: 601285719}
   - component: {fileID: 601285718}
   - component: {fileID: 601285717}
-  - component: {fileID: 601285716}
-  - component: {fileID: 601285715}
   m_Layer: 2
   m_Name: SensorRFIDArmario
   m_TagString: Untagged
@@ -2136,35 +2144,6 @@ Transform:
   m_Father: {fileID: 2114613720}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
---- !u!135 &601285715
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601285713}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.55
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &601285716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601285713}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  state: 0
-  triggerLayers:
-    serializedVersion: 2
-    m_Bits: 51
 --- !u!114 &601285717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2178,7 +2157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 0.55
+  range: 0.65
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -2453,6 +2433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -2641,6 +2622,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 765078589}
+  state: 0
+  sensorType: Lamp
 --- !u!1 &846881251
 GameObject:
   m_ObjectHideFlags: 0
@@ -2719,7 +2702,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 0.55
+  range: 0.6
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -2867,6 +2851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.6
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -3013,7 +2998,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 0.55
+  range: 0.65
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -3339,6 +3325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.6
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -3486,6 +3473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -3601,8 +3589,6 @@ GameObject:
   - component: {fileID: 1100908176}
   - component: {fileID: 1100908175}
   - component: {fileID: 1100908174}
-  - component: {fileID: 1100908173}
-  - component: {fileID: 1100908172}
   m_Layer: 2
   m_Name: SensorRFIDArmario (1)
   m_TagString: Untagged
@@ -3624,35 +3610,6 @@ Transform:
   m_Father: {fileID: 2114613720}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
---- !u!135 &1100908172
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100908170}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.55
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1100908173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100908170}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  state: 0
-  triggerLayers:
-    serializedVersion: 2
-    m_Bits: 51
 --- !u!114 &1100908174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3666,7 +3623,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 0.55
+  range: 0.65
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -3915,6 +3873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -4229,7 +4188,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 0.55
+  range: 0.6
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -4418,6 +4378,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 1371460650}
+  state: 0
+  sensorType: Lamp
 --- !u!195 &1384455542
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4428,7 +4390,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.4
-  m_Speed: 0.5
+  m_Speed: 0.4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4597,6 +4559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -4733,7 +4696,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512522930}
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: -0.5}
-  m_LocalPosition: {x: 2.263, y: -3.116, z: 2.977}
+  m_LocalPosition: {x: 2.263, y: -3.116, z: 2.971}
   m_LocalScale: {x: 0.00185, y: 1, z: 0.01673}
   m_Children: []
   m_Father: {fileID: 1627361691}
@@ -4782,6 +4745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -4929,6 +4893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -5117,6 +5082,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 1566293884}
+  state: 0
+  sensorType: Lamp
 --- !u!1 &1586912624
 GameObject:
   m_ObjectHideFlags: 0
@@ -5195,7 +5162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 0.55
+  range: 0.6
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -5384,6 +5352,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 1601671790}
+  state: 0
+  sensorType: Lamp
 --- !u!1 &1627361690
 GameObject:
   m_ObjectHideFlags: 0
@@ -5467,7 +5437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeManagement: {fileID: 302938826}
-  writeInterval: 5
+  writeInterval: 1
 --- !u!1 &1644193334
 GameObject:
   m_ObjectHideFlags: 0
@@ -5547,6 +5517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -5724,6 +5695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -5871,6 +5843,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -6017,7 +5990,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 0.55
+  range: 0.6
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -6110,7 +6084,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719313001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.025, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 10339306}
@@ -6204,6 +6178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -6393,7 +6368,7 @@ SphereCollider:
   m_GameObject: {fileID: 1838444696}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
   m_Center: {x: 0, y: 0, z: 0}
@@ -6404,7 +6379,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838444696}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc6114d44135ca089ba6092ea0031bc, type: 3}
   m_Name: 
@@ -6420,13 +6395,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838444696}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc13d78f185427d1b944f09357c4514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 10
+  range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -6767,6 +6743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -6914,6 +6891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   range: 0.55
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:
@@ -7093,7 +7071,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  range: 0.55
+  range: 0.6
+  sensorType: Sensor RFID
   readerPos: {fileID: 464210957}
   readerCollider: {fileID: 464210954}
   layerMask:

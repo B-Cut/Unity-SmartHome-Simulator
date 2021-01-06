@@ -7,8 +7,12 @@ public class SensorRFID : MonoBehaviour
 {
     public bool state = false;
     public float range = 10f;
-    private MeshRenderer sensorRenderer;
+    private MeshRenderer sensorRenderer = new MeshRenderer();
     private Material sensorMaterial;
+
+    public string sensorType = "Sensor RFID";
+
+    private string user = "NA";
     
     public Transform readerPos; 
     public Collider readerCollider;
@@ -16,7 +20,7 @@ public class SensorRFID : MonoBehaviour
     public LayerMask layerMask; //No editor selecione tudo menos as camadas que você quer ignorar
                                 //Ignore Raycast tem que ser deselecionada manualmente
     
-    RaycastHit hit;
+    RaycastHit hit = new RaycastHit();
     // Start is called before the first frame update
     void Start(){
         //Pegar o material para mudar a cor do sensor
@@ -24,12 +28,10 @@ public class SensorRFID : MonoBehaviour
         sensorMaterial = sensorRenderer.material;        
     }
 
-    //#if UNITY_EDITOR
-        private void onDrawGizmos() {
-            Gizmos.color = Color.yellow;
-            Gizmos.DrawWireSphere(transform.position, range);  
-        }
-    //#endif
+    void OnDrawGizmos() {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(this.transform.position, (float) range);  
+    }
 
 
 
@@ -39,19 +41,22 @@ public class SensorRFID : MonoBehaviour
             if(Physics.Linecast(this.transform.position, readerPos.position, out this.hit, this.layerMask)){//checa se há algum obstaculo entre a posição do sensor e a do leitor
                 if(this.hit.collider == readerCollider){
                     Debug.DrawLine(this.transform.position, readerPos.position, Color.white, 10f);
+                    this.user = this.hit.transform.parent.name;
                     this.state = true;
                     this.sensorMaterial.color = Color.green;
-                    Debug.Log("Hit reader");
+                    Debug.Log(this.name + ": Hit reader");
                 }
                 else{
                     Debug.Log("Blocked by" + this.hit.collider.name);
                     //Debug.Log(hit.collider);
+                    this.user = "NA";
                     this.state = false;
                     this.sensorMaterial.color = Color.red;
                 }
             }    
         }
         else{
+            this.user = "NA";
             this.state = false;
             this.sensorMaterial.color = Color.red;
         } 
@@ -59,5 +64,9 @@ public class SensorRFID : MonoBehaviour
 
     public bool getState(){
         return this.state;
+    }
+
+    public string getUser(){
+        return this.user;
     }
 }
