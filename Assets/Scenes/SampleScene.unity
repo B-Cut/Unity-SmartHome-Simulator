@@ -4414,22 +4414,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f51c0b58c746f955ba49ba8457a3f5de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mealInterval: 3
-  bathroomInterval: 4
-  emptyQueue: 0
-  isRelaxing: 0
   timeManagement: {fileID: 302938826}
-  cookingTimeHour: 12
-  cookingTimeMinute: 0
-  bathroomTimeHour: 8
-  bathroomTimeMinute: 0
-  bathTimeHour: 14
-  bathTimeMinute: 0
+  fixedRoutines: {fileID: 919132148744016497}
+  intervalRoutine: {fileID: 919132148744016496}
   sleepTimeHour: 22
   sleepTimeMinute: 0
   wakeUpTimeHour: 8
   wakeUpTimeMinute: 0
   sleepInQueue: 0
+  isRelaxing: 0
+  useFixedRoutine: 0
   chanceToForget: 0.01
 --- !u!95 &1384455544
 Animator:
@@ -7934,6 +7928,8 @@ GameObject:
   - component: {fileID: 1384455542}
   - component: {fileID: 1384455543}
   - component: {fileID: 919132148744016495}
+  - component: {fileID: 919132148744016497}
+  - component: {fileID: 919132148744016496}
   m_Layer: 8
   m_Name: xbot@Idle(1)
   m_TagString: Player
@@ -7953,8 +7949,77 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9460235f7339cee7795f190a9b3d9119, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  routine: {fileID: 919132148744016496}
   numeroRotina: 0
   csvFile: {fileID: 4900000, guid: 7335949efca781308af2e2589547dbbd, type: 3}
+--- !u!114 &919132148744016496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148744016494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cd37843b2f0fcbaa1a817c2990e176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeManagement: {fileID: 302938826}
+  pessoa: {fileID: 1384455543}
+  mealInterval: 3
+  bathroomInterval: 4
+  emptyQueue: 0
+  isRelaxing: 0
+  cookingTimeHour: 12
+  cookingTimeMinute: 0
+  bathroomTimeHour: 8
+  bathroomTimeMinute: 0
+  bathTimeHour: 14
+  bathTimeMinute: 0
+  sleepTimeHour: 22
+  sleepTimeMinute: 0
+  wakeUpTimeHour: 8
+  wakeUpTimeMinute: 0
+  sleepInQueue: 0
+--- !u!114 &919132148744016497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148744016494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab6342b6e004be369604d9b1812051b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeManagement: {fileID: 302938826}
+  pessoa: {fileID: 1384455543}
+  activityTimes:
+  - 8:30
+  - 8:45
+  - 10:00
+  - 12:30
+  - 13:20
+  - 14:00
+  - 16:00
+  - 18:45
+  - 20:00
+  - 22:30
+  activities:
+  - cook
+  - useBathroom
+  - useBathroom
+  - cook
+  - useBathroom
+  - takeBath
+  - cook
+  - useBathroom
+  - cook
+  - sleep
+  nextActivity: 
+  nextActivityTime: 0
+  counter: 0
 --- !u!23 &973005908890659101
 MeshRenderer:
   m_ObjectHideFlags: 0

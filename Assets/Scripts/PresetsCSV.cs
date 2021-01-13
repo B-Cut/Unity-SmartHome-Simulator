@@ -7,6 +7,7 @@ using System.IO;
 public class PresetsCSV : MonoBehaviour
 {
     private Pessoa pessoa;
+    public IntervalRoutine routine;
     public int numeroRotina = 0;
     private Dictionary<string, int> personRoutine = new Dictionary<string, int>();
 
@@ -47,16 +48,22 @@ public class PresetsCSV : MonoBehaviour
         pessoa.wakeUpTimeHour = personRoutine["wakeUpTimeHour"];
         pessoa.wakeUpTimeMinute = personRoutine["wakeUpTimeMinute"];
 
-        pessoa.bathroomTimeHour = personRoutine["bathroomTimeHour"];
-        pessoa.bathroomTimeMinute = personRoutine["bathroomTimeMinute"];
+        routine.sleepTimeHour = personRoutine["sleepTimeHour"];
+        routine.sleepTimeMinute = personRoutine["sleepTimeMinute"];
+
+        routine.wakeUpTimeHour = personRoutine["wakeUpTimeHour"];
+        routine.wakeUpTimeMinute = personRoutine["wakeUpTimeMinute"];
+
+        routine.bathroomTimeHour = personRoutine["bathroomTimeHour"];
+        routine.bathroomTimeMinute = personRoutine["bathroomTimeMinute"];
         
-        pessoa.cookingTimeHour = personRoutine["cookTimeHour"];
-        pessoa.cookingTimeMinute = personRoutine["cookTimeMinute"];
+        routine.cookingTimeHour = personRoutine["cookTimeHour"];
+        routine.cookingTimeMinute = personRoutine["cookTimeMinute"];
         
-        pessoa.bathTimeHour = personRoutine["bathTimeHour"];
-        pessoa.bathTimeMinute = personRoutine["bathTimeMinute"];
+        routine.bathTimeHour = personRoutine["bathTimeHour"];
+        routine.bathTimeMinute = personRoutine["bathTimeMinute"];
         
-        pessoa.mealInterval = personRoutine["mealInterval"];
-        pessoa.bathroomInterval = personRoutine["bathroomInterval"];
+        routine.mealInterval = personRoutine["mealInterval"];
+        routine.bathroomInterval = personRoutine["bathroomInterval"];
     }
 }

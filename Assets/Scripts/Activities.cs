@@ -134,8 +134,7 @@ public class Activities : MonoBehaviour
         yield return StartCoroutine(WaitForEvent());
         pessoa.setCurrentActivity("Dormindo");
         timeNow = timeManagement.getTime();
-        yield return new WaitWhile(() => timeManagement.isInInterval(pessoa.sleepTimeHour, pessoa.sleepTimeMinute,
-                                                                pessoa.wakeUpTimeHour, pessoa.wakeUpTimeMinute));
+        yield return new WaitWhile(() => timeManagement.getTime() != timeManagement.ToSecond(pessoa.wakeUpTimeHour, pessoa.wakeUpTimeMinute));
         //yield return new WaitUntil(() => timeManagement.getTime() >= timeNow + timeManagement.ToSecond(sleepDurationHour, sleepDurationMinute));
         pessoa.sleepInQueue = false;
         if(activityEnded != null){

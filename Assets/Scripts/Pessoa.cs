@@ -15,35 +15,28 @@ public class Pessoa : MonoBehaviour
 
     //Variaveis relacionadas à rotina do usuário serão substituidas pelo os valores do arquivo CSV
 
-    public int mealInterval = 3;//hours
-    public int bathroomInterval = 4;//hours
-    public bool emptyQueue = false;
-    private bool bathOnQueue = false;
-    private string nextActivity = "";
-    public bool isRelaxing = false;
 
     public TimeManagement timeManagement;
 
     private Activities activities;
+    public FixedRoutines fixedRoutines;
+    public IntervalRoutine intervalRoutine;
     private Destination destination;
-
-    public int cookingTimeHour = 12;
-    public int cookingTimeMinute = 0;
-
-    public int bathroomTimeHour = 8;
-    public int bathroomTimeMinute = 0;
-
-    public int bathTimeHour = 14;
-    public int bathTimeMinute = 0;
-
 
     public int sleepTimeHour = 22;
     public int sleepTimeMinute = 0;
 
     public int wakeUpTimeHour = 8;
     public int wakeUpTimeMinute = 0;
+    
     public bool sleepInQueue = false;
+
+    public bool isRelaxing = false;
+    
     private int today = new int();
+    public bool useFixedRoutine = false;
+
+    
 
     public float chanceToForget = 0.01f;//chance do usuário esquecer de fazer algo 
     void Start()
@@ -59,43 +52,18 @@ public class Pessoa : MonoBehaviour
         Activities.activityEnded += startActivity;
         //activityQueue.Enqueue("sleep");
         startActivity();
+        if(useFixedRoutine){
+            intervalRoutine.enabled = false;
+            fixedRoutines.enabled = true;
+
+        }
+        
+        else{
+            intervalRoutine.enabled = true;
+            fixedRoutines.enabled = false;
+        }
     }
     void Update(){
-        if(timeManagement.getTime() >= timeManagement.ToSecond(cookingTimeHour, cookingTimeMinute)){
-            activityQueue.Enqueue("cook");
-            cookingTimeHour += 3;
-            //if(cookingTimeHour >= 24) cookingTimeHour -= 24;
-        }
-
-        if(timeManagement.getTime() >= timeManagement.ToSecond(bathroomTimeHour, bathroomTimeMinute)){
-            activityQueue.Enqueue("useBathroom");
-            bathroomTimeHour += bathroomInterval;
-            //if(bathroomTimeHour >= 24) bathroomTimeHour -= 24;
-        }
-
-        if(timeManagement.getTime() >= timeManagement.ToSecond(bathTimeHour, bathroomTimeMinute) && !bathOnQueue){
-            activityQueue.Enqueue("takeBath");
-            bathOnQueue = true;
-        }
-
-        if(timeManagement.getTime() >= timeManagement.ToSecond(sleepTimeHour, sleepTimeMinute) && !sleepInQueue){
-            activityQueue.Enqueue("sleep");
-            sleepInQueue = true;
-        }
-        //Novo Dia
-        if(timeManagement.getDate() > today){
-            if(cookingTimeHour >= 24) cookingTimeHour = wakeUpTimeHour;
-            if(bathroomTimeHour >= 24) bathroomTimeHour = wakeUpTimeHour;
-            today = timeManagement.getDate();
-        }
-
-        if(emptyQueue && !isRelaxing){ 
-            activityQueue.Enqueue("relax");
-            isRelaxing = true;
-        }
-        if(activityQueue.Count > 0){
-            emptyQueue = false;
-        }  
     }
 
 
