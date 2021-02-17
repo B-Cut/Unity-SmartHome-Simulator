@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Xml;
 
 public class FixedRoutines : MonoBehaviour
 {
@@ -10,23 +11,50 @@ public class FixedRoutines : MonoBehaviour
     public TimeManagement timeManagement;
     public Pessoa pessoa;
     //Cria novo array com todas as atividades que o usuário realizara pelo dia
-    public string[] activityTimes = new string[numberOfActivities];
-    public string[] activities = new string[numberOfActivities];
-    public string nextActivity = "";
-    public int nextActivityTime = new int();
+    //public string[] activityTimes = new string[numberOfActivities];
+    //public string[] activities = new string[numberOfActivities];
+    //public string nextActivity = "";
+    //public int nextActivityTime = new int();
 
     public int counter = 0;
+
+    XmlDocument xmlRoutine = new XmlDocument();
+    public XmlActivitiesInterpreter xmlInterpreter;
+    XmlNodeList activities;
+    XmlNode nextActivity;
+    int nextActivityTime = new int();
     // Start is called before the first frame update
     void Start()
     {
-        nextActivityTime = ActivityTimeToSecond(activityTimes[counter]);
-        nextActivity = activities[counter];
+        xmlInterpreter = GetComponent<XmlActivitiesInterpreter>();
+        pessoa = GetComponent<Pessoa>();
+        xmlRoutine.Load(Application.dataPath + "/Scripts/Routine.xml");
+        activities = xmlRoutine.SelectSingleNode("routine").ChildNodes;
+        nextActivity = activities.Item(counter);
+        nextActivityTime = ActivityTimeToSecond(nextActivity.Attributes["time"].Value);
     }
 
     // Update is called once per frame
     void Update()
     {
         if(timeManagement.getTime() == nextActivityTime){
+            if(xmlInterpreter.getPriority(nextActivity.InnerText.Trim()) > xmlInterpreter.currentActivityPriority
+            && xmlInterpreter.isExecutingActivity){
+                xmlInterpreter.higherPriorityActivity = nextActivity.InnerText.Trim();
+                xmlInterpreter.executeHigherPriority = true;
+            }
+            else{
+                pessoa.pushToQueue(nextActivity.InnerText.Trim());
+            }
+            
+            counter++;
+            if(counter == activities.Count){
+                counter = 0;
+            }
+            nextActivity = activities.Item(counter);
+            nextActivityTime = ActivityTimeToSecond(nextActivity.Attributes["time"].Value);
+        }
+        /*if(timeManagement.getTime() == nextActivityTime){
             pessoa.pushToQueue(nextActivity);
             counter++;
             if(counter == activities.Length){
@@ -35,6 +63,9 @@ public class FixedRoutines : MonoBehaviour
             
             nextActivityTime = ActivityTimeToSecond(activityTimes[counter]);
             nextActivity = activities[counter];
+        }*/
+        if(pessoa.getActivityCount() != 0 && !xmlInterpreter.isExecutingActivity){
+            pessoa.startActivity();
         }
     }
 

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class showCurretActivity : MonoBehaviour
 {
 
-    public Pessoa pessoa;
+    public XmlActivitiesInterpreter xmlActivities;
     private Text currentText;
 
     // Start is called before the first frame update
@@ -16,6 +16,6 @@ public class showCurretActivity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentText.text = pessoa.getCurrentActivity();
+        currentText.text = $"{xmlActivities.currentActivity}\n{xmlActivities.currentStep}";
     }
 }

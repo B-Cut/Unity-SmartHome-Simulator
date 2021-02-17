@@ -13,6 +13,7 @@ public class Pessoa : MonoBehaviour
     private Queue<string> activityQueue = new Queue<string>();
     private Animator anim;
 
+    private XmlActivitiesInterpreter xmlActivities;
     //Variaveis relacionadas à rotina do usuário serão substituidas pelo os valores do arquivo CSV
 
 
@@ -38,6 +39,8 @@ public class Pessoa : MonoBehaviour
 
     
 
+    
+
     public float chanceToForget = 0.01f;//chance do usuário esquecer de fazer algo 
     void Start()
     {
@@ -49,9 +52,9 @@ public class Pessoa : MonoBehaviour
         destination = transform.parent.GetComponentInChildren<Destination>();
 
         activities = GetComponentInChildren<Activities>();
-        Activities.activityEnded += startActivity;
+        XmlActivitiesInterpreter.activityEnded += startActivity;
+        xmlActivities = GetComponent<XmlActivitiesInterpreter>();
         //activityQueue.Enqueue("sleep");
-        startActivity();
         if(useFixedRoutine){
             intervalRoutine.enabled = false;
             fixedRoutines.enabled = true;
@@ -68,9 +71,9 @@ public class Pessoa : MonoBehaviour
 
 
     //essa função serve para ser acionada pelo evento e realizar a proxima atividade na fila
-    void startActivity(){
+    public void startActivity(){
         try{
-            this.activities.StartCoroutine(activityQueue.Dequeue());
+            this.xmlActivities.StartCoroutine("ExecuteActivity", activityQueue.Dequeue());
         } catch(Exception e){
             Debug.Log($"Tried to Dequeue from empty queue ${e}");
             this.activities.StartCoroutine("relax");

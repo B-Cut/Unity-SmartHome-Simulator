@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+    to [place] -> usuário vai para o lugar definido
+    wait [Xs|m|h] -> espera pelo tempo indicado
+
+    place é definido em Lugares.xml
+
+    a atividade relax é uma atividade especial para qunado não há atividades para executar
+-->
+<atividades>
+    <atividade name="eat" prioridade="3">
+        <passo>to fridge</passo>
+        <passo>wait 30s</passo>
+        <passo>to diningTable</passo>
+        <passo>wait 10m</passo>
+    </atividade>
+    <atividade name="cook" prioridade="2">
+        <passo>to stove</passo>
+        <passo>wait 30m</passo>
+        <passo>to fridge</passo>
+        <passo>wait 30s</passo>
+    </atividade>
+    <atividade name="useBathroom" prioridade="1">
+        <passo>to toilet</passo>
+        <passo>wait 1m</passo>
+    </atividade>
+    <atividade name="takeBath" prioridade="2">
+        <passo>to shower</passo>
+        <passo>wait 15m</passo>
+    </atividade>
+    <atividade name="sleep" prioridade="2">
+        <passo>to bed</passo>
+        <passo>wait 8h30m</passo>
+    </atividade>
+    <atividade name="relax" prioridade="0">
+        <passo>relax</passo>
+    </atividade>
+</atividades>
