@@ -50,18 +50,8 @@ public class XmlActivitiesInterpreter : MonoBehaviour
         xmlPlaces.Load(Application.dataPath + "/Scripts/Lugares.xml");
         XmlNode activityRoot = xmlActivities.SelectSingleNode("atividades");
 
-       foreach(XmlNode activity in activityRoot.ChildNodes){
-            string activityName = activity.Attributes["name"].Value;
-            List<String> commands = new List<string>();
-            foreach(XmlNode step in activity.ChildNodes){
-                commands.Add(step.InnerText);
-            }
-            activitiesTable.Add(activityName, commands);
-            Debug.Log(activitiesTable);
-        }
-
         Destination.arrived += OnArrived;
-        //StartCoroutine("ExecuteActivity", "eat");
+        //StartCoroutine("ExecuteActivity", "1at");
     }
 
     // Update is called once per frame
@@ -70,7 +60,7 @@ public class XmlActivitiesInterpreter : MonoBehaviour
     }
 
     void OnArrived(){
-        atDestination = true;
+        this.atDestination = true;
     }
 
     public Hashtable getActivitiesTable(){
@@ -81,13 +71,14 @@ public class XmlActivitiesInterpreter : MonoBehaviour
         currentStep = "to";       
         Vector3 dest = getPlaceFromXml(place);
         pessoa.changeDestination(dest);
-        while(atDestination == false){
-            if(executeHigherPriority){
-                string interruptedActivity = currentActivity;
-                yield return StartCoroutine("ExecuteHigherPriorityActivity", higherPriorityActivity);
+        while(this.atDestination == false){
+            if(this.executeHigherPriority){
+                Debug.Log("Atividade Interrompida" + this.currentActivity);
+                string interruptedActivity = this.currentActivity;
+                yield return StartCoroutine("ExecuteHigherPriorityActivity", this.higherPriorityActivity);
                 pessoa.changeDestination(dest);
-                currentActivity = interruptedActivity;
-                currentStep = "to";
+                this.currentActivity = interruptedActivity;
+                this.currentStep = "to";
             }
             yield return new WaitForEndOfFrame();
         }
@@ -98,7 +89,7 @@ public class XmlActivitiesInterpreter : MonoBehaviour
     }
 
     IEnumerator wait(string time){
-        currentStep = "wait";
+        this.currentStep = "wait";
         int waitTime = getTimeInSeconds(time);
         int endTime = (int) timeManagement.getTime() + waitTime;
         if(endTime > timeManagement.ToSecond(24, 00)){
@@ -107,10 +98,11 @@ public class XmlActivitiesInterpreter : MonoBehaviour
         while(timeManagement.getTime() <= endTime){
             if(executeHigherPriority){
                 Vector3 previousPosition = pessoa.transform.position;
-                string interruptedActivity = currentActivity;
-                yield return StartCoroutine("ExecuteHigherPriorityActivity", higherPriorityActivity);
-                currentActivity = interruptedActivity;
-                currentStep = "wait";
+                Debug.Log("Atividade Interrompida" + this.currentActivity);
+                string interruptedActivity = this.currentActivity;
+                yield return StartCoroutine("ExecuteHigherPriorityActivity", this.higherPriorityActivity);
+                this.currentActivity = interruptedActivity;
+                this.currentStep = "wait";
                 pessoa.changeDestination(previousPosition);
             }
             yield return new WaitForEndOfFrame();
@@ -118,7 +110,8 @@ public class XmlActivitiesInterpreter : MonoBehaviour
     }
 
     IEnumerator relax(){
-        isExecutingActivity = false;
+        Debug.Log("relax in queue");
+        this.isExecutingActivity = false;
         pessoa.changeDestination(getPlaceFromXml("sofa"));
         while(atDestination == false){
             if(pessoa.getActivityCount() > 0){
@@ -171,13 +164,11 @@ public class XmlActivitiesInterpreter : MonoBehaviour
     }
 
     IEnumerator ExecuteActivity(string name){
-        isExecutingActivity = true;
+        Debug.Log("Executando " + name);
+        this.isExecutingActivity = true;
         XmlNode activityRoot = xmlActivities.SelectSingleNode("atividades");
         executeHigherPriority = false;
         foreach(XmlNode activity in activityRoot.ChildNodes){
-            if(activity.Attributes["name"].Value == "relax"){
-                StartCoroutine("relax");
-            }
             if(activity.Attributes["name"].Value == name){
                 currentActivityPriority = int.Parse(activity.Attributes["prioridade"].Value);
                 currentActivity = name;
@@ -192,29 +183,25 @@ public class XmlActivitiesInterpreter : MonoBehaviour
                 
             }
         }
-        currentActivityPriority = 0;
     }
 
     IEnumerator ExecuteHigherPriorityActivity(string name){
+        this.isExecutingActivity = true;
         string interruptedStep = currentStep;
+        Debug.Log("Começando atividade com prioridade " + name);
         XmlNode activityRoot = xmlActivities.SelectSingleNode("atividades");
-        executeHigherPriority = false;
+        this.executeHigherPriority = false;
         foreach(XmlNode activity in activityRoot.ChildNodes){
-            if(activity.Attributes["name"].Value == "relax"){
-                StartCoroutine("relax");
-            }
             if(activity.Attributes["name"].Value == name){
-                currentActivity = name;
-                currentActivityPriority = int.Parse(activity.Attributes["prioridade"].Value);
+                this.currentActivity = name;
+                this.currentActivityPriority = int.Parse(activity.Attributes["prioridade"].Value);
                 foreach(XmlNode step in activity.ChildNodes){
                     string[] splitArgument = step.InnerText.Split(' ');
                     yield return StartCoroutine(splitArgument[0], splitArgument[1]);
-                    break;
                 }
-                
+                break;
             }
         }
-        currentActivityPriority = 0;
     }
 
     Vector3 getPlaceFromXml(string place){

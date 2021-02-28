@@ -76,7 +76,7 @@ public class Pessoa : MonoBehaviour
             this.xmlActivities.StartCoroutine("ExecuteActivity", activityQueue.Dequeue());
         } catch(Exception e){
             Debug.Log($"Tried to Dequeue from empty queue ${e}");
-            this.activities.StartCoroutine("relax");
+            //this.activities.StartCoroutine("relax");
         }
     } 
     public int getActivityCount(){

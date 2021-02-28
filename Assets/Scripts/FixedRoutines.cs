@@ -26,7 +26,7 @@ public class FixedRoutines : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        xmlInterpreter = GetComponent<XmlActivitiesInterpreter>();
+        //xmlInterpreter = GetComponent<XmlActivitiesInterpreter>();
         pessoa = GetComponent<Pessoa>();
         xmlRoutine.Load(Application.dataPath + "/Scripts/Routine.xml");
         activities = xmlRoutine.SelectSingleNode("routine").ChildNodes;

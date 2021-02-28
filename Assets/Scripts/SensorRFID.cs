@@ -44,10 +44,10 @@ public class SensorRFID : MonoBehaviour
                     this.user = this.hit.transform.parent.name;
                     this.state = true;
                     this.sensorMaterial.color = Color.green;
-                    Debug.Log(this.name + ": Hit reader");
+                    //Debug.Log(this.name + ": Hit reader");
                 }
                 else{
-                    Debug.Log("Blocked by" + this.hit.collider.name);
+                    //Debug.Log("Blocked by" + this.hit.collider.name);
                     //Debug.Log(hit.collider);
                     this.user = "NA";
                     this.state = false;
