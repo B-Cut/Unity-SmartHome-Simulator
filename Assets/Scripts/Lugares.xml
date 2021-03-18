@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <lugares>
-    <lugar name="fridge">
+    <lugar name="fridge" relaxPoint="true">
         <x>-0.431</x>
         <y>0.38</y>
         <z>3.303</z>

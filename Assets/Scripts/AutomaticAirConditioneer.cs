@@ -25,17 +25,6 @@ public class AutomaticAirConditioneer : MonoBehaviour
         turnOff();       
     }
 
-
-    /*void Update(){
-        if(timeManagement.getTime() < timeManagement.ToSecond(turnOnTimeHour, turnOnTimeMinute)
-        && timeManagement.getTime() > timeManagement.ToSecond(turnOffTimeHour, turnOffTimeMinute))
-        {
-             turnOff();
-        }
-
-        else turnOn();
-    }*/
-    // Update is called once per frame
     
     void OnTriggerEnter(Collider other){
         if(other.tag == "Player" && isTurnOnTime()){

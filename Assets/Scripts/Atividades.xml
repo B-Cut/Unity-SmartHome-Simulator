@@ -2,7 +2,8 @@
 <!-- 
     to [place] -> usuário vai para o lugar definido
     wait [Xs|m|h] -> espera pelo tempo indicado
-
+    wander [raio m] [Xs|m|h] -> anda para uma localização aleatória dentro de um raio m a partir da localização do usuário
+                                raio definido em metros
     place é definido em Lugares.xml
 
     a atividade relax é uma atividade especial para qunado não há atividades para executar
@@ -16,7 +17,7 @@
     </atividade>
     <atividade name="cook" prioridade="2">
         <passo>to stove</passo>
-        <passo>wait 30m</passo>
+        <passo>wander 0.4 30m stove</passo>
         <passo>to fridge</passo>
         <passo>wait 30s</passo>
     </atividade>

@@ -28,9 +28,10 @@ public class XmlActivitiesInterpreter : MonoBehaviour
     XmlDocument xmlActivities = new XmlDocument();
     XmlDocument xmlPlaces = new XmlDocument();
     private Pessoa pessoa;
-    private Destination destination;
+    public Destination destination;
 
     public TimeManagement timeManagement;
+    public ShowInterruptedSteps interruptedSteps;
 
     public int currentActivityPriority = new int();
 
@@ -43,7 +44,6 @@ public class XmlActivitiesInterpreter : MonoBehaviour
     void Start()
     {
         pessoa = this.transform.GetComponentInParent<Pessoa>();
-        destination = this.transform.GetComponentInParent<Destination>();
 
         
         xmlActivities.Load(Application.dataPath + "/Scripts/Atividades.xml");
@@ -75,6 +75,7 @@ public class XmlActivitiesInterpreter : MonoBehaviour
             if(this.executeHigherPriority){
                 Debug.Log("Atividade Interrompida" + this.currentActivity);
                 string interruptedActivity = this.currentActivity;
+                interruptedSteps.addToActivityStack(interruptedActivity);
                 yield return StartCoroutine("ExecuteHigherPriorityActivity", this.higherPriorityActivity);
                 pessoa.changeDestination(dest);
                 this.currentActivity = interruptedActivity;
@@ -107,6 +108,42 @@ public class XmlActivitiesInterpreter : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
+    }
+
+
+    //Toma 3 argumentos: raio, tempo de execução e centro
+    IEnumerator wander(string argumento){
+        string[] argumentosSeparados = argumento.Split(' ');
+        if(argumentosSeparados.Length < 3){
+            Debug.Log("Not enough arguments in wander step");
+            yield break;
+        }
+        float radius = float.Parse(argumentosSeparados[0], CultureInfo.InvariantCulture);
+        float endTime = timeManagement.getTime() + getTimeInSeconds(argumentosSeparados[1]);
+        float nextDestinationTime = timeManagement.getTime();
+        //yield return StartCoroutine("to", argumentosSeparados[2]);
+        while(timeManagement.getTime() <= endTime){
+            if(atDestination == true){
+                nextDestinationTime += timeManagement.ToSecond(0, 2);
+                atDestination = false;
+            }
+            if(timeManagement.getTime() >= nextDestinationTime){
+                destination.RandomDestinationInArea(radius, this.pessoa.transform.position);
+            }
+
+            if(this.executeHigherPriority){
+                Vector3 currentPos = this.pessoa.transform.position;
+                Debug.Log("Atividade Interrompida" + this.currentActivity);
+                string interruptedActivity = this.currentActivity;
+                interruptedSteps.addToActivityStack(interruptedActivity);
+                yield return StartCoroutine("ExecuteHigherPriorityActivity", this.higherPriorityActivity);
+                pessoa.changeDestination(currentPos);
+                this.currentActivity = interruptedActivity;
+                this.currentStep = "wander";
+            }
+            yield return new WaitForEndOfFrame();
+        }
+
     }
 
     IEnumerator relax(){
@@ -174,14 +211,28 @@ public class XmlActivitiesInterpreter : MonoBehaviour
                 currentActivity = name;
                 foreach(XmlNode step in activity.ChildNodes){
                     string[] splitArgument = step.InnerText.Split(' ');
-                    yield return StartCoroutine(splitArgument[0], splitArgument[1]);
+                    switch(splitArgument[0]){
+                        case "to":
+                        case "wait": 
+                                yield return StartCoroutine(splitArgument[0], splitArgument[1]);
+                                break;
+                        case "wander": 
+                                yield return StartCoroutine(splitArgument[0], String.Join(" ", splitArgument[1], splitArgument[2], splitArgument[3]));
+                                break;
+                        default:
+                                Debug.Log("no step named " + step);
+                                break;
+                    }
                 }
+                isExecutingActivity = false;
                 if(activityEnded != null){
                     activityEnded();
                 }
+                interruptedSteps.popFromActivityStack();
                 break;
                 
             }
+            
         }
     }
 

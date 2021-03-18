@@ -18,7 +18,7 @@ public class FixedRoutines : MonoBehaviour
 
     public int counter = 0;
 
-    XmlDocument xmlRoutine = new XmlDocument();
+    private XmlDocument xmlRoutine = new XmlDocument();
     public XmlActivitiesInterpreter xmlInterpreter;
     XmlNodeList activities;
     XmlNode nextActivity;
@@ -64,9 +64,16 @@ public class FixedRoutines : MonoBehaviour
             nextActivityTime = ActivityTimeToSecond(activityTimes[counter]);
             nextActivity = activities[counter];
         }*/
+
+        /*if(pessoa.getActivityCount() == 0 && !xmlInterpreter.isExecutingActivity){
+            xmlInterpreter.StartCoroutine("relax");
+        }*/
+
         if(pessoa.getActivityCount() != 0 && !xmlInterpreter.isExecutingActivity){
             pessoa.startActivity();
         }
+
+
     }
 
     private int ActivityTimeToSecond(string time){

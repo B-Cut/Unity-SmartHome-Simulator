@@ -82,11 +82,14 @@ public class Pessoa : MonoBehaviour
     public int getActivityCount(){
         return this.activityQueue.Count;
     }
-    public void changeDestination(Vector3 destPos){
-        agent.SetDestination(destPos);
+    public bool changeDestination(Vector3 destPos){
+        if(!agent.SetDestination(destPos)){
+            return false;
+        }
         destination.moveTo(destPos);
         anim.ResetTrigger("GoIdle");
-        anim.SetTrigger("Walk");     
+        anim.SetTrigger("Walk");
+        return true;
     } 
 
     public string[] getActivities(){
