@@ -53,7 +53,7 @@ public class TimeManagement : MonoBehaviour
             Time.timeScale = 10f;
         }
         else if(Input.GetKeyDown(KeyCode.Keypad5)){
-            Time.timeScale = 25f;
+            Time.timeScale = 15f;
         }
     }
 

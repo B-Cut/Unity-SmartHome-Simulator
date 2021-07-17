@@ -31,7 +31,6 @@ public class XmlActivitiesInterpreter : MonoBehaviour
     public Destination destination;
 
     public TimeManagement timeManagement;
-    public ShowInterruptedSteps interruptedSteps;
 
     public int currentActivityPriority = new int();
 
@@ -39,8 +38,10 @@ public class XmlActivitiesInterpreter : MonoBehaviour
     public string higherPriorityActivity = "";
 
     public bool isExecutingActivity = false;
+    public bool isExecutingHighPriorityActivity = false;
     //XmlNode placesRoot;
 
+    private Stack<string> interruptedActivities = new Stack<string>();
     void Start()
     {
         pessoa = this.transform.GetComponentInParent<Pessoa>();
@@ -75,9 +76,10 @@ public class XmlActivitiesInterpreter : MonoBehaviour
             if(this.executeHigherPriority){
                 Debug.Log("Atividade Interrompida" + this.currentActivity);
                 string interruptedActivity = this.currentActivity;
-                interruptedSteps.addToActivityStack(interruptedActivity);
-                yield return StartCoroutine("ExecuteHigherPriorityActivity", this.higherPriorityActivity);
-                pessoa.changeDestination(dest);
+                Vector3 previousPlace = dest;
+                interruptedActivities.Push(interruptedActivity);
+                yield return StartCoroutine("ExecuteActivity", this.higherPriorityActivity);
+                pessoa.changeDestination(previousPlace);
                 this.currentActivity = interruptedActivity;
                 this.currentStep = "to";
             }
@@ -101,10 +103,13 @@ public class XmlActivitiesInterpreter : MonoBehaviour
                 Vector3 previousPosition = pessoa.transform.position;
                 Debug.Log("Atividade Interrompida" + this.currentActivity);
                 string interruptedActivity = this.currentActivity;
-                yield return StartCoroutine("ExecuteHigherPriorityActivity", this.higherPriorityActivity);
+                interruptedActivities.Push(interruptedActivity);
+                int remainingTime = endTime - (int) timeManagement.getTime();
+                yield return StartCoroutine("ExecuteActivity", this.higherPriorityActivity);
                 this.currentActivity = interruptedActivity;
                 this.currentStep = "wait";
                 pessoa.changeDestination(previousPosition);
+                endTime = (int) timeManagement.getTime() + remainingTime;
             }
             yield return new WaitForEndOfFrame();
         }
@@ -121,6 +126,7 @@ public class XmlActivitiesInterpreter : MonoBehaviour
         float radius = float.Parse(argumentosSeparados[0], CultureInfo.InvariantCulture);
         float endTime = timeManagement.getTime() + getTimeInSeconds(argumentosSeparados[1]);
         float nextDestinationTime = timeManagement.getTime();
+        Vector3 center = getPlaceFromXml(argumentosSeparados[2]);
         //yield return StartCoroutine("to", argumentosSeparados[2]);
         while(timeManagement.getTime() <= endTime){
             if(atDestination == true){
@@ -128,15 +134,15 @@ public class XmlActivitiesInterpreter : MonoBehaviour
                 atDestination = false;
             }
             if(timeManagement.getTime() >= nextDestinationTime){
-                destination.RandomDestinationInArea(radius, this.pessoa.transform.position);
+                destination.RandomDestinationInArea(radius, center);
             }
 
             if(this.executeHigherPriority){
                 Vector3 currentPos = this.pessoa.transform.position;
                 Debug.Log("Atividade Interrompida" + this.currentActivity);
                 string interruptedActivity = this.currentActivity;
-                interruptedSteps.addToActivityStack(interruptedActivity);
-                yield return StartCoroutine("ExecuteHigherPriorityActivity", this.higherPriorityActivity);
+                interruptedActivities.Push(interruptedActivity);
+                yield return StartCoroutine("ExecuteActivity", this.higherPriorityActivity);
                 pessoa.changeDestination(currentPos);
                 this.currentActivity = interruptedActivity;
                 this.currentStep = "wander";
@@ -204,6 +210,7 @@ public class XmlActivitiesInterpreter : MonoBehaviour
         Debug.Log("Executando " + name);
         this.isExecutingActivity = true;
         XmlNode activityRoot = xmlActivities.SelectSingleNode("atividades");
+        if(executeHigherPriority) isExecutingHighPriorityActivity = true;
         executeHigherPriority = false;
         foreach(XmlNode activity in activityRoot.ChildNodes){
             if(activity.Attributes["name"].Value == name){
@@ -217,7 +224,8 @@ public class XmlActivitiesInterpreter : MonoBehaviour
                                 yield return StartCoroutine(splitArgument[0], splitArgument[1]);
                                 break;
                         case "wander": 
-                                yield return StartCoroutine(splitArgument[0], String.Join(" ", splitArgument[1], splitArgument[2], splitArgument[3]));
+                                string joinedString = String.Join(" ", splitArgument[1], splitArgument[2], splitArgument[3]);
+                                yield return StartCoroutine(splitArgument[0], joinedString);
                                 break;
                         default:
                                 Debug.Log("no step named " + step);
@@ -225,10 +233,11 @@ public class XmlActivitiesInterpreter : MonoBehaviour
                     }
                 }
                 isExecutingActivity = false;
-                if(activityEnded != null){
+                if(activityEnded != null && !isExecutingHighPriorityActivity){
                     activityEnded();
                 }
-                interruptedSteps.popFromActivityStack();
+                popFromActivityStack();
+                Debug.Log("Fim da atividade");
                 break;
                 
             }
@@ -291,5 +300,20 @@ public class XmlActivitiesInterpreter : MonoBehaviour
             }
         }
         return 0;
+    }
+
+    public Stack<String> getStack(){
+        return interruptedActivities;
+    }
+
+    public void popFromActivityStack(){
+        if(interruptedActivities.Count == 0){
+            Debug.Log("Stack vazia");
+            isExecutingHighPriorityActivity = false;//Como não há atividades interrompidas na stack, não há atividade prioritária em execução
+            return;
+        }
+        else{
+            this.interruptedActivities.Pop();
+        }   
     }
 }

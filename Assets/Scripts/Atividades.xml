@@ -9,15 +9,16 @@
     a atividade relax é uma atividade especial para qunado não há atividades para executar
 -->
 <atividades>
-    <atividade name="eat" prioridade="3">
+    <atividade name="eat" prioridade="2">
         <passo>to fridge</passo>
         <passo>wait 30s</passo>
         <passo>to diningTable</passo>
         <passo>wait 10m</passo>
     </atividade>
-    <atividade name="cook" prioridade="2">
+    <atividade name="cook" prioridade="3">
         <passo>to stove</passo>
-        <passo>wander 0.4 30m stove</passo>
+        <passo>wait 20m</passo>
+        <!--<passo>wander 0.4 30m stove</passo> Comentado para a apresentação-->
         <passo>to fridge</passo>
         <passo>wait 30s</passo>
     </atividade>

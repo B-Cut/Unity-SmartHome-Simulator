@@ -69,7 +69,7 @@ public class FixedRoutines : MonoBehaviour
             xmlInterpreter.StartCoroutine("relax");
         }*/
 
-        if(pessoa.getActivityCount() != 0 && !xmlInterpreter.isExecutingActivity){
+        if(pessoa.getActivityCount() != 0 && !xmlInterpreter.isExecutingActivity && !xmlInterpreter.isExecutingHighPriorityActivity){
             pessoa.startActivity();
         }
 

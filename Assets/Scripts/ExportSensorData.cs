@@ -17,12 +17,17 @@ public class ExportSensorData : MonoBehaviour
 
     private string csvPath;
     private StreamWriter writer;
+
+    private BaseSensorScript[] sensorsInScene;
     // Start is called before the first frame update
     void Start()
     {
         string csvPath = getPath();
+        
+        sensorsInScene = FindObjectsOfType<BaseSensorScript>();
+
         writer = new StreamWriter(csvPath);
-        writer.WriteLine("Date,Hour,Name,Type,State,User");
+        writer.WriteLine("Date,Hour,Name,State");
         writer.Flush();
 
         InvokeRepeating("getSensorData", 0f, writeInterval);
@@ -34,16 +39,9 @@ public class ExportSensorData : MonoBehaviour
     }
 
     private void getSensorData(){
-        SensorRFID[] rfidsInScene = GetComponentsInChildren<SensorRFID>();
-        AutomaticLampSwitch[] lampsInScene = GetComponentsInChildren<AutomaticLampSwitch>();
-        foreach(SensorRFID sensor in rfidsInScene){
-            writer.WriteLine($"{timeManagement.getDate()},{Math.Round(timeManagement.getTime())},{sensor.name},{sensor.sensorType}" +
-                            $",{sensor.getState()},{sensor.getUser()}");
+        foreach(BaseSensorScript sensor in sensorsInScene){
+            writer.WriteLine($"{timeManagement.getDate()},{Math.Round(timeManagement.getTime())},{sensor.name},{sensor.getState()}");
         }    
-        foreach(AutomaticLampSwitch lamp in lampsInScene){
-            writer.WriteLine($"{timeManagement.getDate()},{Math.Round(timeManagement.getTime())},{lamp.name},{lamp.sensorType}" +
-                            $",{lamp.getState()},{lamp.getUser()}");
-        }
         writer.Flush();
     }
 

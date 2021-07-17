@@ -56,7 +56,7 @@ public class Pessoa : MonoBehaviour
         xmlActivities = GetComponent<XmlActivitiesInterpreter>();
         //activityQueue.Enqueue("sleep");
         if(useFixedRoutine){
-            intervalRoutine.enabled = false;
+            //intervalRoutine.enabled = false;
             fixedRoutines.enabled = true;
 
         }
@@ -64,6 +64,7 @@ public class Pessoa : MonoBehaviour
         else{
             intervalRoutine.enabled = true;
             fixedRoutines.enabled = false;
+            
         }
     }
     void Update(){

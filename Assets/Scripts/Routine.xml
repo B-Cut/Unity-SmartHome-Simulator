@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <routine>
-    <activity time ="8:10">cook</activity>
-    <activity time ="8:31">useBathroom</activity>
-    <activity time ="8:32">eat</activity>
+    <activity time ="8:10">eat</activity>
+    <activity time ="8:12">useBathroom</activity>
+    <activity time ="8:15">cook</activity>
     <activity time ="12:00">cook</activity>
     <activity time ="13:00">eat</activity>
     <activity time ="14:00">useBathroom</activity>

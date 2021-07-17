@@ -19,27 +19,16 @@ public class ShowInterruptedSteps : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        foreach(string str in interruptedActivities){
-            lista += str.ToString() + '\n';
+        if(XmlInterpreter.getStack().Count == 0){
+            lista = "";
         }
+        else{
+            foreach(string str in XmlInterpreter.getStack()){
+                lista += str.ToString() + '\n';
+            }
+        }
+        
         interruptedText.text = lista; 
     }
 
-    
-    public void addToActivityStack(string activity){
-        this.interruptedActivities.Push(activity);
-    }
-
-    public void popFromActivityStack(){
-        if(interruptedActivities.Count == 0){
-            Debug.Log("Stack vazia");
-            return;
-        }
-        else{
-            this.interruptedActivities.Pop();
-            lista = "";
-        }
-        
-    }
 }
