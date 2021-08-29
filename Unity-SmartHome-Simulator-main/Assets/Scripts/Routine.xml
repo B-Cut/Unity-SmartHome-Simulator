@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Contem os dados relacionados a rotina do usuário, o atributo time dita o horário de inicio da atividade
+Atividades devem ser detalhadas no arquivo Atividades.xml-->
+<routine>
+    <activity time ="8:10">eat</activity>
+    <activity time ="8:12">useBathroom</activity>
+    <activity time ="8:15">cook</activity>
+    <activity time ="12:00">cook</activity>
+    <activity time ="13:00">eat</activity>
+    <activity time ="14:00">useBathroom</activity>
+    <activity time ="14:30">takeBath</activity>
+    <activity time ="16:00">eat</activity>
+    <activity time ="17:00">useBathroom</activity>
+    <activity time ="18:30">cook</activity>
+    <activity time ="20:00">eat</activity>
+    <activity time ="21:00">useBathroom</activity>
+    <activity time ="22:00">sleep</activity>
+</routine>

@@ -1,0 +1,2076 @@
+Date,Hour,Name,State,UserActivity
+20200101,28800,SensorBaseBox,False,
+20200101,28800,SensorArmario (2),False,
+20200101,28800,SensorCama,False,
+20200101,28800,SensorFogao,False,
+20200101,28800,SensorMesaJantar (4),False,
+20200101,28800,SensorCama (4),False,
+20200101,28800,SensorMesaJantar (3),False,
+20200101,28800,SensorCama (5),False,
+20200101,28800,SensorMesaJantar,False,
+20200101,28800,SensorCama (2),False,
+20200101,28800,SensorSofa (1),False,
+20200101,28800,SensorPia,False,
+20200101,28800,SensorMesaJantar (2),False,
+20200101,28800,SensorRack,False,
+20200101,28800,SensorCama (1),False,
+20200101,28800,SensorArmario,True,
+20200101,28800,SensorRack (1),False,
+20200101,28800,SensorArmario (1),True,
+20200101,28800,SensorGeladeira,False,
+20200101,28800,SensorMesaJantar (1),False,
+20200101,28800,SensorSofa (2),False,
+20200101,28800,SensorCama (3),False,
+20200101,28800,SensorMesaCorredor,False,
+20200101,28800,SensorSofa,False,
+20200101,28800,SensorDeTestes,False,
+20200101,28802,SensorBaseBox,False,
+20200101,28802,SensorArmario (2),False,
+20200101,28802,SensorCama,False,
+20200101,28802,SensorFogao,False,
+20200101,28802,SensorMesaJantar (4),False,
+20200101,28802,SensorCama (4),False,
+20200101,28802,SensorMesaJantar (3),False,
+20200101,28802,SensorCama (5),False,
+20200101,28802,SensorMesaJantar,False,
+20200101,28802,SensorCama (2),True,
+20200101,28802,SensorSofa (1),False,
+20200101,28802,SensorPia,False,
+20200101,28802,SensorMesaJantar (2),False,
+20200101,28802,SensorRack,False,
+20200101,28802,SensorCama (1),False,
+20200101,28802,SensorArmario,True,
+20200101,28802,SensorRack (1),False,
+20200101,28802,SensorArmario (1),True,
+20200101,28802,SensorGeladeira,False,
+20200101,28802,SensorMesaJantar (1),False,
+20200101,28802,SensorSofa (2),False,
+20200101,28802,SensorCama (3),False,
+20200101,28802,SensorMesaCorredor,False,
+20200101,28802,SensorSofa,False,
+20200101,28802,SensorDeTestes,False,
+20200101,28827,SensorBaseBox,False,
+20200101,28827,SensorArmario (2),False,
+20200101,28827,SensorCama,False,
+20200101,28827,SensorFogao,False,
+20200101,28827,SensorMesaJantar (4),False,
+20200101,28827,SensorCama (4),False,
+20200101,28827,SensorMesaJantar (3),False,
+20200101,28827,SensorCama (5),False,
+20200101,28827,SensorMesaJantar,False,
+20200101,28827,SensorCama (2),True,
+20200101,28827,SensorSofa (1),False,
+20200101,28827,SensorPia,False,
+20200101,28827,SensorMesaJantar (2),False,
+20200101,28827,SensorRack,False,
+20200101,28827,SensorCama (1),False,
+20200101,28827,SensorArmario,True,
+20200101,28827,SensorRack (1),False,
+20200101,28827,SensorArmario (1),True,
+20200101,28827,SensorGeladeira,False,
+20200101,28827,SensorMesaJantar (1),False,
+20200101,28827,SensorSofa (2),False,
+20200101,28827,SensorCama (3),False,
+20200101,28827,SensorMesaCorredor,False,
+20200101,28827,SensorSofa,False,
+20200101,28827,SensorDeTestes,False,
+20200101,28857,SensorBaseBox,False,
+20200101,28857,SensorArmario (2),False,
+20200101,28857,SensorCama,False,
+20200101,28857,SensorFogao,False,
+20200101,28857,SensorMesaJantar (4),False,
+20200101,28857,SensorCama (4),False,
+20200101,28857,SensorMesaJantar (3),False,
+20200101,28857,SensorCama (5),False,
+20200101,28857,SensorMesaJantar,False,
+20200101,28857,SensorCama (2),True,
+20200101,28857,SensorSofa (1),False,
+20200101,28857,SensorPia,False,
+20200101,28857,SensorMesaJantar (2),False,
+20200101,28857,SensorRack,False,
+20200101,28857,SensorCama (1),False,
+20200101,28857,SensorArmario,True,
+20200101,28857,SensorRack (1),False,
+20200101,28857,SensorArmario (1),True,
+20200101,28857,SensorGeladeira,False,
+20200101,28857,SensorMesaJantar (1),False,
+20200101,28857,SensorSofa (2),False,
+20200101,28857,SensorCama (3),False,
+20200101,28857,SensorMesaCorredor,False,
+20200101,28857,SensorSofa,False,
+20200101,28857,SensorDeTestes,False,
+20200101,28887,SensorBaseBox,False,
+20200101,28887,SensorArmario (2),False,
+20200101,28887,SensorCama,False,
+20200101,28887,SensorFogao,False,
+20200101,28887,SensorMesaJantar (4),False,
+20200101,28887,SensorCama (4),False,
+20200101,28887,SensorMesaJantar (3),False,
+20200101,28887,SensorCama (5),False,
+20200101,28887,SensorMesaJantar,False,
+20200101,28887,SensorCama (2),True,
+20200101,28887,SensorSofa (1),False,
+20200101,28887,SensorPia,False,
+20200101,28887,SensorMesaJantar (2),False,
+20200101,28887,SensorRack,False,
+20200101,28887,SensorCama (1),False,
+20200101,28887,SensorArmario,True,
+20200101,28887,SensorRack (1),False,
+20200101,28887,SensorArmario (1),True,
+20200101,28887,SensorGeladeira,False,
+20200101,28887,SensorMesaJantar (1),False,
+20200101,28887,SensorSofa (2),False,
+20200101,28887,SensorCama (3),False,
+20200101,28887,SensorMesaCorredor,False,
+20200101,28887,SensorSofa,False,
+20200101,28887,SensorDeTestes,False,
+20200101,28917,SensorBaseBox,False,
+20200101,28917,SensorArmario (2),False,
+20200101,28917,SensorCama,False,
+20200101,28917,SensorFogao,False,
+20200101,28917,SensorMesaJantar (4),False,
+20200101,28917,SensorCama (4),False,
+20200101,28917,SensorMesaJantar (3),False,
+20200101,28917,SensorCama (5),False,
+20200101,28917,SensorMesaJantar,False,
+20200101,28917,SensorCama (2),True,
+20200101,28917,SensorSofa (1),False,
+20200101,28917,SensorPia,False,
+20200101,28917,SensorMesaJantar (2),False,
+20200101,28917,SensorRack,False,
+20200101,28917,SensorCama (1),False,
+20200101,28917,SensorArmario,True,
+20200101,28917,SensorRack (1),False,
+20200101,28917,SensorArmario (1),True,
+20200101,28917,SensorGeladeira,False,
+20200101,28917,SensorMesaJantar (1),False,
+20200101,28917,SensorSofa (2),False,
+20200101,28917,SensorCama (3),False,
+20200101,28917,SensorMesaCorredor,False,
+20200101,28917,SensorSofa,False,
+20200101,28917,SensorDeTestes,False,
+20200101,28947,SensorBaseBox,False,
+20200101,28947,SensorArmario (2),False,
+20200101,28947,SensorCama,False,
+20200101,28947,SensorFogao,False,
+20200101,28947,SensorMesaJantar (4),False,
+20200101,28947,SensorCama (4),False,
+20200101,28947,SensorMesaJantar (3),False,
+20200101,28947,SensorCama (5),False,
+20200101,28947,SensorMesaJantar,False,
+20200101,28947,SensorCama (2),True,
+20200101,28947,SensorSofa (1),False,
+20200101,28947,SensorPia,False,
+20200101,28947,SensorMesaJantar (2),False,
+20200101,28947,SensorRack,False,
+20200101,28947,SensorCama (1),False,
+20200101,28947,SensorArmario,True,
+20200101,28947,SensorRack (1),False,
+20200101,28947,SensorArmario (1),True,
+20200101,28947,SensorGeladeira,False,
+20200101,28947,SensorMesaJantar (1),False,
+20200101,28947,SensorSofa (2),False,
+20200101,28947,SensorCama (3),False,
+20200101,28947,SensorMesaCorredor,False,
+20200101,28947,SensorSofa,False,
+20200101,28947,SensorDeTestes,False,
+20200101,28977,SensorBaseBox,False,
+20200101,28977,SensorArmario (2),False,
+20200101,28977,SensorCama,False,
+20200101,28977,SensorFogao,False,
+20200101,28977,SensorMesaJantar (4),False,
+20200101,28977,SensorCama (4),False,
+20200101,28977,SensorMesaJantar (3),False,
+20200101,28977,SensorCama (5),False,
+20200101,28977,SensorMesaJantar,False,
+20200101,28977,SensorCama (2),True,
+20200101,28977,SensorSofa (1),False,
+20200101,28977,SensorPia,False,
+20200101,28977,SensorMesaJantar (2),False,
+20200101,28977,SensorRack,False,
+20200101,28977,SensorCama (1),False,
+20200101,28977,SensorArmario,True,
+20200101,28977,SensorRack (1),False,
+20200101,28977,SensorArmario (1),True,
+20200101,28977,SensorGeladeira,False,
+20200101,28977,SensorMesaJantar (1),False,
+20200101,28977,SensorSofa (2),False,
+20200101,28977,SensorCama (3),False,
+20200101,28977,SensorMesaCorredor,False,
+20200101,28977,SensorSofa,False,
+20200101,28977,SensorDeTestes,False,
+20200101,29007,SensorBaseBox,False,
+20200101,29007,SensorArmario (2),False,
+20200101,29007,SensorCama,False,
+20200101,29007,SensorFogao,False,
+20200101,29007,SensorMesaJantar (4),False,
+20200101,29007,SensorCama (4),False,
+20200101,29007,SensorMesaJantar (3),False,
+20200101,29007,SensorCama (5),False,
+20200101,29007,SensorMesaJantar,False,
+20200101,29007,SensorCama (2),True,
+20200101,29007,SensorSofa (1),False,
+20200101,29007,SensorPia,False,
+20200101,29007,SensorMesaJantar (2),False,
+20200101,29007,SensorRack,False,
+20200101,29007,SensorCama (1),False,
+20200101,29007,SensorArmario,True,
+20200101,29007,SensorRack (1),False,
+20200101,29007,SensorArmario (1),True,
+20200101,29007,SensorGeladeira,False,
+20200101,29007,SensorMesaJantar (1),False,
+20200101,29007,SensorSofa (2),False,
+20200101,29007,SensorCama (3),False,
+20200101,29007,SensorMesaCorredor,False,
+20200101,29007,SensorSofa,False,
+20200101,29007,SensorDeTestes,False,
+20200101,29037,SensorBaseBox,False,
+20200101,29037,SensorArmario (2),False,
+20200101,29037,SensorCama,False,
+20200101,29037,SensorFogao,False,
+20200101,29037,SensorMesaJantar (4),False,
+20200101,29037,SensorCama (4),False,
+20200101,29037,SensorMesaJantar (3),False,
+20200101,29037,SensorCama (5),False,
+20200101,29037,SensorMesaJantar,False,
+20200101,29037,SensorCama (2),True,
+20200101,29037,SensorSofa (1),False,
+20200101,29037,SensorPia,False,
+20200101,29037,SensorMesaJantar (2),False,
+20200101,29037,SensorRack,False,
+20200101,29037,SensorCama (1),False,
+20200101,29037,SensorArmario,True,
+20200101,29037,SensorRack (1),False,
+20200101,29037,SensorArmario (1),True,
+20200101,29037,SensorGeladeira,False,
+20200101,29037,SensorMesaJantar (1),False,
+20200101,29037,SensorSofa (2),False,
+20200101,29037,SensorCama (3),False,
+20200101,29037,SensorMesaCorredor,False,
+20200101,29037,SensorSofa,False,
+20200101,29037,SensorDeTestes,False,
+20200101,29065,SensorBaseBox,False,
+20200101,29065,SensorArmario (2),False,
+20200101,29065,SensorCama,False,
+20200101,29065,SensorFogao,False,
+20200101,29065,SensorMesaJantar (4),False,
+20200101,29065,SensorCama (4),False,
+20200101,29065,SensorMesaJantar (3),False,
+20200101,29065,SensorCama (5),False,
+20200101,29065,SensorMesaJantar,False,
+20200101,29065,SensorCama (2),True,
+20200101,29065,SensorSofa (1),False,
+20200101,29065,SensorPia,False,
+20200101,29065,SensorMesaJantar (2),False,
+20200101,29065,SensorRack,False,
+20200101,29065,SensorCama (1),False,
+20200101,29065,SensorArmario,True,
+20200101,29065,SensorRack (1),False,
+20200101,29065,SensorArmario (1),True,
+20200101,29065,SensorGeladeira,False,
+20200101,29065,SensorMesaJantar (1),False,
+20200101,29065,SensorSofa (2),False,
+20200101,29065,SensorCama (3),False,
+20200101,29065,SensorMesaCorredor,False,
+20200101,29065,SensorSofa,False,
+20200101,29065,SensorDeTestes,False,
+20200101,29096,SensorBaseBox,False,
+20200101,29096,SensorArmario (2),False,
+20200101,29096,SensorCama,False,
+20200101,29096,SensorFogao,False,
+20200101,29096,SensorMesaJantar (4),False,
+20200101,29096,SensorCama (4),False,
+20200101,29096,SensorMesaJantar (3),False,
+20200101,29096,SensorCama (5),False,
+20200101,29096,SensorMesaJantar,False,
+20200101,29096,SensorCama (2),True,
+20200101,29096,SensorSofa (1),False,
+20200101,29096,SensorPia,False,
+20200101,29096,SensorMesaJantar (2),False,
+20200101,29096,SensorRack,False,
+20200101,29096,SensorCama (1),False,
+20200101,29096,SensorArmario,True,
+20200101,29096,SensorRack (1),False,
+20200101,29096,SensorArmario (1),True,
+20200101,29096,SensorGeladeira,False,
+20200101,29096,SensorMesaJantar (1),False,
+20200101,29096,SensorSofa (2),False,
+20200101,29096,SensorCama (3),False,
+20200101,29096,SensorMesaCorredor,False,
+20200101,29096,SensorSofa,False,
+20200101,29096,SensorDeTestes,False,
+20200101,29126,SensorBaseBox,False,
+20200101,29126,SensorArmario (2),False,
+20200101,29126,SensorCama,False,
+20200101,29126,SensorFogao,False,
+20200101,29126,SensorMesaJantar (4),False,
+20200101,29126,SensorCama (4),False,
+20200101,29126,SensorMesaJantar (3),False,
+20200101,29126,SensorCama (5),False,
+20200101,29126,SensorMesaJantar,False,
+20200101,29126,SensorCama (2),True,
+20200101,29126,SensorSofa (1),False,
+20200101,29126,SensorPia,False,
+20200101,29126,SensorMesaJantar (2),False,
+20200101,29126,SensorRack,False,
+20200101,29126,SensorCama (1),False,
+20200101,29126,SensorArmario,True,
+20200101,29126,SensorRack (1),False,
+20200101,29126,SensorArmario (1),True,
+20200101,29126,SensorGeladeira,False,
+20200101,29126,SensorMesaJantar (1),False,
+20200101,29126,SensorSofa (2),False,
+20200101,29126,SensorCama (3),False,
+20200101,29126,SensorMesaCorredor,False,
+20200101,29126,SensorSofa,False,
+20200101,29126,SensorDeTestes,False,
+20200101,29155,SensorBaseBox,False,
+20200101,29155,SensorArmario (2),False,
+20200101,29155,SensorCama,False,
+20200101,29155,SensorFogao,False,
+20200101,29155,SensorMesaJantar (4),False,
+20200101,29155,SensorCama (4),False,
+20200101,29155,SensorMesaJantar (3),False,
+20200101,29155,SensorCama (5),False,
+20200101,29155,SensorMesaJantar,False,
+20200101,29155,SensorCama (2),True,
+20200101,29155,SensorSofa (1),False,
+20200101,29155,SensorPia,False,
+20200101,29155,SensorMesaJantar (2),False,
+20200101,29155,SensorRack,False,
+20200101,29155,SensorCama (1),False,
+20200101,29155,SensorArmario,True,
+20200101,29155,SensorRack (1),False,
+20200101,29155,SensorArmario (1),True,
+20200101,29155,SensorGeladeira,False,
+20200101,29155,SensorMesaJantar (1),False,
+20200101,29155,SensorSofa (2),False,
+20200101,29155,SensorCama (3),False,
+20200101,29155,SensorMesaCorredor,False,
+20200101,29155,SensorSofa,False,
+20200101,29155,SensorDeTestes,False,
+20200101,29186,SensorBaseBox,False,
+20200101,29186,SensorArmario (2),False,
+20200101,29186,SensorCama,False,
+20200101,29186,SensorFogao,False,
+20200101,29186,SensorMesaJantar (4),False,
+20200101,29186,SensorCama (4),False,
+20200101,29186,SensorMesaJantar (3),False,
+20200101,29186,SensorCama (5),False,
+20200101,29186,SensorMesaJantar,False,
+20200101,29186,SensorCama (2),True,
+20200101,29186,SensorSofa (1),False,
+20200101,29186,SensorPia,False,
+20200101,29186,SensorMesaJantar (2),False,
+20200101,29186,SensorRack,False,
+20200101,29186,SensorCama (1),False,
+20200101,29186,SensorArmario,True,
+20200101,29186,SensorRack (1),False,
+20200101,29186,SensorArmario (1),True,
+20200101,29186,SensorGeladeira,False,
+20200101,29186,SensorMesaJantar (1),False,
+20200101,29186,SensorSofa (2),False,
+20200101,29186,SensorCama (3),False,
+20200101,29186,SensorMesaCorredor,False,
+20200101,29186,SensorSofa,False,
+20200101,29186,SensorDeTestes,False,
+20200101,29215,SensorBaseBox,False,
+20200101,29215,SensorArmario (2),False,
+20200101,29215,SensorCama,False,
+20200101,29215,SensorFogao,False,
+20200101,29215,SensorMesaJantar (4),False,
+20200101,29215,SensorCama (4),False,
+20200101,29215,SensorMesaJantar (3),False,
+20200101,29215,SensorCama (5),False,
+20200101,29215,SensorMesaJantar,False,
+20200101,29215,SensorCama (2),True,
+20200101,29215,SensorSofa (1),False,
+20200101,29215,SensorPia,False,
+20200101,29215,SensorMesaJantar (2),False,
+20200101,29215,SensorRack,False,
+20200101,29215,SensorCama (1),False,
+20200101,29215,SensorArmario,True,
+20200101,29215,SensorRack (1),False,
+20200101,29215,SensorArmario (1),True,
+20200101,29215,SensorGeladeira,False,
+20200101,29215,SensorMesaJantar (1),False,
+20200101,29215,SensorSofa (2),False,
+20200101,29215,SensorCama (3),False,
+20200101,29215,SensorMesaCorredor,False,
+20200101,29215,SensorSofa,False,
+20200101,29215,SensorDeTestes,False,
+20200101,29245,SensorBaseBox,False,
+20200101,29245,SensorArmario (2),False,
+20200101,29245,SensorCama,False,
+20200101,29245,SensorFogao,False,
+20200101,29245,SensorMesaJantar (4),False,
+20200101,29245,SensorCama (4),False,
+20200101,29245,SensorMesaJantar (3),False,
+20200101,29245,SensorCama (5),False,
+20200101,29245,SensorMesaJantar,False,
+20200101,29245,SensorCama (2),True,
+20200101,29245,SensorSofa (1),False,
+20200101,29245,SensorPia,False,
+20200101,29245,SensorMesaJantar (2),False,
+20200101,29245,SensorRack,False,
+20200101,29245,SensorCama (1),False,
+20200101,29245,SensorArmario,True,
+20200101,29245,SensorRack (1),False,
+20200101,29245,SensorArmario (1),True,
+20200101,29245,SensorGeladeira,False,
+20200101,29245,SensorMesaJantar (1),False,
+20200101,29245,SensorSofa (2),False,
+20200101,29245,SensorCama (3),False,
+20200101,29245,SensorMesaCorredor,False,
+20200101,29245,SensorSofa,False,
+20200101,29245,SensorDeTestes,False,
+20200101,29276,SensorBaseBox,False,
+20200101,29276,SensorArmario (2),False,
+20200101,29276,SensorCama,False,
+20200101,29276,SensorFogao,False,
+20200101,29276,SensorMesaJantar (4),False,
+20200101,29276,SensorCama (4),False,
+20200101,29276,SensorMesaJantar (3),False,
+20200101,29276,SensorCama (5),False,
+20200101,29276,SensorMesaJantar,False,
+20200101,29276,SensorCama (2),True,
+20200101,29276,SensorSofa (1),False,
+20200101,29276,SensorPia,False,
+20200101,29276,SensorMesaJantar (2),False,
+20200101,29276,SensorRack,False,
+20200101,29276,SensorCama (1),False,
+20200101,29276,SensorArmario,True,
+20200101,29276,SensorRack (1),False,
+20200101,29276,SensorArmario (1),True,
+20200101,29276,SensorGeladeira,False,
+20200101,29276,SensorMesaJantar (1),False,
+20200101,29276,SensorSofa (2),False,
+20200101,29276,SensorCama (3),False,
+20200101,29276,SensorMesaCorredor,False,
+20200101,29276,SensorSofa,False,
+20200101,29276,SensorDeTestes,False,
+20200101,29296,SensorBaseBox,False,
+20200101,29296,SensorArmario (2),False,
+20200101,29296,SensorCama,False,
+20200101,29296,SensorFogao,False,
+20200101,29296,SensorMesaJantar (4),False,
+20200101,29296,SensorCama (4),False,
+20200101,29296,SensorMesaJantar (3),False,
+20200101,29296,SensorCama (5),False,
+20200101,29296,SensorMesaJantar,False,
+20200101,29296,SensorCama (2),True,
+20200101,29296,SensorSofa (1),False,
+20200101,29296,SensorPia,False,
+20200101,29296,SensorMesaJantar (2),False,
+20200101,29296,SensorRack,False,
+20200101,29296,SensorCama (1),False,
+20200101,29296,SensorArmario,True,
+20200101,29296,SensorRack (1),False,
+20200101,29296,SensorArmario (1),True,
+20200101,29296,SensorGeladeira,False,
+20200101,29296,SensorMesaJantar (1),False,
+20200101,29296,SensorSofa (2),False,
+20200101,29296,SensorCama (3),False,
+20200101,29296,SensorMesaCorredor,False,
+20200101,29296,SensorSofa,False,
+20200101,29296,SensorDeTestes,False,
+20200101,29298,SensorBaseBox,False,
+20200101,29298,SensorArmario (2),False,
+20200101,29298,SensorCama,False,
+20200101,29298,SensorFogao,False,
+20200101,29298,SensorMesaJantar (4),False,
+20200101,29298,SensorCama (4),False,
+20200101,29298,SensorMesaJantar (3),False,
+20200101,29298,SensorCama (5),False,
+20200101,29298,SensorMesaJantar,False,
+20200101,29298,SensorCama (2),True,
+20200101,29298,SensorSofa (1),False,
+20200101,29298,SensorPia,False,
+20200101,29298,SensorMesaJantar (2),False,
+20200101,29298,SensorRack,False,
+20200101,29298,SensorCama (1),False,
+20200101,29298,SensorArmario,True,
+20200101,29298,SensorRack (1),False,
+20200101,29298,SensorArmario (1),True,
+20200101,29298,SensorGeladeira,False,
+20200101,29298,SensorMesaJantar (1),False,
+20200101,29298,SensorSofa (2),False,
+20200101,29298,SensorCama (3),False,
+20200101,29298,SensorMesaCorredor,False,
+20200101,29298,SensorSofa,False,
+20200101,29298,SensorDeTestes,False,
+20200101,29302,SensorBaseBox,False,
+20200101,29302,SensorArmario (2),False,
+20200101,29302,SensorCama,False,
+20200101,29302,SensorFogao,False,
+20200101,29302,SensorMesaJantar (4),False,
+20200101,29302,SensorCama (4),False,
+20200101,29302,SensorMesaJantar (3),False,
+20200101,29302,SensorCama (5),False,
+20200101,29302,SensorMesaJantar,False,
+20200101,29302,SensorCama (2),True,
+20200101,29302,SensorSofa (1),False,
+20200101,29302,SensorPia,False,
+20200101,29302,SensorMesaJantar (2),False,
+20200101,29302,SensorRack,False,
+20200101,29302,SensorCama (1),False,
+20200101,29302,SensorArmario,True,
+20200101,29302,SensorRack (1),False,
+20200101,29302,SensorArmario (1),True,
+20200101,29302,SensorGeladeira,False,
+20200101,29302,SensorMesaJantar (1),False,
+20200101,29302,SensorSofa (2),False,
+20200101,29302,SensorCama (3),False,
+20200101,29302,SensorMesaCorredor,False,
+20200101,29302,SensorSofa,False,
+20200101,29302,SensorDeTestes,False,
+20200101,29306,SensorBaseBox,False,
+20200101,29306,SensorArmario (2),False,
+20200101,29306,SensorCama,False,
+20200101,29306,SensorFogao,False,
+20200101,29306,SensorMesaJantar (4),False,
+20200101,29306,SensorCama (4),False,
+20200101,29306,SensorMesaJantar (3),False,
+20200101,29306,SensorCama (5),False,
+20200101,29306,SensorMesaJantar,False,
+20200101,29306,SensorCama (2),True,
+20200101,29306,SensorSofa (1),False,
+20200101,29306,SensorPia,False,
+20200101,29306,SensorMesaJantar (2),False,
+20200101,29306,SensorRack,False,
+20200101,29306,SensorCama (1),False,
+20200101,29306,SensorArmario,True,
+20200101,29306,SensorRack (1),False,
+20200101,29306,SensorArmario (1),True,
+20200101,29306,SensorGeladeira,False,
+20200101,29306,SensorMesaJantar (1),False,
+20200101,29306,SensorSofa (2),False,
+20200101,29306,SensorCama (3),False,
+20200101,29306,SensorMesaCorredor,False,
+20200101,29306,SensorSofa,False,
+20200101,29306,SensorDeTestes,False,
+20200101,29310,SensorBaseBox,False,
+20200101,29310,SensorArmario (2),False,
+20200101,29310,SensorCama,False,
+20200101,29310,SensorFogao,False,
+20200101,29310,SensorMesaJantar (4),False,
+20200101,29310,SensorCama (4),False,
+20200101,29310,SensorMesaJantar (3),False,
+20200101,29310,SensorCama (5),False,
+20200101,29310,SensorMesaJantar,False,
+20200101,29310,SensorCama (2),True,
+20200101,29310,SensorSofa (1),False,
+20200101,29310,SensorPia,False,
+20200101,29310,SensorMesaJantar (2),False,
+20200101,29310,SensorRack,False,
+20200101,29310,SensorCama (1),False,
+20200101,29310,SensorArmario,True,
+20200101,29310,SensorRack (1),False,
+20200101,29310,SensorArmario (1),True,
+20200101,29310,SensorGeladeira,False,
+20200101,29310,SensorMesaJantar (1),False,
+20200101,29310,SensorSofa (2),False,
+20200101,29310,SensorCama (3),False,
+20200101,29310,SensorMesaCorredor,False,
+20200101,29310,SensorSofa,False,
+20200101,29310,SensorDeTestes,False,
+20200101,29317,SensorBaseBox,False,
+20200101,29317,SensorArmario (2),False,
+20200101,29317,SensorCama,False,
+20200101,29317,SensorFogao,False,
+20200101,29317,SensorMesaJantar (4),False,
+20200101,29317,SensorCama (4),False,
+20200101,29317,SensorMesaJantar (3),False,
+20200101,29317,SensorCama (5),False,
+20200101,29317,SensorMesaJantar,False,
+20200101,29317,SensorCama (2),True,
+20200101,29317,SensorSofa (1),False,
+20200101,29317,SensorPia,False,
+20200101,29317,SensorMesaJantar (2),False,
+20200101,29317,SensorRack,False,
+20200101,29317,SensorCama (1),False,
+20200101,29317,SensorArmario,True,
+20200101,29317,SensorRack (1),False,
+20200101,29317,SensorArmario (1),True,
+20200101,29317,SensorGeladeira,False,
+20200101,29317,SensorMesaJantar (1),False,
+20200101,29317,SensorSofa (2),False,
+20200101,29317,SensorCama (3),False,
+20200101,29317,SensorMesaCorredor,False,
+20200101,29317,SensorSofa,False,
+20200101,29317,SensorDeTestes,False,
+20200101,29327,SensorBaseBox,False,
+20200101,29327,SensorArmario (2),False,
+20200101,29327,SensorCama,False,
+20200101,29327,SensorFogao,False,
+20200101,29327,SensorMesaJantar (4),False,
+20200101,29327,SensorCama (4),False,
+20200101,29327,SensorMesaJantar (3),False,
+20200101,29327,SensorCama (5),False,
+20200101,29327,SensorMesaJantar,False,
+20200101,29327,SensorCama (2),True,
+20200101,29327,SensorSofa (1),False,
+20200101,29327,SensorPia,False,
+20200101,29327,SensorMesaJantar (2),False,
+20200101,29327,SensorRack,False,
+20200101,29327,SensorCama (1),False,
+20200101,29327,SensorArmario,True,
+20200101,29327,SensorRack (1),False,
+20200101,29327,SensorArmario (1),True,
+20200101,29327,SensorGeladeira,False,
+20200101,29327,SensorMesaJantar (1),False,
+20200101,29327,SensorSofa (2),False,
+20200101,29327,SensorCama (3),False,
+20200101,29327,SensorMesaCorredor,False,
+20200101,29327,SensorSofa,False,
+20200101,29327,SensorDeTestes,False,
+20200101,29337,SensorBaseBox,False,
+20200101,29337,SensorArmario (2),False,
+20200101,29337,SensorCama,False,
+20200101,29337,SensorFogao,False,
+20200101,29337,SensorMesaJantar (4),False,
+20200101,29337,SensorCama (4),False,
+20200101,29337,SensorMesaJantar (3),False,
+20200101,29337,SensorCama (5),False,
+20200101,29337,SensorMesaJantar,False,
+20200101,29337,SensorCama (2),True,
+20200101,29337,SensorSofa (1),False,
+20200101,29337,SensorPia,False,
+20200101,29337,SensorMesaJantar (2),False,
+20200101,29337,SensorRack,False,
+20200101,29337,SensorCama (1),False,
+20200101,29337,SensorArmario,True,
+20200101,29337,SensorRack (1),False,
+20200101,29337,SensorArmario (1),True,
+20200101,29337,SensorGeladeira,False,
+20200101,29337,SensorMesaJantar (1),False,
+20200101,29337,SensorSofa (2),False,
+20200101,29337,SensorCama (3),False,
+20200101,29337,SensorMesaCorredor,False,
+20200101,29337,SensorSofa,False,
+20200101,29337,SensorDeTestes,False,
+20200101,29347,SensorBaseBox,False,
+20200101,29347,SensorArmario (2),False,
+20200101,29347,SensorCama,False,
+20200101,29347,SensorFogao,False,
+20200101,29347,SensorMesaJantar (4),False,
+20200101,29347,SensorCama (4),False,
+20200101,29347,SensorMesaJantar (3),False,
+20200101,29347,SensorCama (5),False,
+20200101,29347,SensorMesaJantar,False,
+20200101,29347,SensorCama (2),True,
+20200101,29347,SensorSofa (1),False,
+20200101,29347,SensorPia,False,
+20200101,29347,SensorMesaJantar (2),False,
+20200101,29347,SensorRack,False,
+20200101,29347,SensorCama (1),False,
+20200101,29347,SensorArmario,True,
+20200101,29347,SensorRack (1),False,
+20200101,29347,SensorArmario (1),True,
+20200101,29347,SensorGeladeira,False,
+20200101,29347,SensorMesaJantar (1),False,
+20200101,29347,SensorSofa (2),False,
+20200101,29347,SensorCama (3),False,
+20200101,29347,SensorMesaCorredor,False,
+20200101,29347,SensorSofa,False,
+20200101,29347,SensorDeTestes,False,
+20200101,29357,SensorBaseBox,False,
+20200101,29357,SensorArmario (2),False,
+20200101,29357,SensorCama,False,
+20200101,29357,SensorFogao,False,
+20200101,29357,SensorMesaJantar (4),False,
+20200101,29357,SensorCama (4),False,
+20200101,29357,SensorMesaJantar (3),False,
+20200101,29357,SensorCama (5),False,
+20200101,29357,SensorMesaJantar,False,
+20200101,29357,SensorCama (2),True,
+20200101,29357,SensorSofa (1),False,
+20200101,29357,SensorPia,False,
+20200101,29357,SensorMesaJantar (2),False,
+20200101,29357,SensorRack,False,
+20200101,29357,SensorCama (1),False,
+20200101,29357,SensorArmario,True,
+20200101,29357,SensorRack (1),False,
+20200101,29357,SensorArmario (1),True,
+20200101,29357,SensorGeladeira,False,
+20200101,29357,SensorMesaJantar (1),False,
+20200101,29357,SensorSofa (2),False,
+20200101,29357,SensorCama (3),False,
+20200101,29357,SensorMesaCorredor,False,
+20200101,29357,SensorSofa,False,
+20200101,29357,SensorDeTestes,False,
+20200101,29377,SensorBaseBox,False,
+20200101,29377,SensorArmario (2),False,
+20200101,29377,SensorCama,False,
+20200101,29377,SensorFogao,False,
+20200101,29377,SensorMesaJantar (4),False,
+20200101,29377,SensorCama (4),False,
+20200101,29377,SensorMesaJantar (3),False,
+20200101,29377,SensorCama (5),False,
+20200101,29377,SensorMesaJantar,False,
+20200101,29377,SensorCama (2),True,
+20200101,29377,SensorSofa (1),False,
+20200101,29377,SensorPia,False,
+20200101,29377,SensorMesaJantar (2),False,
+20200101,29377,SensorRack,False,
+20200101,29377,SensorCama (1),False,
+20200101,29377,SensorArmario,True,
+20200101,29377,SensorRack (1),False,
+20200101,29377,SensorArmario (1),True,
+20200101,29377,SensorGeladeira,False,
+20200101,29377,SensorMesaJantar (1),False,
+20200101,29377,SensorSofa (2),False,
+20200101,29377,SensorCama (3),False,
+20200101,29377,SensorMesaCorredor,False,
+20200101,29377,SensorSofa,False,
+20200101,29377,SensorDeTestes,False,
+20200101,29397,SensorBaseBox,False,
+20200101,29397,SensorArmario (2),False,
+20200101,29397,SensorCama,False,
+20200101,29397,SensorFogao,False,
+20200101,29397,SensorMesaJantar (4),False,
+20200101,29397,SensorCama (4),False,
+20200101,29397,SensorMesaJantar (3),False,
+20200101,29397,SensorCama (5),False,
+20200101,29397,SensorMesaJantar,False,
+20200101,29397,SensorCama (2),True,
+20200101,29397,SensorSofa (1),False,
+20200101,29397,SensorPia,False,
+20200101,29397,SensorMesaJantar (2),False,
+20200101,29397,SensorRack,False,
+20200101,29397,SensorCama (1),False,
+20200101,29397,SensorArmario,True,
+20200101,29397,SensorRack (1),False,
+20200101,29397,SensorArmario (1),True,
+20200101,29397,SensorGeladeira,False,
+20200101,29397,SensorMesaJantar (1),False,
+20200101,29397,SensorSofa (2),False,
+20200101,29397,SensorCama (3),False,
+20200101,29397,SensorMesaCorredor,False,
+20200101,29397,SensorSofa,False,
+20200101,29397,SensorDeTestes,False,
+20200101,29417,SensorBaseBox,False,eat
+20200101,29417,SensorArmario (2),False,eat
+20200101,29417,SensorCama,False,eat
+20200101,29417,SensorFogao,False,eat
+20200101,29417,SensorMesaJantar (4),False,eat
+20200101,29417,SensorCama (4),False,eat
+20200101,29417,SensorMesaJantar (3),False,eat
+20200101,29417,SensorCama (5),False,eat
+20200101,29417,SensorMesaJantar,False,eat
+20200101,29417,SensorCama (2),False,eat
+20200101,29417,SensorSofa (1),False,eat
+20200101,29417,SensorPia,False,eat
+20200101,29417,SensorMesaJantar (2),False,eat
+20200101,29417,SensorRack,False,eat
+20200101,29417,SensorCama (1),False,eat
+20200101,29417,SensorArmario,True,eat
+20200101,29417,SensorRack (1),False,eat
+20200101,29417,SensorArmario (1),False,eat
+20200101,29417,SensorGeladeira,False,eat
+20200101,29417,SensorMesaJantar (1),False,eat
+20200101,29417,SensorSofa (2),False,eat
+20200101,29417,SensorCama (3),False,eat
+20200101,29417,SensorMesaCorredor,False,eat
+20200101,29417,SensorSofa,False,eat
+20200101,29417,SensorDeTestes,False,eat
+20200101,29436,SensorBaseBox,False,eat
+20200101,29436,SensorArmario (2),False,eat
+20200101,29436,SensorCama,False,eat
+20200101,29436,SensorFogao,False,eat
+20200101,29436,SensorMesaJantar (4),False,eat
+20200101,29436,SensorCama (4),False,eat
+20200101,29436,SensorMesaJantar (3),False,eat
+20200101,29436,SensorCama (5),False,eat
+20200101,29436,SensorMesaJantar,False,eat
+20200101,29436,SensorCama (2),False,eat
+20200101,29436,SensorSofa (1),False,eat
+20200101,29436,SensorPia,False,eat
+20200101,29436,SensorMesaJantar (2),False,eat
+20200101,29436,SensorRack,False,eat
+20200101,29436,SensorCama (1),False,eat
+20200101,29436,SensorArmario,False,eat
+20200101,29436,SensorRack (1),False,eat
+20200101,29436,SensorArmario (1),False,eat
+20200101,29436,SensorGeladeira,False,eat
+20200101,29436,SensorMesaJantar (1),False,eat
+20200101,29436,SensorSofa (2),False,eat
+20200101,29436,SensorCama (3),False,eat
+20200101,29436,SensorMesaCorredor,True,eat
+20200101,29436,SensorSofa,False,eat
+20200101,29436,SensorDeTestes,False,eat
+20200101,29457,SensorBaseBox,False,eat
+20200101,29457,SensorArmario (2),False,eat
+20200101,29457,SensorCama,False,eat
+20200101,29457,SensorFogao,False,eat
+20200101,29457,SensorMesaJantar (4),False,eat
+20200101,29457,SensorCama (4),False,eat
+20200101,29457,SensorMesaJantar (3),False,eat
+20200101,29457,SensorCama (5),False,eat
+20200101,29457,SensorMesaJantar,False,eat
+20200101,29457,SensorCama (2),False,eat
+20200101,29457,SensorSofa (1),False,eat
+20200101,29457,SensorPia,False,eat
+20200101,29457,SensorMesaJantar (2),False,eat
+20200101,29457,SensorRack,False,eat
+20200101,29457,SensorCama (1),False,eat
+20200101,29457,SensorArmario,False,eat
+20200101,29457,SensorRack (1),False,eat
+20200101,29457,SensorArmario (1),False,eat
+20200101,29457,SensorGeladeira,False,eat
+20200101,29457,SensorMesaJantar (1),False,eat
+20200101,29457,SensorSofa (2),False,eat
+20200101,29457,SensorCama (3),False,eat
+20200101,29457,SensorMesaCorredor,True,eat
+20200101,29457,SensorSofa,False,eat
+20200101,29457,SensorDeTestes,False,eat
+20200101,29478,SensorBaseBox,False,eat
+20200101,29478,SensorArmario (2),False,eat
+20200101,29478,SensorCama,False,eat
+20200101,29478,SensorFogao,False,eat
+20200101,29478,SensorMesaJantar (4),False,eat
+20200101,29478,SensorCama (4),False,eat
+20200101,29478,SensorMesaJantar (3),False,eat
+20200101,29478,SensorCama (5),False,eat
+20200101,29478,SensorMesaJantar,False,eat
+20200101,29478,SensorCama (2),False,eat
+20200101,29478,SensorSofa (1),False,eat
+20200101,29478,SensorPia,False,eat
+20200101,29478,SensorMesaJantar (2),False,eat
+20200101,29478,SensorRack,False,eat
+20200101,29478,SensorCama (1),False,eat
+20200101,29478,SensorArmario,False,eat
+20200101,29478,SensorRack (1),False,eat
+20200101,29478,SensorArmario (1),False,eat
+20200101,29478,SensorGeladeira,False,eat
+20200101,29478,SensorMesaJantar (1),False,eat
+20200101,29478,SensorSofa (2),False,eat
+20200101,29478,SensorCama (3),False,eat
+20200101,29478,SensorMesaCorredor,True,eat
+20200101,29478,SensorSofa,False,eat
+20200101,29478,SensorDeTestes,False,eat
+20200101,29508,SensorBaseBox,False,eat
+20200101,29508,SensorArmario (2),False,eat
+20200101,29508,SensorCama,False,eat
+20200101,29508,SensorFogao,False,eat
+20200101,29508,SensorMesaJantar (4),True,eat
+20200101,29508,SensorCama (4),False,eat
+20200101,29508,SensorMesaJantar (3),False,eat
+20200101,29508,SensorCama (5),False,eat
+20200101,29508,SensorMesaJantar,False,eat
+20200101,29508,SensorCama (2),False,eat
+20200101,29508,SensorSofa (1),False,eat
+20200101,29508,SensorPia,False,eat
+20200101,29508,SensorMesaJantar (2),False,eat
+20200101,29508,SensorRack,False,eat
+20200101,29508,SensorCama (1),False,eat
+20200101,29508,SensorArmario,False,eat
+20200101,29508,SensorRack (1),False,eat
+20200101,29508,SensorArmario (1),False,eat
+20200101,29508,SensorGeladeira,False,eat
+20200101,29508,SensorMesaJantar (1),False,eat
+20200101,29508,SensorSofa (2),False,eat
+20200101,29508,SensorCama (3),False,eat
+20200101,29508,SensorMesaCorredor,True,eat
+20200101,29508,SensorSofa,False,eat
+20200101,29508,SensorDeTestes,False,eat
+20200101,29536,SensorBaseBox,False,eat
+20200101,29536,SensorArmario (2),False,eat
+20200101,29536,SensorCama,False,eat
+20200101,29536,SensorFogao,False,eat
+20200101,29536,SensorMesaJantar (4),True,eat
+20200101,29536,SensorCama (4),False,eat
+20200101,29536,SensorMesaJantar (3),False,eat
+20200101,29536,SensorCama (5),False,eat
+20200101,29536,SensorMesaJantar,False,eat
+20200101,29536,SensorCama (2),False,eat
+20200101,29536,SensorSofa (1),False,eat
+20200101,29536,SensorPia,False,eat
+20200101,29536,SensorMesaJantar (2),False,eat
+20200101,29536,SensorRack,False,eat
+20200101,29536,SensorCama (1),False,eat
+20200101,29536,SensorArmario,False,eat
+20200101,29536,SensorRack (1),False,eat
+20200101,29536,SensorArmario (1),False,eat
+20200101,29536,SensorGeladeira,False,eat
+20200101,29536,SensorMesaJantar (1),False,eat
+20200101,29536,SensorSofa (2),False,eat
+20200101,29536,SensorCama (3),False,eat
+20200101,29536,SensorMesaCorredor,True,eat
+20200101,29536,SensorSofa,False,eat
+20200101,29536,SensorDeTestes,False,eat
+20200101,29567,SensorBaseBox,False,eat
+20200101,29567,SensorArmario (2),False,eat
+20200101,29567,SensorCama,False,eat
+20200101,29567,SensorFogao,False,eat
+20200101,29567,SensorMesaJantar (4),False,eat
+20200101,29567,SensorCama (4),False,eat
+20200101,29567,SensorMesaJantar (3),True,eat
+20200101,29567,SensorCama (5),False,eat
+20200101,29567,SensorMesaJantar,False,eat
+20200101,29567,SensorCama (2),False,eat
+20200101,29567,SensorSofa (1),False,eat
+20200101,29567,SensorPia,False,eat
+20200101,29567,SensorMesaJantar (2),False,eat
+20200101,29567,SensorRack,False,eat
+20200101,29567,SensorCama (1),False,eat
+20200101,29567,SensorArmario,False,eat
+20200101,29567,SensorRack (1),False,eat
+20200101,29567,SensorArmario (1),False,eat
+20200101,29567,SensorGeladeira,False,eat
+20200101,29567,SensorMesaJantar (1),False,eat
+20200101,29567,SensorSofa (2),False,eat
+20200101,29567,SensorCama (3),False,eat
+20200101,29567,SensorMesaCorredor,False,eat
+20200101,29567,SensorSofa,False,eat
+20200101,29567,SensorDeTestes,False,eat
+20200101,29595,SensorBaseBox,False,eat
+20200101,29595,SensorArmario (2),False,eat
+20200101,29595,SensorCama,False,eat
+20200101,29595,SensorFogao,False,eat
+20200101,29595,SensorMesaJantar (4),True,eat
+20200101,29595,SensorCama (4),False,eat
+20200101,29595,SensorMesaJantar (3),True,eat
+20200101,29595,SensorCama (5),False,eat
+20200101,29595,SensorMesaJantar,False,eat
+20200101,29595,SensorCama (2),False,eat
+20200101,29595,SensorSofa (1),False,eat
+20200101,29595,SensorPia,False,eat
+20200101,29595,SensorMesaJantar (2),False,eat
+20200101,29595,SensorRack,False,eat
+20200101,29595,SensorCama (1),False,eat
+20200101,29595,SensorArmario,False,eat
+20200101,29595,SensorRack (1),False,eat
+20200101,29595,SensorArmario (1),False,eat
+20200101,29595,SensorGeladeira,True,eat
+20200101,29595,SensorMesaJantar (1),False,eat
+20200101,29595,SensorSofa (2),False,eat
+20200101,29595,SensorCama (3),False,eat
+20200101,29595,SensorMesaCorredor,False,eat
+20200101,29595,SensorSofa,False,eat
+20200101,29595,SensorDeTestes,False,eat
+20200101,29626,SensorBaseBox,False,eat
+20200101,29626,SensorArmario (2),False,eat
+20200101,29626,SensorCama,False,eat
+20200101,29626,SensorFogao,False,eat
+20200101,29626,SensorMesaJantar (4),True,eat
+20200101,29626,SensorCama (4),False,eat
+20200101,29626,SensorMesaJantar (3),False,eat
+20200101,29626,SensorCama (5),False,eat
+20200101,29626,SensorMesaJantar,False,eat
+20200101,29626,SensorCama (2),False,eat
+20200101,29626,SensorSofa (1),False,eat
+20200101,29626,SensorPia,False,eat
+20200101,29626,SensorMesaJantar (2),False,eat
+20200101,29626,SensorRack,False,eat
+20200101,29626,SensorCama (1),False,eat
+20200101,29626,SensorArmario,False,eat
+20200101,29626,SensorRack (1),False,eat
+20200101,29626,SensorArmario (1),False,eat
+20200101,29626,SensorGeladeira,True,eat
+20200101,29626,SensorMesaJantar (1),False,eat
+20200101,29626,SensorSofa (2),False,eat
+20200101,29626,SensorCama (3),False,eat
+20200101,29626,SensorMesaCorredor,False,eat
+20200101,29626,SensorSofa,False,eat
+20200101,29626,SensorDeTestes,False,eat
+20200101,29655,SensorBaseBox,False,eat
+20200101,29655,SensorArmario (2),False,eat
+20200101,29655,SensorCama,False,eat
+20200101,29655,SensorFogao,False,eat
+20200101,29655,SensorMesaJantar (4),True,eat
+20200101,29655,SensorCama (4),False,eat
+20200101,29655,SensorMesaJantar (3),True,eat
+20200101,29655,SensorCama (5),False,eat
+20200101,29655,SensorMesaJantar,False,eat
+20200101,29655,SensorCama (2),False,eat
+20200101,29655,SensorSofa (1),False,eat
+20200101,29655,SensorPia,False,eat
+20200101,29655,SensorMesaJantar (2),False,eat
+20200101,29655,SensorRack,False,eat
+20200101,29655,SensorCama (1),False,eat
+20200101,29655,SensorArmario,False,eat
+20200101,29655,SensorRack (1),False,eat
+20200101,29655,SensorArmario (1),False,eat
+20200101,29655,SensorGeladeira,True,eat
+20200101,29655,SensorMesaJantar (1),False,eat
+20200101,29655,SensorSofa (2),False,eat
+20200101,29655,SensorCama (3),False,eat
+20200101,29655,SensorMesaCorredor,False,eat
+20200101,29655,SensorSofa,False,eat
+20200101,29655,SensorDeTestes,False,eat
+20200101,29686,SensorBaseBox,False,eat
+20200101,29686,SensorArmario (2),False,eat
+20200101,29686,SensorCama,False,eat
+20200101,29686,SensorFogao,False,eat
+20200101,29686,SensorMesaJantar (4),False,eat
+20200101,29686,SensorCama (4),False,eat
+20200101,29686,SensorMesaJantar (3),True,eat
+20200101,29686,SensorCama (5),False,eat
+20200101,29686,SensorMesaJantar,False,eat
+20200101,29686,SensorCama (2),False,eat
+20200101,29686,SensorSofa (1),False,eat
+20200101,29686,SensorPia,False,eat
+20200101,29686,SensorMesaJantar (2),False,eat
+20200101,29686,SensorRack,False,eat
+20200101,29686,SensorCama (1),False,eat
+20200101,29686,SensorArmario,False,eat
+20200101,29686,SensorRack (1),False,eat
+20200101,29686,SensorArmario (1),False,eat
+20200101,29686,SensorGeladeira,False,eat
+20200101,29686,SensorMesaJantar (1),False,eat
+20200101,29686,SensorSofa (2),False,eat
+20200101,29686,SensorCama (3),False,eat
+20200101,29686,SensorMesaCorredor,False,eat
+20200101,29686,SensorSofa,False,eat
+20200101,29686,SensorDeTestes,False,eat
+20200101,29716,SensorBaseBox,False,cook
+20200101,29716,SensorArmario (2),False,cook
+20200101,29716,SensorCama,False,cook
+20200101,29716,SensorFogao,False,cook
+20200101,29716,SensorMesaJantar (4),False,cook
+20200101,29716,SensorCama (4),False,cook
+20200101,29716,SensorMesaJantar (3),False,cook
+20200101,29716,SensorCama (5),False,cook
+20200101,29716,SensorMesaJantar,False,cook
+20200101,29716,SensorCama (2),False,cook
+20200101,29716,SensorSofa (1),False,cook
+20200101,29716,SensorPia,False,cook
+20200101,29716,SensorMesaJantar (2),False,cook
+20200101,29716,SensorRack,False,cook
+20200101,29716,SensorCama (1),False,cook
+20200101,29716,SensorArmario,False,cook
+20200101,29716,SensorRack (1),False,cook
+20200101,29716,SensorArmario (1),False,cook
+20200101,29716,SensorGeladeira,False,cook
+20200101,29716,SensorMesaJantar (1),False,cook
+20200101,29716,SensorSofa (2),False,cook
+20200101,29716,SensorCama (3),False,cook
+20200101,29716,SensorMesaCorredor,False,cook
+20200101,29716,SensorSofa,False,cook
+20200101,29716,SensorDeTestes,False,cook
+20200101,29745,SensorBaseBox,False,cook
+20200101,29745,SensorArmario (2),False,cook
+20200101,29745,SensorCama,False,cook
+20200101,29745,SensorFogao,False,cook
+20200101,29745,SensorMesaJantar (4),True,cook
+20200101,29745,SensorCama (4),False,cook
+20200101,29745,SensorMesaJantar (3),False,cook
+20200101,29745,SensorCama (5),False,cook
+20200101,29745,SensorMesaJantar,False,cook
+20200101,29745,SensorCama (2),False,cook
+20200101,29745,SensorSofa (1),False,cook
+20200101,29745,SensorPia,False,cook
+20200101,29745,SensorMesaJantar (2),False,cook
+20200101,29745,SensorRack,False,cook
+20200101,29745,SensorCama (1),False,cook
+20200101,29745,SensorArmario,False,cook
+20200101,29745,SensorRack (1),False,cook
+20200101,29745,SensorArmario (1),False,cook
+20200101,29745,SensorGeladeira,False,cook
+20200101,29745,SensorMesaJantar (1),False,cook
+20200101,29745,SensorSofa (2),False,cook
+20200101,29745,SensorCama (3),False,cook
+20200101,29745,SensorMesaCorredor,False,cook
+20200101,29745,SensorSofa,False,cook
+20200101,29745,SensorDeTestes,False,cook
+20200101,29775,SensorBaseBox,False,cook
+20200101,29775,SensorArmario (2),False,cook
+20200101,29775,SensorCama,False,cook
+20200101,29775,SensorFogao,False,cook
+20200101,29775,SensorMesaJantar (4),False,cook
+20200101,29775,SensorCama (4),False,cook
+20200101,29775,SensorMesaJantar (3),False,cook
+20200101,29775,SensorCama (5),False,cook
+20200101,29775,SensorMesaJantar,False,cook
+20200101,29775,SensorCama (2),False,cook
+20200101,29775,SensorSofa (1),False,cook
+20200101,29775,SensorPia,False,cook
+20200101,29775,SensorMesaJantar (2),False,cook
+20200101,29775,SensorRack,False,cook
+20200101,29775,SensorCama (1),False,cook
+20200101,29775,SensorArmario,False,cook
+20200101,29775,SensorRack (1),False,cook
+20200101,29775,SensorArmario (1),False,cook
+20200101,29775,SensorGeladeira,False,cook
+20200101,29775,SensorMesaJantar (1),False,cook
+20200101,29775,SensorSofa (2),False,cook
+20200101,29775,SensorCama (3),False,cook
+20200101,29775,SensorMesaCorredor,False,cook
+20200101,29775,SensorSofa,False,cook
+20200101,29775,SensorDeTestes,False,cook
+20200101,29806,SensorBaseBox,False,cook
+20200101,29806,SensorArmario (2),False,cook
+20200101,29806,SensorCama,False,cook
+20200101,29806,SensorFogao,False,cook
+20200101,29806,SensorMesaJantar (4),False,cook
+20200101,29806,SensorCama (4),False,cook
+20200101,29806,SensorMesaJantar (3),False,cook
+20200101,29806,SensorCama (5),False,cook
+20200101,29806,SensorMesaJantar,False,cook
+20200101,29806,SensorCama (2),False,cook
+20200101,29806,SensorSofa (1),False,cook
+20200101,29806,SensorPia,False,cook
+20200101,29806,SensorMesaJantar (2),False,cook
+20200101,29806,SensorRack,False,cook
+20200101,29806,SensorCama (1),False,cook
+20200101,29806,SensorArmario,False,cook
+20200101,29806,SensorRack (1),False,cook
+20200101,29806,SensorArmario (1),False,cook
+20200101,29806,SensorGeladeira,False,cook
+20200101,29806,SensorMesaJantar (1),False,cook
+20200101,29806,SensorSofa (2),False,cook
+20200101,29806,SensorCama (3),False,cook
+20200101,29806,SensorMesaCorredor,False,cook
+20200101,29806,SensorSofa,False,cook
+20200101,29806,SensorDeTestes,False,cook
+20200101,29835,SensorBaseBox,False,cook
+20200101,29835,SensorArmario (2),False,cook
+20200101,29835,SensorCama,False,cook
+20200101,29835,SensorFogao,False,cook
+20200101,29835,SensorMesaJantar (4),False,cook
+20200101,29835,SensorCama (4),False,cook
+20200101,29835,SensorMesaJantar (3),False,cook
+20200101,29835,SensorCama (5),False,cook
+20200101,29835,SensorMesaJantar,False,cook
+20200101,29835,SensorCama (2),False,cook
+20200101,29835,SensorSofa (1),False,cook
+20200101,29835,SensorPia,False,cook
+20200101,29835,SensorMesaJantar (2),False,cook
+20200101,29835,SensorRack,False,cook
+20200101,29835,SensorCama (1),False,cook
+20200101,29835,SensorArmario,False,cook
+20200101,29835,SensorRack (1),False,cook
+20200101,29835,SensorArmario (1),False,cook
+20200101,29835,SensorGeladeira,False,cook
+20200101,29835,SensorMesaJantar (1),False,cook
+20200101,29835,SensorSofa (2),False,cook
+20200101,29835,SensorCama (3),False,cook
+20200101,29835,SensorMesaCorredor,False,cook
+20200101,29835,SensorSofa,False,cook
+20200101,29835,SensorDeTestes,False,cook
+20200101,29865,SensorBaseBox,False,cook
+20200101,29865,SensorArmario (2),False,cook
+20200101,29865,SensorCama,False,cook
+20200101,29865,SensorFogao,True,cook
+20200101,29865,SensorMesaJantar (4),False,cook
+20200101,29865,SensorCama (4),False,cook
+20200101,29865,SensorMesaJantar (3),False,cook
+20200101,29865,SensorCama (5),False,cook
+20200101,29865,SensorMesaJantar,False,cook
+20200101,29865,SensorCama (2),False,cook
+20200101,29865,SensorSofa (1),False,cook
+20200101,29865,SensorPia,False,cook
+20200101,29865,SensorMesaJantar (2),False,cook
+20200101,29865,SensorRack,False,cook
+20200101,29865,SensorCama (1),False,cook
+20200101,29865,SensorArmario,False,cook
+20200101,29865,SensorRack (1),False,cook
+20200101,29865,SensorArmario (1),False,cook
+20200101,29865,SensorGeladeira,False,cook
+20200101,29865,SensorMesaJantar (1),False,cook
+20200101,29865,SensorSofa (2),False,cook
+20200101,29865,SensorCama (3),False,cook
+20200101,29865,SensorMesaCorredor,False,cook
+20200101,29865,SensorSofa,False,cook
+20200101,29865,SensorDeTestes,False,cook
+20200101,29895,SensorBaseBox,False,cook
+20200101,29895,SensorArmario (2),False,cook
+20200101,29895,SensorCama,False,cook
+20200101,29895,SensorFogao,True,cook
+20200101,29895,SensorMesaJantar (4),False,cook
+20200101,29895,SensorCama (4),False,cook
+20200101,29895,SensorMesaJantar (3),False,cook
+20200101,29895,SensorCama (5),False,cook
+20200101,29895,SensorMesaJantar,False,cook
+20200101,29895,SensorCama (2),False,cook
+20200101,29895,SensorSofa (1),False,cook
+20200101,29895,SensorPia,False,cook
+20200101,29895,SensorMesaJantar (2),False,cook
+20200101,29895,SensorRack,False,cook
+20200101,29895,SensorCama (1),False,cook
+20200101,29895,SensorArmario,False,cook
+20200101,29895,SensorRack (1),False,cook
+20200101,29895,SensorArmario (1),False,cook
+20200101,29895,SensorGeladeira,False,cook
+20200101,29895,SensorMesaJantar (1),False,cook
+20200101,29895,SensorSofa (2),False,cook
+20200101,29895,SensorCama (3),False,cook
+20200101,29895,SensorMesaCorredor,False,cook
+20200101,29895,SensorSofa,False,cook
+20200101,29895,SensorDeTestes,False,cook
+20200101,29925,SensorBaseBox,False,cook
+20200101,29925,SensorArmario (2),False,cook
+20200101,29925,SensorCama,False,cook
+20200101,29925,SensorFogao,True,cook
+20200101,29925,SensorMesaJantar (4),False,cook
+20200101,29925,SensorCama (4),False,cook
+20200101,29925,SensorMesaJantar (3),False,cook
+20200101,29925,SensorCama (5),False,cook
+20200101,29925,SensorMesaJantar,False,cook
+20200101,29925,SensorCama (2),False,cook
+20200101,29925,SensorSofa (1),False,cook
+20200101,29925,SensorPia,False,cook
+20200101,29925,SensorMesaJantar (2),False,cook
+20200101,29925,SensorRack,False,cook
+20200101,29925,SensorCama (1),False,cook
+20200101,29925,SensorArmario,False,cook
+20200101,29925,SensorRack (1),False,cook
+20200101,29925,SensorArmario (1),False,cook
+20200101,29925,SensorGeladeira,False,cook
+20200101,29925,SensorMesaJantar (1),False,cook
+20200101,29925,SensorSofa (2),False,cook
+20200101,29925,SensorCama (3),False,cook
+20200101,29925,SensorMesaCorredor,False,cook
+20200101,29925,SensorSofa,False,cook
+20200101,29925,SensorDeTestes,False,cook
+20200101,29955,SensorBaseBox,False,cook
+20200101,29955,SensorArmario (2),False,cook
+20200101,29955,SensorCama,False,cook
+20200101,29955,SensorFogao,True,cook
+20200101,29955,SensorMesaJantar (4),False,cook
+20200101,29955,SensorCama (4),False,cook
+20200101,29955,SensorMesaJantar (3),False,cook
+20200101,29955,SensorCama (5),False,cook
+20200101,29955,SensorMesaJantar,False,cook
+20200101,29955,SensorCama (2),False,cook
+20200101,29955,SensorSofa (1),False,cook
+20200101,29955,SensorPia,False,cook
+20200101,29955,SensorMesaJantar (2),False,cook
+20200101,29955,SensorRack,False,cook
+20200101,29955,SensorCama (1),False,cook
+20200101,29955,SensorArmario,False,cook
+20200101,29955,SensorRack (1),False,cook
+20200101,29955,SensorArmario (1),False,cook
+20200101,29955,SensorGeladeira,False,cook
+20200101,29955,SensorMesaJantar (1),False,cook
+20200101,29955,SensorSofa (2),False,cook
+20200101,29955,SensorCama (3),False,cook
+20200101,29955,SensorMesaCorredor,False,cook
+20200101,29955,SensorSofa,False,cook
+20200101,29955,SensorDeTestes,False,cook
+20200101,29984,SensorBaseBox,False,cook
+20200101,29984,SensorArmario (2),False,cook
+20200101,29984,SensorCama,False,cook
+20200101,29984,SensorFogao,True,cook
+20200101,29984,SensorMesaJantar (4),False,cook
+20200101,29984,SensorCama (4),False,cook
+20200101,29984,SensorMesaJantar (3),False,cook
+20200101,29984,SensorCama (5),False,cook
+20200101,29984,SensorMesaJantar,False,cook
+20200101,29984,SensorCama (2),False,cook
+20200101,29984,SensorSofa (1),False,cook
+20200101,29984,SensorPia,False,cook
+20200101,29984,SensorMesaJantar (2),False,cook
+20200101,29984,SensorRack,False,cook
+20200101,29984,SensorCama (1),False,cook
+20200101,29984,SensorArmario,False,cook
+20200101,29984,SensorRack (1),False,cook
+20200101,29984,SensorArmario (1),False,cook
+20200101,29984,SensorGeladeira,False,cook
+20200101,29984,SensorMesaJantar (1),False,cook
+20200101,29984,SensorSofa (2),False,cook
+20200101,29984,SensorCama (3),False,cook
+20200101,29984,SensorMesaCorredor,False,cook
+20200101,29984,SensorSofa,False,cook
+20200101,29984,SensorDeTestes,False,cook
+20200101,30013,SensorBaseBox,False,cook
+20200101,30013,SensorArmario (2),False,cook
+20200101,30013,SensorCama,False,cook
+20200101,30013,SensorFogao,True,cook
+20200101,30013,SensorMesaJantar (4),False,cook
+20200101,30013,SensorCama (4),False,cook
+20200101,30013,SensorMesaJantar (3),False,cook
+20200101,30013,SensorCama (5),False,cook
+20200101,30013,SensorMesaJantar,False,cook
+20200101,30013,SensorCama (2),False,cook
+20200101,30013,SensorSofa (1),False,cook
+20200101,30013,SensorPia,False,cook
+20200101,30013,SensorMesaJantar (2),False,cook
+20200101,30013,SensorRack,False,cook
+20200101,30013,SensorCama (1),False,cook
+20200101,30013,SensorArmario,False,cook
+20200101,30013,SensorRack (1),False,cook
+20200101,30013,SensorArmario (1),False,cook
+20200101,30013,SensorGeladeira,False,cook
+20200101,30013,SensorMesaJantar (1),False,cook
+20200101,30013,SensorSofa (2),False,cook
+20200101,30013,SensorCama (3),False,cook
+20200101,30013,SensorMesaCorredor,False,cook
+20200101,30013,SensorSofa,False,cook
+20200101,30013,SensorDeTestes,False,cook
+20200101,30044,SensorBaseBox,False,cook
+20200101,30044,SensorArmario (2),False,cook
+20200101,30044,SensorCama,False,cook
+20200101,30044,SensorFogao,True,cook
+20200101,30044,SensorMesaJantar (4),False,cook
+20200101,30044,SensorCama (4),False,cook
+20200101,30044,SensorMesaJantar (3),False,cook
+20200101,30044,SensorCama (5),False,cook
+20200101,30044,SensorMesaJantar,False,cook
+20200101,30044,SensorCama (2),False,cook
+20200101,30044,SensorSofa (1),False,cook
+20200101,30044,SensorPia,False,cook
+20200101,30044,SensorMesaJantar (2),False,cook
+20200101,30044,SensorRack,False,cook
+20200101,30044,SensorCama (1),False,cook
+20200101,30044,SensorArmario,False,cook
+20200101,30044,SensorRack (1),False,cook
+20200101,30044,SensorArmario (1),False,cook
+20200101,30044,SensorGeladeira,False,cook
+20200101,30044,SensorMesaJantar (1),False,cook
+20200101,30044,SensorSofa (2),False,cook
+20200101,30044,SensorCama (3),False,cook
+20200101,30044,SensorMesaCorredor,False,cook
+20200101,30044,SensorSofa,False,cook
+20200101,30044,SensorDeTestes,False,cook
+20200101,30074,SensorBaseBox,False,cook
+20200101,30074,SensorArmario (2),False,cook
+20200101,30074,SensorCama,False,cook
+20200101,30074,SensorFogao,True,cook
+20200101,30074,SensorMesaJantar (4),False,cook
+20200101,30074,SensorCama (4),False,cook
+20200101,30074,SensorMesaJantar (3),False,cook
+20200101,30074,SensorCama (5),False,cook
+20200101,30074,SensorMesaJantar,False,cook
+20200101,30074,SensorCama (2),False,cook
+20200101,30074,SensorSofa (1),False,cook
+20200101,30074,SensorPia,False,cook
+20200101,30074,SensorMesaJantar (2),False,cook
+20200101,30074,SensorRack,False,cook
+20200101,30074,SensorCama (1),False,cook
+20200101,30074,SensorArmario,False,cook
+20200101,30074,SensorRack (1),False,cook
+20200101,30074,SensorArmario (1),False,cook
+20200101,30074,SensorGeladeira,False,cook
+20200101,30074,SensorMesaJantar (1),False,cook
+20200101,30074,SensorSofa (2),False,cook
+20200101,30074,SensorCama (3),False,cook
+20200101,30074,SensorMesaCorredor,False,cook
+20200101,30074,SensorSofa,False,cook
+20200101,30074,SensorDeTestes,False,cook
+20200101,30103,SensorBaseBox,False,cook
+20200101,30103,SensorArmario (2),False,cook
+20200101,30103,SensorCama,False,cook
+20200101,30103,SensorFogao,True,cook
+20200101,30103,SensorMesaJantar (4),False,cook
+20200101,30103,SensorCama (4),False,cook
+20200101,30103,SensorMesaJantar (3),False,cook
+20200101,30103,SensorCama (5),False,cook
+20200101,30103,SensorMesaJantar,False,cook
+20200101,30103,SensorCama (2),False,cook
+20200101,30103,SensorSofa (1),False,cook
+20200101,30103,SensorPia,False,cook
+20200101,30103,SensorMesaJantar (2),False,cook
+20200101,30103,SensorRack,False,cook
+20200101,30103,SensorCama (1),False,cook
+20200101,30103,SensorArmario,False,cook
+20200101,30103,SensorRack (1),False,cook
+20200101,30103,SensorArmario (1),False,cook
+20200101,30103,SensorGeladeira,False,cook
+20200101,30103,SensorMesaJantar (1),False,cook
+20200101,30103,SensorSofa (2),False,cook
+20200101,30103,SensorCama (3),False,cook
+20200101,30103,SensorMesaCorredor,False,cook
+20200101,30103,SensorSofa,False,cook
+20200101,30103,SensorDeTestes,False,cook
+20200101,30134,SensorBaseBox,False,cook
+20200101,30134,SensorArmario (2),False,cook
+20200101,30134,SensorCama,False,cook
+20200101,30134,SensorFogao,True,cook
+20200101,30134,SensorMesaJantar (4),False,cook
+20200101,30134,SensorCama (4),False,cook
+20200101,30134,SensorMesaJantar (3),False,cook
+20200101,30134,SensorCama (5),False,cook
+20200101,30134,SensorMesaJantar,False,cook
+20200101,30134,SensorCama (2),False,cook
+20200101,30134,SensorSofa (1),False,cook
+20200101,30134,SensorPia,False,cook
+20200101,30134,SensorMesaJantar (2),False,cook
+20200101,30134,SensorRack,False,cook
+20200101,30134,SensorCama (1),False,cook
+20200101,30134,SensorArmario,False,cook
+20200101,30134,SensorRack (1),False,cook
+20200101,30134,SensorArmario (1),False,cook
+20200101,30134,SensorGeladeira,False,cook
+20200101,30134,SensorMesaJantar (1),False,cook
+20200101,30134,SensorSofa (2),False,cook
+20200101,30134,SensorCama (3),False,cook
+20200101,30134,SensorMesaCorredor,False,cook
+20200101,30134,SensorSofa,False,cook
+20200101,30134,SensorDeTestes,False,cook
+20200101,30163,SensorBaseBox,False,cook
+20200101,30163,SensorArmario (2),False,cook
+20200101,30163,SensorCama,False,cook
+20200101,30163,SensorFogao,True,cook
+20200101,30163,SensorMesaJantar (4),False,cook
+20200101,30163,SensorCama (4),False,cook
+20200101,30163,SensorMesaJantar (3),False,cook
+20200101,30163,SensorCama (5),False,cook
+20200101,30163,SensorMesaJantar,False,cook
+20200101,30163,SensorCama (2),False,cook
+20200101,30163,SensorSofa (1),False,cook
+20200101,30163,SensorPia,False,cook
+20200101,30163,SensorMesaJantar (2),False,cook
+20200101,30163,SensorRack,False,cook
+20200101,30163,SensorCama (1),False,cook
+20200101,30163,SensorArmario,False,cook
+20200101,30163,SensorRack (1),False,cook
+20200101,30163,SensorArmario (1),False,cook
+20200101,30163,SensorGeladeira,False,cook
+20200101,30163,SensorMesaJantar (1),False,cook
+20200101,30163,SensorSofa (2),False,cook
+20200101,30163,SensorCama (3),False,cook
+20200101,30163,SensorMesaCorredor,False,cook
+20200101,30163,SensorSofa,False,cook
+20200101,30163,SensorDeTestes,False,cook
+20200101,30192,SensorBaseBox,False,cook
+20200101,30192,SensorArmario (2),False,cook
+20200101,30192,SensorCama,False,cook
+20200101,30192,SensorFogao,True,cook
+20200101,30192,SensorMesaJantar (4),False,cook
+20200101,30192,SensorCama (4),False,cook
+20200101,30192,SensorMesaJantar (3),False,cook
+20200101,30192,SensorCama (5),False,cook
+20200101,30192,SensorMesaJantar,False,cook
+20200101,30192,SensorCama (2),False,cook
+20200101,30192,SensorSofa (1),False,cook
+20200101,30192,SensorPia,False,cook
+20200101,30192,SensorMesaJantar (2),False,cook
+20200101,30192,SensorRack,False,cook
+20200101,30192,SensorCama (1),False,cook
+20200101,30192,SensorArmario,False,cook
+20200101,30192,SensorRack (1),False,cook
+20200101,30192,SensorArmario (1),False,cook
+20200101,30192,SensorGeladeira,False,cook
+20200101,30192,SensorMesaJantar (1),False,cook
+20200101,30192,SensorSofa (2),False,cook
+20200101,30192,SensorCama (3),False,cook
+20200101,30192,SensorMesaCorredor,False,cook
+20200101,30192,SensorSofa,False,cook
+20200101,30192,SensorDeTestes,False,cook
+20200101,30222,SensorBaseBox,False,cook
+20200101,30222,SensorArmario (2),False,cook
+20200101,30222,SensorCama,False,cook
+20200101,30222,SensorFogao,True,cook
+20200101,30222,SensorMesaJantar (4),False,cook
+20200101,30222,SensorCama (4),False,cook
+20200101,30222,SensorMesaJantar (3),False,cook
+20200101,30222,SensorCama (5),False,cook
+20200101,30222,SensorMesaJantar,False,cook
+20200101,30222,SensorCama (2),False,cook
+20200101,30222,SensorSofa (1),False,cook
+20200101,30222,SensorPia,False,cook
+20200101,30222,SensorMesaJantar (2),False,cook
+20200101,30222,SensorRack,False,cook
+20200101,30222,SensorCama (1),False,cook
+20200101,30222,SensorArmario,False,cook
+20200101,30222,SensorRack (1),False,cook
+20200101,30222,SensorArmario (1),False,cook
+20200101,30222,SensorGeladeira,False,cook
+20200101,30222,SensorMesaJantar (1),False,cook
+20200101,30222,SensorSofa (2),False,cook
+20200101,30222,SensorCama (3),False,cook
+20200101,30222,SensorMesaCorredor,False,cook
+20200101,30222,SensorSofa,False,cook
+20200101,30222,SensorDeTestes,False,cook
+20200101,30253,SensorBaseBox,False,cook
+20200101,30253,SensorArmario (2),False,cook
+20200101,30253,SensorCama,False,cook
+20200101,30253,SensorFogao,True,cook
+20200101,30253,SensorMesaJantar (4),False,cook
+20200101,30253,SensorCama (4),False,cook
+20200101,30253,SensorMesaJantar (3),False,cook
+20200101,30253,SensorCama (5),False,cook
+20200101,30253,SensorMesaJantar,False,cook
+20200101,30253,SensorCama (2),False,cook
+20200101,30253,SensorSofa (1),False,cook
+20200101,30253,SensorPia,False,cook
+20200101,30253,SensorMesaJantar (2),False,cook
+20200101,30253,SensorRack,False,cook
+20200101,30253,SensorCama (1),False,cook
+20200101,30253,SensorArmario,False,cook
+20200101,30253,SensorRack (1),False,cook
+20200101,30253,SensorArmario (1),False,cook
+20200101,30253,SensorGeladeira,False,cook
+20200101,30253,SensorMesaJantar (1),False,cook
+20200101,30253,SensorSofa (2),False,cook
+20200101,30253,SensorCama (3),False,cook
+20200101,30253,SensorMesaCorredor,False,cook
+20200101,30253,SensorSofa,False,cook
+20200101,30253,SensorDeTestes,False,cook
+20200101,30282,SensorBaseBox,False,cook
+20200101,30282,SensorArmario (2),False,cook
+20200101,30282,SensorCama,False,cook
+20200101,30282,SensorFogao,True,cook
+20200101,30282,SensorMesaJantar (4),False,cook
+20200101,30282,SensorCama (4),False,cook
+20200101,30282,SensorMesaJantar (3),False,cook
+20200101,30282,SensorCama (5),False,cook
+20200101,30282,SensorMesaJantar,False,cook
+20200101,30282,SensorCama (2),False,cook
+20200101,30282,SensorSofa (1),False,cook
+20200101,30282,SensorPia,False,cook
+20200101,30282,SensorMesaJantar (2),False,cook
+20200101,30282,SensorRack,False,cook
+20200101,30282,SensorCama (1),False,cook
+20200101,30282,SensorArmario,False,cook
+20200101,30282,SensorRack (1),False,cook
+20200101,30282,SensorArmario (1),False,cook
+20200101,30282,SensorGeladeira,False,cook
+20200101,30282,SensorMesaJantar (1),False,cook
+20200101,30282,SensorSofa (2),False,cook
+20200101,30282,SensorCama (3),False,cook
+20200101,30282,SensorMesaCorredor,False,cook
+20200101,30282,SensorSofa,False,cook
+20200101,30282,SensorDeTestes,False,cook
+20200101,30312,SensorBaseBox,False,cook
+20200101,30312,SensorArmario (2),False,cook
+20200101,30312,SensorCama,False,cook
+20200101,30312,SensorFogao,True,cook
+20200101,30312,SensorMesaJantar (4),False,cook
+20200101,30312,SensorCama (4),False,cook
+20200101,30312,SensorMesaJantar (3),False,cook
+20200101,30312,SensorCama (5),False,cook
+20200101,30312,SensorMesaJantar,False,cook
+20200101,30312,SensorCama (2),False,cook
+20200101,30312,SensorSofa (1),False,cook
+20200101,30312,SensorPia,False,cook
+20200101,30312,SensorMesaJantar (2),False,cook
+20200101,30312,SensorRack,False,cook
+20200101,30312,SensorCama (1),False,cook
+20200101,30312,SensorArmario,False,cook
+20200101,30312,SensorRack (1),False,cook
+20200101,30312,SensorArmario (1),False,cook
+20200101,30312,SensorGeladeira,False,cook
+20200101,30312,SensorMesaJantar (1),False,cook
+20200101,30312,SensorSofa (2),False,cook
+20200101,30312,SensorCama (3),False,cook
+20200101,30312,SensorMesaCorredor,False,cook
+20200101,30312,SensorSofa,False,cook
+20200101,30312,SensorDeTestes,False,cook
+20200101,30342,SensorBaseBox,False,cook
+20200101,30342,SensorArmario (2),False,cook
+20200101,30342,SensorCama,False,cook
+20200101,30342,SensorFogao,True,cook
+20200101,30342,SensorMesaJantar (4),False,cook
+20200101,30342,SensorCama (4),False,cook
+20200101,30342,SensorMesaJantar (3),False,cook
+20200101,30342,SensorCama (5),False,cook
+20200101,30342,SensorMesaJantar,False,cook
+20200101,30342,SensorCama (2),False,cook
+20200101,30342,SensorSofa (1),False,cook
+20200101,30342,SensorPia,False,cook
+20200101,30342,SensorMesaJantar (2),False,cook
+20200101,30342,SensorRack,False,cook
+20200101,30342,SensorCama (1),False,cook
+20200101,30342,SensorArmario,False,cook
+20200101,30342,SensorRack (1),False,cook
+20200101,30342,SensorArmario (1),False,cook
+20200101,30342,SensorGeladeira,False,cook
+20200101,30342,SensorMesaJantar (1),False,cook
+20200101,30342,SensorSofa (2),False,cook
+20200101,30342,SensorCama (3),False,cook
+20200101,30342,SensorMesaCorredor,False,cook
+20200101,30342,SensorSofa,False,cook
+20200101,30342,SensorDeTestes,False,cook
+20200101,30371,SensorBaseBox,False,cook
+20200101,30371,SensorArmario (2),False,cook
+20200101,30371,SensorCama,False,cook
+20200101,30371,SensorFogao,True,cook
+20200101,30371,SensorMesaJantar (4),False,cook
+20200101,30371,SensorCama (4),False,cook
+20200101,30371,SensorMesaJantar (3),False,cook
+20200101,30371,SensorCama (5),False,cook
+20200101,30371,SensorMesaJantar,False,cook
+20200101,30371,SensorCama (2),False,cook
+20200101,30371,SensorSofa (1),False,cook
+20200101,30371,SensorPia,False,cook
+20200101,30371,SensorMesaJantar (2),False,cook
+20200101,30371,SensorRack,False,cook
+20200101,30371,SensorCama (1),False,cook
+20200101,30371,SensorArmario,False,cook
+20200101,30371,SensorRack (1),False,cook
+20200101,30371,SensorArmario (1),False,cook
+20200101,30371,SensorGeladeira,False,cook
+20200101,30371,SensorMesaJantar (1),False,cook
+20200101,30371,SensorSofa (2),False,cook
+20200101,30371,SensorCama (3),False,cook
+20200101,30371,SensorMesaCorredor,False,cook
+20200101,30371,SensorSofa,False,cook
+20200101,30371,SensorDeTestes,False,cook
+20200101,30401,SensorBaseBox,False,cook
+20200101,30401,SensorArmario (2),False,cook
+20200101,30401,SensorCama,False,cook
+20200101,30401,SensorFogao,True,cook
+20200101,30401,SensorMesaJantar (4),False,cook
+20200101,30401,SensorCama (4),False,cook
+20200101,30401,SensorMesaJantar (3),False,cook
+20200101,30401,SensorCama (5),False,cook
+20200101,30401,SensorMesaJantar,False,cook
+20200101,30401,SensorCama (2),False,cook
+20200101,30401,SensorSofa (1),False,cook
+20200101,30401,SensorPia,False,cook
+20200101,30401,SensorMesaJantar (2),False,cook
+20200101,30401,SensorRack,False,cook
+20200101,30401,SensorCama (1),False,cook
+20200101,30401,SensorArmario,False,cook
+20200101,30401,SensorRack (1),False,cook
+20200101,30401,SensorArmario (1),False,cook
+20200101,30401,SensorGeladeira,False,cook
+20200101,30401,SensorMesaJantar (1),False,cook
+20200101,30401,SensorSofa (2),False,cook
+20200101,30401,SensorCama (3),False,cook
+20200101,30401,SensorMesaCorredor,False,cook
+20200101,30401,SensorSofa,False,cook
+20200101,30401,SensorDeTestes,False,cook
+20200101,30430,SensorBaseBox,False,cook
+20200101,30430,SensorArmario (2),False,cook
+20200101,30430,SensorCama,False,cook
+20200101,30430,SensorFogao,True,cook
+20200101,30430,SensorMesaJantar (4),False,cook
+20200101,30430,SensorCama (4),False,cook
+20200101,30430,SensorMesaJantar (3),False,cook
+20200101,30430,SensorCama (5),False,cook
+20200101,30430,SensorMesaJantar,False,cook
+20200101,30430,SensorCama (2),False,cook
+20200101,30430,SensorSofa (1),False,cook
+20200101,30430,SensorPia,False,cook
+20200101,30430,SensorMesaJantar (2),False,cook
+20200101,30430,SensorRack,False,cook
+20200101,30430,SensorCama (1),False,cook
+20200101,30430,SensorArmario,False,cook
+20200101,30430,SensorRack (1),False,cook
+20200101,30430,SensorArmario (1),False,cook
+20200101,30430,SensorGeladeira,False,cook
+20200101,30430,SensorMesaJantar (1),False,cook
+20200101,30430,SensorSofa (2),False,cook
+20200101,30430,SensorCama (3),False,cook
+20200101,30430,SensorMesaCorredor,False,cook
+20200101,30430,SensorSofa,False,cook
+20200101,30430,SensorDeTestes,False,cook
+20200101,30460,SensorBaseBox,False,cook
+20200101,30460,SensorArmario (2),False,cook
+20200101,30460,SensorCama,False,cook
+20200101,30460,SensorFogao,True,cook
+20200101,30460,SensorMesaJantar (4),False,cook
+20200101,30460,SensorCama (4),False,cook
+20200101,30460,SensorMesaJantar (3),False,cook
+20200101,30460,SensorCama (5),False,cook
+20200101,30460,SensorMesaJantar,False,cook
+20200101,30460,SensorCama (2),False,cook
+20200101,30460,SensorSofa (1),False,cook
+20200101,30460,SensorPia,False,cook
+20200101,30460,SensorMesaJantar (2),False,cook
+20200101,30460,SensorRack,False,cook
+20200101,30460,SensorCama (1),False,cook
+20200101,30460,SensorArmario,False,cook
+20200101,30460,SensorRack (1),False,cook
+20200101,30460,SensorArmario (1),False,cook
+20200101,30460,SensorGeladeira,False,cook
+20200101,30460,SensorMesaJantar (1),False,cook
+20200101,30460,SensorSofa (2),False,cook
+20200101,30460,SensorCama (3),False,cook
+20200101,30460,SensorMesaCorredor,False,cook
+20200101,30460,SensorSofa,False,cook
+20200101,30460,SensorDeTestes,False,cook
+20200101,30491,SensorBaseBox,False,cook
+20200101,30491,SensorArmario (2),False,cook
+20200101,30491,SensorCama,False,cook
+20200101,30491,SensorFogao,True,cook
+20200101,30491,SensorMesaJantar (4),False,cook
+20200101,30491,SensorCama (4),False,cook
+20200101,30491,SensorMesaJantar (3),False,cook
+20200101,30491,SensorCama (5),False,cook
+20200101,30491,SensorMesaJantar,False,cook
+20200101,30491,SensorCama (2),False,cook
+20200101,30491,SensorSofa (1),False,cook
+20200101,30491,SensorPia,False,cook
+20200101,30491,SensorMesaJantar (2),False,cook
+20200101,30491,SensorRack,False,cook
+20200101,30491,SensorCama (1),False,cook
+20200101,30491,SensorArmario,False,cook
+20200101,30491,SensorRack (1),False,cook
+20200101,30491,SensorArmario (1),False,cook
+20200101,30491,SensorGeladeira,False,cook
+20200101,30491,SensorMesaJantar (1),False,cook
+20200101,30491,SensorSofa (2),False,cook
+20200101,30491,SensorCama (3),False,cook
+20200101,30491,SensorMesaCorredor,False,cook
+20200101,30491,SensorSofa,False,cook
+20200101,30491,SensorDeTestes,False,cook
+20200101,30520,SensorBaseBox,False,cook
+20200101,30520,SensorArmario (2),False,cook
+20200101,30520,SensorCama,False,cook
+20200101,30520,SensorFogao,True,cook
+20200101,30520,SensorMesaJantar (4),False,cook
+20200101,30520,SensorCama (4),False,cook
+20200101,30520,SensorMesaJantar (3),False,cook
+20200101,30520,SensorCama (5),False,cook
+20200101,30520,SensorMesaJantar,False,cook
+20200101,30520,SensorCama (2),False,cook
+20200101,30520,SensorSofa (1),False,cook
+20200101,30520,SensorPia,False,cook
+20200101,30520,SensorMesaJantar (2),False,cook
+20200101,30520,SensorRack,False,cook
+20200101,30520,SensorCama (1),False,cook
+20200101,30520,SensorArmario,False,cook
+20200101,30520,SensorRack (1),False,cook
+20200101,30520,SensorArmario (1),False,cook
+20200101,30520,SensorGeladeira,False,cook
+20200101,30520,SensorMesaJantar (1),False,cook
+20200101,30520,SensorSofa (2),False,cook
+20200101,30520,SensorCama (3),False,cook
+20200101,30520,SensorMesaCorredor,False,cook
+20200101,30520,SensorSofa,False,cook
+20200101,30520,SensorDeTestes,False,cook
+20200101,30549,SensorBaseBox,False,cook
+20200101,30549,SensorArmario (2),False,cook
+20200101,30549,SensorCama,False,cook
+20200101,30549,SensorFogao,True,cook
+20200101,30549,SensorMesaJantar (4),False,cook
+20200101,30549,SensorCama (4),False,cook
+20200101,30549,SensorMesaJantar (3),False,cook
+20200101,30549,SensorCama (5),False,cook
+20200101,30549,SensorMesaJantar,False,cook
+20200101,30549,SensorCama (2),False,cook
+20200101,30549,SensorSofa (1),False,cook
+20200101,30549,SensorPia,False,cook
+20200101,30549,SensorMesaJantar (2),False,cook
+20200101,30549,SensorRack,False,cook
+20200101,30549,SensorCama (1),False,cook
+20200101,30549,SensorArmario,False,cook
+20200101,30549,SensorRack (1),False,cook
+20200101,30549,SensorArmario (1),False,cook
+20200101,30549,SensorGeladeira,False,cook
+20200101,30549,SensorMesaJantar (1),False,cook
+20200101,30549,SensorSofa (2),False,cook
+20200101,30549,SensorCama (3),False,cook
+20200101,30549,SensorMesaCorredor,False,cook
+20200101,30549,SensorSofa,False,cook
+20200101,30549,SensorDeTestes,False,cook
+20200101,30579,SensorBaseBox,False,cook
+20200101,30579,SensorArmario (2),False,cook
+20200101,30579,SensorCama,False,cook
+20200101,30579,SensorFogao,True,cook
+20200101,30579,SensorMesaJantar (4),False,cook
+20200101,30579,SensorCama (4),False,cook
+20200101,30579,SensorMesaJantar (3),False,cook
+20200101,30579,SensorCama (5),False,cook
+20200101,30579,SensorMesaJantar,False,cook
+20200101,30579,SensorCama (2),False,cook
+20200101,30579,SensorSofa (1),False,cook
+20200101,30579,SensorPia,False,cook
+20200101,30579,SensorMesaJantar (2),False,cook
+20200101,30579,SensorRack,False,cook
+20200101,30579,SensorCama (1),False,cook
+20200101,30579,SensorArmario,False,cook
+20200101,30579,SensorRack (1),False,cook
+20200101,30579,SensorArmario (1),False,cook
+20200101,30579,SensorGeladeira,False,cook
+20200101,30579,SensorMesaJantar (1),False,cook
+20200101,30579,SensorSofa (2),False,cook
+20200101,30579,SensorCama (3),False,cook
+20200101,30579,SensorMesaCorredor,False,cook
+20200101,30579,SensorSofa,False,cook
+20200101,30579,SensorDeTestes,False,cook
+20200101,30609,SensorBaseBox,False,cook
+20200101,30609,SensorArmario (2),False,cook
+20200101,30609,SensorCama,False,cook
+20200101,30609,SensorFogao,True,cook
+20200101,30609,SensorMesaJantar (4),False,cook
+20200101,30609,SensorCama (4),False,cook
+20200101,30609,SensorMesaJantar (3),False,cook
+20200101,30609,SensorCama (5),False,cook
+20200101,30609,SensorMesaJantar,False,cook
+20200101,30609,SensorCama (2),False,cook
+20200101,30609,SensorSofa (1),False,cook
+20200101,30609,SensorPia,False,cook
+20200101,30609,SensorMesaJantar (2),False,cook
+20200101,30609,SensorRack,False,cook
+20200101,30609,SensorCama (1),False,cook
+20200101,30609,SensorArmario,False,cook
+20200101,30609,SensorRack (1),False,cook
+20200101,30609,SensorArmario (1),False,cook
+20200101,30609,SensorGeladeira,False,cook
+20200101,30609,SensorMesaJantar (1),False,cook
+20200101,30609,SensorSofa (2),False,cook
+20200101,30609,SensorCama (3),False,cook
+20200101,30609,SensorMesaCorredor,False,cook
+20200101,30609,SensorSofa,False,cook
+20200101,30609,SensorDeTestes,False,cook
+20200101,30639,SensorBaseBox,False,cook
+20200101,30639,SensorArmario (2),False,cook
+20200101,30639,SensorCama,False,cook
+20200101,30639,SensorFogao,True,cook
+20200101,30639,SensorMesaJantar (4),False,cook
+20200101,30639,SensorCama (4),False,cook
+20200101,30639,SensorMesaJantar (3),False,cook
+20200101,30639,SensorCama (5),False,cook
+20200101,30639,SensorMesaJantar,False,cook
+20200101,30639,SensorCama (2),False,cook
+20200101,30639,SensorSofa (1),False,cook
+20200101,30639,SensorPia,False,cook
+20200101,30639,SensorMesaJantar (2),False,cook
+20200101,30639,SensorRack,False,cook
+20200101,30639,SensorCama (1),False,cook
+20200101,30639,SensorArmario,False,cook
+20200101,30639,SensorRack (1),False,cook
+20200101,30639,SensorArmario (1),False,cook
+20200101,30639,SensorGeladeira,False,cook
+20200101,30639,SensorMesaJantar (1),False,cook
+20200101,30639,SensorSofa (2),False,cook
+20200101,30639,SensorCama (3),False,cook
+20200101,30639,SensorMesaCorredor,False,cook
+20200101,30639,SensorSofa,False,cook
+20200101,30639,SensorDeTestes,False,cook
+20200101,30670,SensorBaseBox,False,cook
+20200101,30670,SensorArmario (2),False,cook
+20200101,30670,SensorCama,False,cook
+20200101,30670,SensorFogao,True,cook
+20200101,30670,SensorMesaJantar (4),False,cook
+20200101,30670,SensorCama (4),False,cook
+20200101,30670,SensorMesaJantar (3),False,cook
+20200101,30670,SensorCama (5),False,cook
+20200101,30670,SensorMesaJantar,False,cook
+20200101,30670,SensorCama (2),False,cook
+20200101,30670,SensorSofa (1),False,cook
+20200101,30670,SensorPia,False,cook
+20200101,30670,SensorMesaJantar (2),False,cook
+20200101,30670,SensorRack,False,cook
+20200101,30670,SensorCama (1),False,cook
+20200101,30670,SensorArmario,False,cook
+20200101,30670,SensorRack (1),False,cook
+20200101,30670,SensorArmario (1),False,cook
+20200101,30670,SensorGeladeira,False,cook
+20200101,30670,SensorMesaJantar (1),False,cook
+20200101,30670,SensorSofa (2),False,cook
+20200101,30670,SensorCama (3),False,cook
+20200101,30670,SensorMesaCorredor,False,cook
+20200101,30670,SensorSofa,False,cook
+20200101,30670,SensorDeTestes,False,cook
+20200101,30699,SensorBaseBox,False,cook
+20200101,30699,SensorArmario (2),False,cook
+20200101,30699,SensorCama,False,cook
+20200101,30699,SensorFogao,True,cook
+20200101,30699,SensorMesaJantar (4),False,cook
+20200101,30699,SensorCama (4),False,cook
+20200101,30699,SensorMesaJantar (3),False,cook
+20200101,30699,SensorCama (5),False,cook
+20200101,30699,SensorMesaJantar,False,cook
+20200101,30699,SensorCama (2),False,cook
+20200101,30699,SensorSofa (1),False,cook
+20200101,30699,SensorPia,False,cook
+20200101,30699,SensorMesaJantar (2),False,cook
+20200101,30699,SensorRack,False,cook
+20200101,30699,SensorCama (1),False,cook
+20200101,30699,SensorArmario,False,cook
+20200101,30699,SensorRack (1),False,cook
+20200101,30699,SensorArmario (1),False,cook
+20200101,30699,SensorGeladeira,False,cook
+20200101,30699,SensorMesaJantar (1),False,cook
+20200101,30699,SensorSofa (2),False,cook
+20200101,30699,SensorCama (3),False,cook
+20200101,30699,SensorMesaCorredor,False,cook
+20200101,30699,SensorSofa,False,cook
+20200101,30699,SensorDeTestes,False,cook
+20200101,30729,SensorBaseBox,False,cook
+20200101,30729,SensorArmario (2),False,cook
+20200101,30729,SensorCama,False,cook
+20200101,30729,SensorFogao,True,cook
+20200101,30729,SensorMesaJantar (4),False,cook
+20200101,30729,SensorCama (4),False,cook
+20200101,30729,SensorMesaJantar (3),False,cook
+20200101,30729,SensorCama (5),False,cook
+20200101,30729,SensorMesaJantar,False,cook
+20200101,30729,SensorCama (2),False,cook
+20200101,30729,SensorSofa (1),False,cook
+20200101,30729,SensorPia,False,cook
+20200101,30729,SensorMesaJantar (2),False,cook
+20200101,30729,SensorRack,False,cook
+20200101,30729,SensorCama (1),False,cook
+20200101,30729,SensorArmario,False,cook
+20200101,30729,SensorRack (1),False,cook
+20200101,30729,SensorArmario (1),False,cook
+20200101,30729,SensorGeladeira,False,cook
+20200101,30729,SensorMesaJantar (1),False,cook
+20200101,30729,SensorSofa (2),False,cook
+20200101,30729,SensorCama (3),False,cook
+20200101,30729,SensorMesaCorredor,False,cook
+20200101,30729,SensorSofa,False,cook
+20200101,30729,SensorDeTestes,False,cook
+20200101,30759,SensorBaseBox,False,cook
+20200101,30759,SensorArmario (2),False,cook
+20200101,30759,SensorCama,False,cook
+20200101,30759,SensorFogao,True,cook
+20200101,30759,SensorMesaJantar (4),False,cook
+20200101,30759,SensorCama (4),False,cook
+20200101,30759,SensorMesaJantar (3),False,cook
+20200101,30759,SensorCama (5),False,cook
+20200101,30759,SensorMesaJantar,False,cook
+20200101,30759,SensorCama (2),False,cook
+20200101,30759,SensorSofa (1),False,cook
+20200101,30759,SensorPia,False,cook
+20200101,30759,SensorMesaJantar (2),False,cook
+20200101,30759,SensorRack,False,cook
+20200101,30759,SensorCama (1),False,cook
+20200101,30759,SensorArmario,False,cook
+20200101,30759,SensorRack (1),False,cook
+20200101,30759,SensorArmario (1),False,cook
+20200101,30759,SensorGeladeira,False,cook
+20200101,30759,SensorMesaJantar (1),False,cook
+20200101,30759,SensorSofa (2),False,cook
+20200101,30759,SensorCama (3),False,cook
+20200101,30759,SensorMesaCorredor,False,cook
+20200101,30759,SensorSofa,False,cook
+20200101,30759,SensorDeTestes,False,cook
+20200101,30788,SensorBaseBox,False,cook
+20200101,30788,SensorArmario (2),False,cook
+20200101,30788,SensorCama,False,cook
+20200101,30788,SensorFogao,True,cook
+20200101,30788,SensorMesaJantar (4),False,cook
+20200101,30788,SensorCama (4),False,cook
+20200101,30788,SensorMesaJantar (3),False,cook
+20200101,30788,SensorCama (5),False,cook
+20200101,30788,SensorMesaJantar,False,cook
+20200101,30788,SensorCama (2),False,cook
+20200101,30788,SensorSofa (1),False,cook
+20200101,30788,SensorPia,False,cook
+20200101,30788,SensorMesaJantar (2),False,cook
+20200101,30788,SensorRack,False,cook
+20200101,30788,SensorCama (1),False,cook
+20200101,30788,SensorArmario,False,cook
+20200101,30788,SensorRack (1),False,cook
+20200101,30788,SensorArmario (1),False,cook
+20200101,30788,SensorGeladeira,False,cook
+20200101,30788,SensorMesaJantar (1),False,cook
+20200101,30788,SensorSofa (2),False,cook
+20200101,30788,SensorCama (3),False,cook
+20200101,30788,SensorMesaCorredor,False,cook
+20200101,30788,SensorSofa,False,cook
+20200101,30788,SensorDeTestes,False,cook
+20200101,30817,SensorBaseBox,False,cook
+20200101,30817,SensorArmario (2),False,cook
+20200101,30817,SensorCama,False,cook
+20200101,30817,SensorFogao,True,cook
+20200101,30817,SensorMesaJantar (4),False,cook
+20200101,30817,SensorCama (4),False,cook
+20200101,30817,SensorMesaJantar (3),False,cook
+20200101,30817,SensorCama (5),False,cook
+20200101,30817,SensorMesaJantar,False,cook
+20200101,30817,SensorCama (2),False,cook
+20200101,30817,SensorSofa (1),False,cook
+20200101,30817,SensorPia,False,cook
+20200101,30817,SensorMesaJantar (2),False,cook
+20200101,30817,SensorRack,False,cook
+20200101,30817,SensorCama (1),False,cook
+20200101,30817,SensorArmario,False,cook
+20200101,30817,SensorRack (1),False,cook
+20200101,30817,SensorArmario (1),False,cook
+20200101,30817,SensorGeladeira,False,cook
+20200101,30817,SensorMesaJantar (1),False,cook
+20200101,30817,SensorSofa (2),False,cook
+20200101,30817,SensorCama (3),False,cook
+20200101,30817,SensorMesaCorredor,False,cook
+20200101,30817,SensorSofa,False,cook
+20200101,30817,SensorDeTestes,False,cook
+20200101,30847,SensorBaseBox,False,cook
+20200101,30847,SensorArmario (2),False,cook
+20200101,30847,SensorCama,False,cook
+20200101,30847,SensorFogao,True,cook
+20200101,30847,SensorMesaJantar (4),False,cook
+20200101,30847,SensorCama (4),False,cook
+20200101,30847,SensorMesaJantar (3),False,cook
+20200101,30847,SensorCama (5),False,cook
+20200101,30847,SensorMesaJantar,False,cook
+20200101,30847,SensorCama (2),False,cook
+20200101,30847,SensorSofa (1),False,cook
+20200101,30847,SensorPia,False,cook
+20200101,30847,SensorMesaJantar (2),False,cook
+20200101,30847,SensorRack,False,cook
+20200101,30847,SensorCama (1),False,cook
+20200101,30847,SensorArmario,False,cook
+20200101,30847,SensorRack (1),False,cook
+20200101,30847,SensorArmario (1),False,cook
+20200101,30847,SensorGeladeira,False,cook
+20200101,30847,SensorMesaJantar (1),False,cook
+20200101,30847,SensorSofa (2),False,cook
+20200101,30847,SensorCama (3),False,cook
+20200101,30847,SensorMesaCorredor,False,cook
+20200101,30847,SensorSofa,False,cook
+20200101,30847,SensorDeTestes,False,cook
+20200101,30877,SensorBaseBox,False,cook
+20200101,30877,SensorArmario (2),False,cook
+20200101,30877,SensorCama,False,cook
+20200101,30877,SensorFogao,True,cook
+20200101,30877,SensorMesaJantar (4),False,cook
+20200101,30877,SensorCama (4),False,cook
+20200101,30877,SensorMesaJantar (3),False,cook
+20200101,30877,SensorCama (5),False,cook
+20200101,30877,SensorMesaJantar,False,cook
+20200101,30877,SensorCama (2),False,cook
+20200101,30877,SensorSofa (1),False,cook
+20200101,30877,SensorPia,False,cook
+20200101,30877,SensorMesaJantar (2),False,cook
+20200101,30877,SensorRack,False,cook
+20200101,30877,SensorCama (1),False,cook
+20200101,30877,SensorArmario,False,cook
+20200101,30877,SensorRack (1),False,cook
+20200101,30877,SensorArmario (1),False,cook
+20200101,30877,SensorGeladeira,False,cook
+20200101,30877,SensorMesaJantar (1),False,cook
+20200101,30877,SensorSofa (2),False,cook
+20200101,30877,SensorCama (3),False,cook
+20200101,30877,SensorMesaCorredor,False,cook
+20200101,30877,SensorSofa,False,cook
+20200101,30877,SensorDeTestes,False,cook
+20200101,30907,SensorBaseBox,False,cook
+20200101,30907,SensorArmario (2),False,cook
+20200101,30907,SensorCama,False,cook
+20200101,30907,SensorFogao,True,cook
+20200101,30907,SensorMesaJantar (4),False,cook
+20200101,30907,SensorCama (4),False,cook
+20200101,30907,SensorMesaJantar (3),False,cook
+20200101,30907,SensorCama (5),False,cook
+20200101,30907,SensorMesaJantar,False,cook
+20200101,30907,SensorCama (2),False,cook
+20200101,30907,SensorSofa (1),False,cook
+20200101,30907,SensorPia,False,cook
+20200101,30907,SensorMesaJantar (2),False,cook
+20200101,30907,SensorRack,False,cook
+20200101,30907,SensorCama (1),False,cook
+20200101,30907,SensorArmario,False,cook
+20200101,30907,SensorRack (1),False,cook
+20200101,30907,SensorArmario (1),False,cook
+20200101,30907,SensorGeladeira,False,cook
+20200101,30907,SensorMesaJantar (1),False,cook
+20200101,30907,SensorSofa (2),False,cook
+20200101,30907,SensorCama (3),False,cook
+20200101,30907,SensorMesaCorredor,False,cook
+20200101,30907,SensorSofa,False,cook
+20200101,30907,SensorDeTestes,False,cook
+20200101,30930,SensorBaseBox,False,cook
+20200101,30930,SensorArmario (2),False,cook
+20200101,30930,SensorCama,False,cook
+20200101,30930,SensorFogao,True,cook
+20200101,30930,SensorMesaJantar (4),False,cook
+20200101,30930,SensorCama (4),False,cook
+20200101,30930,SensorMesaJantar (3),False,cook
+20200101,30930,SensorCama (5),False,cook
+20200101,30930,SensorMesaJantar,False,cook
+20200101,30930,SensorCama (2),False,cook
+20200101,30930,SensorSofa (1),False,cook
+20200101,30930,SensorPia,False,cook
+20200101,30930,SensorMesaJantar (2),False,cook
+20200101,30930,SensorRack,False,cook
+20200101,30930,SensorCama (1),False,cook
+20200101,30930,SensorArmario,False,cook
+20200101,30930,SensorRack (1),False,cook
+20200101,30930,SensorArmario (1),False,cook
+20200101,30930,SensorGeladeira,False,cook
+20200101,30930,SensorMesaJantar (1),False,cook
+20200101,30930,SensorSofa (2),False,cook
+20200101,30930,SensorCama (3),False,cook
+20200101,30930,SensorMesaCorredor,False,cook
+20200101,30930,SensorSofa,False,cook
+20200101,30930,SensorDeTestes,False,cook

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Lista de possiveis destinos do usuário, o atributo relaxPoint dita se o local é elegivel para a ação relaxar-->
+<lugares>
+    <lugar name="fridge">
+        <x>-0.431</x>
+        <y>0.38</y>
+        <z>3.303</z>
+    </lugar>
+    <lugar name="diningTable">
+        <x>-2.65</x>
+        <y>0.38</y>
+        <z>3.303</z>
+    </lugar>
+    <lugar name="stove">
+        <x>1.61</x>
+        <y>0.38</y>
+        <z>3.303</z>
+    </lugar>
+    <lugar name="toilet">
+        <x>2.001</x>
+        <y>0.38</y>
+        <z>1.57</z>
+    </lugar>
+    <lugar name="shower">
+        <x>3.1</x>
+        <y>0.38</y>
+        <z>1.416</z>
+    </lugar>
+    <lugar name="bed" relaxPoint="true">
+        <x>0.49</x>
+        <y>0.38</y>
+        <z>-0.78</z>
+    </lugar>
+    <lugar name="sofa" relaxPoint="true">
+        <x>-2.82</x>
+        <y>0.38</y>
+        <z>0.14</z>
+    </lugar>
+</lugares>
